@@ -103,3 +103,20 @@ For practice questions, classify the subject, save any screenshot to the correct
 ## Quality Bar
 
 Before finishing, verify folder placement, YAML, formulas, embeds, wikilinks, arithmetic, and whether the explanation answers "why" deeply enough for exam readiness.
+
+## Automatic Git Backup
+
+After creating or editing any vault note, diagram, practice-question explanation, or study artifact, automatically back up the change to GitHub before the final chat response when feasible.
+
+Routine:
+
+```bash
+git status --short
+git add .
+git commit -m "Update vault notes"
+git push
+```
+
+Use a more specific commit message when the change is substantial or easy to name, such as `Add residual income valuation note` or `Update intercorporate investments explanation`.
+
+If there are unrelated uncommitted changes already present, do not overwrite or revert them. Include the user's existing changes in the commit only when they are part of the requested note work; otherwise, commit only the files touched for the current task. If `git push` fails because of network or authentication, leave the local commit in place and report the exact failure plus the command CK should run manually.
