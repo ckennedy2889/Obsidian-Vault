@@ -55,6 +55,17 @@ Always use the **subject-specific notebook** matching the topic being discussed.
 - Do not leave details out, it is very important that i learn everything so i am exam ready
 - Refer to the 2026-l2-topics-combined-4 to make sure your explanations are sufficient
 
+## Claude Data Connections
+
+Use the project MCP servers in `.mcp.json` when tying CFA explanations to real-world data:
+
+- `financial-datasets` for company prices, financial statements, filings, and company news
+- `edgar-tools` for SEC filing analysis, disclosure context, material events, insider activity, and ownership
+- `alphavantage` for market data and time series
+- `macro-data` for FRED, BLS, and BEA macroeconomic data
+
+For temporally unstable facts, verify current data before writing. If a data connection is unavailable, state the limitation briefly and either use a clearly labeled assumption or choose a source that is available.
+
 ### Explanation Ladder
 
 Walk every concept down this ladder. Do not stop at a rule or formula.

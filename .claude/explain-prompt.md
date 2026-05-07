@@ -37,12 +37,27 @@ Be comprehensive. Do not summarise or skip steps. I will use your explanation as
 
 ---
 
+## 2A. Pull Real-World Data for the Narrative
+
+After NotebookLM gives the CFA curriculum foundation, use the available project MCP connections when the concept reasonably allows real data:
+
+- `financial-datasets` for company prices, financial statements, filings, and company news
+- `edgar-tools` for SEC filing analysis, material events, insider activity, ownership, and disclosure context
+- `alphavantage` for market data and time series when needed
+- `macro-data` for FRED, BLS, and BEA economic data
+
+Use a consistent company, security, client case, deal, or market event throughout the note. If CK specifies the case, keep that same case running through the intuition, formulas, worked example, exam traps, and any supplementary Real-World Application note. If CK does not specify one, choose a familiar, data-rich company or market example that fits the concept and reuse it consistently instead of switching examples mid-note.
+
+For facts that can change, verify current data before writing. Mark assumptions clearly when the data source is unavailable or when you intentionally simplify a real figure for exam-style arithmetic. The real-world data should make the CFA mechanics concrete; do not let the note drift into a full equity research report unless CK asks for that.
+
 ## 3. Build the Note from NotebookLM's Output
 
 Use NotebookLM's response as your primary source material. Do not pad or invent — stay faithful to what it says, but transform it fully per CLAUDE.md preferences:
 
 - Rewrite into flowing narrative prose (no bullet outlines)
 - Lead with a real-world analogy
+- Tie the analogy, formulas, worked example, and traps to the same real-world company/security/deal/client case whenever feasible
+- Use verified real-world financial, SEC, market, or macro data when it improves the explanation; clearly state simplifications made for exam-style calculations
 - LaTeX for all formulas (`$...$` inline, `$$...$$` display)
 - Show full formula derivation before the final form
 - Include the worked numerical example with every step shown

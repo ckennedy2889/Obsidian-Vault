@@ -26,6 +26,8 @@ The generated note teaches the whole concept.
 For most CFA concepts, the note should include:
 
 - a real-world analogy or intuition;
+- a consistent real-world company, security, client case, deal, or market event carried through the explanation when feasible;
+- verified real-world financial, SEC, market, or macro data from the project MCP connections when it improves the teaching example;
 - a plain-English definition;
 - a precise CFA-style definition;
 - why the concept exists;
@@ -76,22 +78,28 @@ Then follow the same workflow used in live chat:
 3. Search the vault for existing notes, duplicates, examples, and related concepts.
 4. Use NotebookLM as the primary source when available.
 5. Cross-check against local CFA curriculum notes, `2026-l2-topics-combined-4.md`, subject notes, generated notes, and the formula sheet where relevant.
-6. Decide whether to improve an existing generated note or create a new one.
-7. Write the explanation at live-tutor quality:
+6. Pull real-world data through the project MCP connections when the concept reasonably allows it:
+   - `financial-datasets` for company prices, statements, filings, and news;
+   - `edgar-tools` for SEC filings, disclosure context, material events, insider activity, and ownership;
+   - `alphavantage` for market data and time series;
+   - `macro-data` for FRED, BLS, and BEA data.
+7. Choose one consistent company, security, client case, deal, or market event for the explanation. If CK has specified one, use it. Otherwise choose a familiar, data-rich case that fits the subject and keep it consistent through the analogy, formulas, worked example, exam traps, and any Real-World Application note.
+8. Decide whether to improve an existing generated note or create a new one.
+9. Write the explanation at live-tutor quality:
    - intuition first;
    - plain-English definition;
    - CFA definition;
    - mechanism and "why";
    - formulas and derivations when relevant;
    - worked examples when useful;
-   - real-world scenarios;
+   - real-world scenarios using the same narrative case;
    - exam traps;
    - memory hooks;
    - exam-day checklist;
    - related wikilinks.
-8. Save the explanation as a polished Obsidian Markdown note.
-9. Verify placement, YAML, formulas, links, arithmetic, and explanation depth.
-10. Only then move to the next glossary word.
+10. Save the explanation as a polished Obsidian Markdown note.
+11. Verify placement, YAML, formulas, links, arithmetic, real-world data assumptions, and explanation depth.
+12. Only then move to the next glossary word.
 
 The note should feel indistinguishable from a high-quality answer CK would receive after asking the concept directly in chat, except that it is saved into the vault.
 
@@ -120,6 +128,8 @@ Reject and revise the note if it:
 - omits worked examples for quantitative concepts;
 - lacks comparisons to nearby/confusing concepts;
 - lacks real-world or vignette-style scenarios when useful;
+- switches among unrelated companies or examples instead of maintaining one coherent narrative case;
+- uses made-up numbers where verified real-world data would be easy and useful;
 - lacks exam traps;
 - has weak wikilinking;
 - would not help CK answer a vignette.
