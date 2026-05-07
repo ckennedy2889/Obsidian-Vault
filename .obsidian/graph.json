@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Level 2/04 - Financial Statement Analysis\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Level 2/07 - Fixed Income\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8283445
+      }
+    },
+    {
+      "query": "path:\"Level 2/10 - Portfolio Management\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16768522
+      }
+    },
+    {
+      "query": "path:\"Level 2/03 - Economics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Level 2/05 - Corporate Issuers\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16756224
+      }
+    },
+    {
+      "query": "path:\"Level 2/02 - Quantitative Methods\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"Level 2/06 - Equity Investments\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"Level 2/08 - Derivatives\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:\"Level 2/09 - Alternative Investments\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6114135
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.526241274858422,
+  "lineSizeMultiplier": 0.57173712630054,
+  "collapse-forces": false,
+  "centerStrength": 0.840774397471355,
+  "repelStrength": 8.35111286711445,
+  "linkStrength": 0.368563150269986,
+  "linkDistance": 500,
+  "scale": 0.20039430178837825,
+  "close": true
+}

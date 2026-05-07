@@ -1,0 +1,94 @@
+{
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "xuEnFg55DlKo6AFb0iAMO",
+      "name": "",
+      "value": "#6983f7"
+    },
+    {
+      "id": "RmLtV2sfzjA08Ki5rf04_",
+      "name": "",
+      "value": "#f49595"
+    },
+    {
+      "id": "wCNnqP1hlfmdnx4ll0c9I",
+      "name": "",
+      "value": "#e723c3"
+    },
+    {
+      "id": "jkU6VjdJixiKK3Y5psfJp",
+      "name": "",
+      "value": "#612929"
+    },
+    {
+      "id": "saNSboUtKBDc7V_Cn3u6B",
+      "name": "",
+      "value": "#447e48"
+    },
+    {
+      "id": "EaSEjAI_88f4Ntolasr62",
+      "name": "",
+      "value": "#fbf541"
+    },
+    {
+      "id": "dlODNKRkcHOxn663rOTts",
+      "name": "",
+      "value": "#e6781e"
+    },
+    {
+      "id": "7ffLN6wHk7VzNytYM4uSG",
+      "name": "",
+      "value": "#6632c8"
+    },
+    {
+      "id": "7TnDnyn4bSzweuPRblocg",
+      "name": "",
+      "value": "#ffffff"
+    },
+    {
+      "id": "AhxMtMsi1d0-dCTXo6I33",
+      "name": "",
+      "value": "#e53838"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Level 2/02 - Quantitative Methods",
+      "color": "xuEnFg55DlKo6AFb0iAMO"
+    },
+    {
+      "path": "Level 2/03 - Economics",
+      "color": "saNSboUtKBDc7V_Cn3u6B"
+    },
+    {
+      "path": "Level 2/05 - Corporate Issuers",
+      "color": "dlODNKRkcHOxn663rOTts"
+    },
+    {
+      "path": "Level 2/06 - Equity Investments",
+      "color": "7ffLN6wHk7VzNytYM4uSG"
+    },
+    {
+      "path": "Level 2/07 - Fixed Income",
+      "color": "RmLtV2sfzjA08Ki5rf04_"
+    },
+    {
+      "path": "Level 2/08 - Derivatives",
+      "color": "wCNnqP1hlfmdnx4ll0c9I"
+    },
+    {
+      "path": "Level 2/09 - Alternative Investments",
+      "color": "jkU6VjdJixiKK3Y5psfJp"
+    },
+    {
+      "path": "Level 2/10 - Portfolio Management",
+      "color": "EaSEjAI_88f4Ntolasr62"
+    },
+    {
+      "path": "Level 2/04 - Financial Statement Analysis",
+      "color": "AhxMtMsi1d0-dCTXo6I33"
+    }
+  ]
+}

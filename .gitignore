@@ -1,0 +1,17 @@
+.DS_Store
+.trash/
+
+# Obsidian local workspace/cache state
+.obsidian/workspace*.json
+.obsidian/cache/
+
+# Local assistant/tooling state and credentials
+.codex/
+.claude/settings.local.json
+.mcp.json
+.mcp-servers/
+
+# Nested Git repositories/tool copies that should not be committed as vault notes
+.agents/skills/excalidraw-diagram/
+.claude/skills/excalidraw-diagram/
+Remote-Blog/

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regression Statistics — A Visual Primer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4efe6;
+    --ink:#1a1815;
+    --paper:#fbf8f1;
+    --accent:#c8402b;   /* red */
+    --blue:#2b5ec8;     /* blue */
+    --green:#2f7d4f;    /* green */
+    --gold:#b8892b;
+    --muted:#8a8378;
+    --line:#1a1815;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink);font-family:'Fraunces',serif;font-optical-sizing:auto}
+  body{
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(200,64,43,.06), transparent 40%),
+      radial-gradient(circle at 80% 90%, rgba(43,94,200,.06), transparent 40%);
+    padding:48px 24px 96px;
+  }
+  .wrap{max-width:1100px;margin:0 auto}
+
+  /* Masthead */
+  .masthead{
+    border-top:3px solid var(--ink);
+    border-bottom:1px solid var(--ink);
+    padding:14px 0 18px;
+    margin-bottom:28px;
+    display:flex;justify-content:space-between;align-items:baseline;
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase
+  }
+  .title{
+    font-family:'Fraunces',serif;
+    font-weight:300;
+    font-size:clamp(44px,7vw,92px);
+    line-height:.92;
+    letter-spacing:-.03em;
+    margin:20px 0 14px;
+  }
+  .title em{font-style:italic;font-weight:400;color:var(--accent)}
+  .subtitle{
+    font-size:clamp(16px,1.6vw,20px);
+    max-width:640px;
+    color:var(--ink);
+    opacity:.78;
+    font-weight:300;
+    line-height:1.5;
+    margin-bottom:40px;
+    border-bottom:1px solid rgba(26,24,21,.15);
+    padding-bottom:28px;
+  }
+
+  /* Card */
+  .card{
+    background:var(--paper);
+    border:1px solid var(--ink);
+    padding:32px;
+    margin-bottom:24px;
+    position:relative;
+    box-shadow:6px 6px 0 var(--ink);
+  }
+  .card-head{
+    display:flex;align-items:baseline;gap:16px;
+    border-bottom:1px dashed rgba(26,24,21,.3);
+    padding-bottom:14px;margin-bottom:20px;
+  }
+  .tag{
+    font-family:'JetBrains Mono',monospace;
+    font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+    background:var(--ink);color:var(--paper);padding:4px 8px;
+  }
+  .h{font-family:'Fraunces',serif;font-weight:400;font-size:34px;letter-spacing:-.02em}
+  .h em{font-style:italic;color:var(--accent)}
+  .acronym{
+    font-family:'JetBrains Mono',monospace;
+    font-weight:700;font-size:20px;color:var(--muted);
+    margin-left:auto;
+  }
+  .lede{font-size:17px;line-height:1.55;margin-bottom:18px;max-width:72ch;font-weight:300}
+  .lede strong{font-weight:600}
+
+  /* Formula block */
+  .formula{
+    font-family:'JetBrains Mono',monospace;
+    background:var(--bg);
+    border-left:3px solid var(--accent);
+    padding:14px 18px;
+    font-size:15px;
+    margin:16px 0;
+    overflow-x:auto;
+  }
+  .formula .lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.15em;display:block;margin-bottom:6px}
+
+  /* Two column */
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+  @media(max-width:720px){.two{grid-template-columns:1fr}}
+
+  /* SVG */
+  svg{width:100%;height:auto;display:block;font-family:'JetBrains Mono',monospace;font-size:11px}
+  .axis{stroke:var(--ink);stroke-width:1.2}
+  .gridline{stroke:var(--ink);stroke-opacity:.08;stroke-width:1}
+  .pt{fill:var(--ink)}
+  .regline{stroke:var(--blue);stroke-width:2.2;fill:none}
+  .meanline{stroke:var(--gold);stroke-width:1.8;stroke-dasharray:4 4;fill:none}
+  .totalvar{stroke:var(--gold);stroke-width:1.5}
+  .explvar{stroke:var(--green);stroke-width:1.8}
+  .residvar{stroke:var(--accent);stroke-width:1.8}
+  .label{font-size:10.5px;fill:var(--ink)}
+  .labelmuted{font-size:10px;fill:var(--muted)}
+
+  /* Legend */
+  .legend{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:11px}
+  .legend span{display:inline-flex;align-items:center;gap:8px}
+  .sw{width:22px;height:3px;display:inline-block}
+
+  /* Comparison grid */
+  .compare{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px;
+  }
+  @media(max-width:720px){.compare{grid-template-columns:1fr}}
+  .mini{
+    background:var(--bg);border:1px solid var(--ink);padding:16px;
+  }
+  .mini h4{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;margin-bottom:10px;color:var(--muted)}
+  .mini .val{font-family:'Fraunces',serif;font-size:38px;font-weight:300;line-height:1}
+  .mini .val em{font-style:italic;color:var(--accent)}
+
+  /* Bar viz for decomposition */
+  .decomp{margin-top:16px}
+  .bar-row{display:flex;align-items:center;gap:12px;margin:8px 0;font-family:'JetBrains Mono',monospace;font-size:12px}
+  .bar-label{width:60px;font-weight:700}
+  .bar-track{flex:1;height:26px;background:var(--bg);border:1px solid var(--ink);position:relative;overflow:hidden}
+  .bar-fill{height:100%;display:flex;align-items:center;padding-left:8px;color:var(--paper);font-weight:700;font-size:11px}
+  .bar-val{width:64px;text-align:right;font-weight:700}
+
+  /* Connector */
+  .equation-row{
+    font-family:'Fraunces',serif;font-size:24px;text-align:center;margin:24px 0;
+    padding:14px;background:var(--bg);border:1px dashed var(--ink);
+  }
+  .equation-row em{font-style:italic;color:var(--accent)}
+
+  /* Adjusted R² comparison table */
+  table{width:100%;border-collapse:collapse;margin-top:16px;font-family:'JetBrains Mono',monospace;font-size:13px}
+  th,td{border-bottom:1px solid rgba(26,24,21,.2);padding:10px 8px;text-align:left}
+  th{background:var(--ink);color:var(--paper);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  tr.highlight td{background:rgba(200,64,43,.08);font-weight:700}
+
+  /* Footer */
+  .foot{
+    margin-top:48px;padding-top:20px;border-top:3px solid var(--ink);
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    display:flex;justify-content:space-between;color:var(--muted)
+  }
+
+  .ornament{font-size:22px;color:var(--accent);margin:0 8px}
+
+  /* Residual highlight box */
+  .callout{
+    background:var(--ink);color:var(--paper);
+    padding:18px 22px;margin:18px 0;
+    font-family:'Fraunces',serif;font-size:17px;line-height:1.5;font-weight:300;
+    position:relative;
+  }
+  .callout::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent);
+  }
+  .callout strong{font-weight:600;color:#f0c87a}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <span>Vol. I / No. 1</span>
+    <span>A Visual Primer</span>
+    <span>Regression Diagnostics</span>
+  </div>
+
+  <h1 class="title">The Anatomy of a <em>Regression</em> Line</h1>
+  <p class="subtitle">Six numbers do the heavy lifting when you fit a line to data. Here is what each one actually <em>looks</em> like — drawn, decomposed, and demystified.</p>
+
+  <!-- FOUNDATION: The three distances -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">Foundation</span>
+      <h2 class="h">Three kinds of <em>distance</em></h2>
+    </div>
+    <p class="lede">Every point in your dataset has three vertical distances that matter. Understanding them is the whole game — SST, SSE, and SSR are just the squared versions, summed up.</p>
+
+    <div class="two">
+      <div>
+        <svg viewBox="0 0 460 340" aria-label="Three distances diagram">
+          <!-- gridlines -->
+          <g class="gridline">
+            <line x1="60" y1="60" x2="440" y2="60"/>
+            <line x1="60" y1="120" x2="440" y2="120"/>
+            <line x1="60" y1="180" x2="440" y2="180"/>
+            <line x1="60" y1="240" x2="440" y2="240"/>
+          </g>
+          <!-- axes -->
+          <line class="axis" x1="60" y1="300" x2="440" y2="300"/>
+          <line class="axis" x1="60" y1="40" x2="60" y2="300"/>
+          <text class="labelmuted" x="440" y="316" text-anchor="end">x</text>
+          <text class="labelmuted" x="50" y="48" text-anchor="end">y</text>
+
+          <!-- mean line -->
+          <line class="meanline" x1="60" y1="180" x2="440" y2="180"/>
+          <text class="label" x="446" y="184" fill="#b8892b">ȳ (mean)</text>
+
+          <!-- regression line -->
+          <line class="regline" x1="60" y1="260" x2="440" y2="100"/>
+          <text class="label" x="446" y="100" fill="#2b5ec8">ŷ = b₀+b₁x</text>
+
+          <!-- focus point at x=300 -->
+          <!-- regression prediction at x=300: y = 260 + (100-260)*(300-60)/(440-60) = 260 + (-160)*(240/380) = 260 - 101 = 159 -->
+          <!-- actual point: y=110 -->
+          <!-- mean y = 180 -->
+
+          <!-- SST distance: actual(110) to mean(180) — total -->
+          <line class="totalvar" x1="290" y1="110" x2="290" y2="180" stroke-dasharray="2 3"/>
+          <!-- SSR distance: prediction(159) to mean(180) — explained -->
+          <line class="explvar" x1="305" y1="159" x2="305" y2="180"/>
+          <!-- SSE distance: actual(110) to prediction(159) — residual/unexplained -->
+          <line class="residvar" x1="275" y1="110" x2="275" y2="159"/>
+
+          <!-- labels for distances -->
+          <text class="label" x="260" y="145" fill="#c8402b" text-anchor="end" font-weight="700">Residual</text>
+          <text class="label" x="260" y="158" fill="#c8402b" text-anchor="end">(y − ŷ)</text>
+
+          <text class="label" x="320" y="172" fill="#2f7d4f" font-weight="700">Explained</text>
+          <text class="label" x="320" y="184" fill="#2f7d4f">(ŷ − ȳ)</text>
+
+          <text class="label" x="255" y="110" fill="#b8892b" text-anchor="end" font-weight="700">Total</text>
+          <text class="label" x="255" y="123" fill="#b8892b" text-anchor="end">(y − ȳ)</text>
+
+          <!-- dots -->
+          <circle class="pt" cx="290" cy="110" r="5"/>
+          <circle cx="305" cy="159" r="4" fill="#2b5ec8"/>
+          <circle cx="290" cy="180" r="3.5" fill="#b8892b"/>
+
+          <text class="label" x="296" y="106">y (observed)</text>
+          <text class="label" x="311" y="156" fill="#2b5ec8">ŷ (predicted)</text>
+
+          <!-- other scattered points -->
+          <circle class="pt" cx="110" cy="255" r="3.5"/>
+          <circle class="pt" cx="150" cy="240" r="3.5"/>
+          <circle class="pt" cx="190" cy="200" r="3.5"/>
+          <circle class="pt" cx="230" cy="195" r="3.5"/>
+          <circle class="pt" cx="340" cy="150" r="3.5"/>
+          <circle class="pt" cx="380" cy="130" r="3.5"/>
+          <circle class="pt" cx="410" cy="115" r="3.5"/>
+        </svg>
+        <div class="legend">
+          <span><i class="sw" style="background:#b8892b"></i>Total (from ȳ)</span>
+          <span><i class="sw" style="background:#2f7d4f"></i>Explained (by line)</span>
+          <span><i class="sw" style="background:#c8402b"></i>Residual (left over)</span>
+        </div>
+      </div>
+
+      <div>
+        <p class="lede">Pick any observation <strong>y</strong>. Its distance from the <em>mean</em> ȳ is the <strong>total</strong> deviation. The regression line captures part of it — the <strong>explained</strong> part, ŷ − ȳ. Whatever is left between the point and the line is the <strong>residual</strong>, y − ŷ.</p>
+        <div class="equation-row">
+          (y − ȳ) <span class="ornament">=</span> (ŷ − ȳ) <span class="ornament">+</span> (y − ŷ)
+        </div>
+        <p class="lede" style="font-size:15px;color:var(--muted);font-style:italic">Square each distance, sum across all points, and you get the three sums of squares.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SST -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">01</span>
+      <h2 class="h"><em>SST</em> — the total variation in y</h2>
+      <span class="acronym">Σ(y−ȳ)²</span>
+    </div>
+    <p class="lede"><strong>SST (Sum of Squares Total)</strong> measures how much y jumps around its own mean. It has nothing to do with x or any model — it is simply the raw spread of the response variable. Think of it as the <em>budget</em> of variation you have to explain.</p>
+
+    <div class="two">
+      <div>
+        <svg viewBox="0 0 460 300" aria-label="SST visualization">
+          <g class="gridline">
+            <line x1="40" y1="50" x2="440" y2="50"/>
+            <line x1="40" y1="110" x2="440" y2="110"/>
+            <line x1="40" y1="170" x2="440" y2="170"/>
+            <line x1="40" y1="230" x2="440" y2="230"/>
+          </g>
+          <line class="axis" x1="40" y1="270" x2="440" y2="270"/>
+          <line class="axis" x1="40" y1="30" x2="40" y2="270"/>
+          <line class="meanline" x1="40" y1="150" x2="440" y2="150"/>
+          <text class="label" x="446" y="154" fill="#b8892b">ȳ</text>
+
+          <!-- points with vertical distance to mean -->
+          <g>
+            <line class="totalvar" x1="90" y1="230" x2="90" y2="150"/>
+            <circle class="pt" cx="90" cy="230" r="4"/>
+
+            <line class="totalvar" x1="140" y1="210" x2="140" y2="150"/>
+            <circle class="pt" cx="140" cy="210" r="4"/>
+
+            <line class="totalvar" x1="190" y1="170" x2="190" y2="150"/>
+            <circle class="pt" cx="190" cy="170" r="4"/>
+
+            <line class="totalvar" x1="240" y1="130" x2="240" y2="150"/>
+            <circle class="pt" cx="240" cy="130" r="4"/>
+
+            <line class="totalvar" x1="290" y1="110" x2="290" y2="150"/>
+            <circle class="pt" cx="290" cy="110" r="4"/>
+
+            <line class="totalvar" x1="340" y1="90" x2="340" y2="150"/>
+            <circle class="pt" cx="340" cy="90" r="4"/>
+
+            <line class="totalvar" x1="390" y1="70" x2="390" y2="150"/>
+            <circle class="pt" cx="390" cy="70" r="4"/>
+          </g>
+          <text class="label" x="240" y="295" text-anchor="middle" fill="#b8892b">each gold segment = (yᵢ − ȳ)</text>
+        </svg>
+      </div>
+
+      <div>
+        <div class="formula">
+          <span class="lbl">Formula</span>
+          SST = Σ (yᵢ − ȳ)²
+        </div>
+        <p class="lede" style="font-size:15px">Imagine a world where you have no predictors — your best guess for every y is just the mean ȳ. SST is how wrong that guess is, squared and summed. It is the ceiling: <strong>no model can explain more than SST</strong>.</p>
+        <div class="callout">SST is fixed by your data. Fit any model you like — <strong>SST does not change</strong>.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SSR -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">02</span>
+      <h2 class="h"><em>SSR</em> — what the model explains</h2>
+      <span class="acronym">Σ(ŷ−ȳ)²</span>
+    </div>
+    <p class="lede"><strong>SSR (Sum of Squares Regression)</strong> — sometimes called SSM or the "explained" sum of squares — measures how much of y's variation the regression line accounts for. It is the distance from each prediction ŷ to the mean ȳ, squared and summed.</p>
+
+    <div class="two">
+      <div>
+        <svg viewBox="0 0 460 300" aria-label="SSR visualization">
+          <g class="gridline">
+            <line x1="40" y1="50" x2="440" y2="50"/>
+            <line x1="40" y1="110" x2="440" y2="110"/>
+            <line x1="40" y1="170" x2="440" y2="170"/>
+            <line x1="40" y1="230" x2="440" y2="230"/>
+          </g>
+          <line class="axis" x1="40" y1="270" x2="440" y2="270"/>
+          <line class="axis" x1="40" y1="30" x2="40" y2="270"/>
+          <line class="meanline" x1="40" y1="150" x2="440" y2="150"/>
+          <line class="regline" x1="40" y1="240" x2="440" y2="60"/>
+          <text class="label" x="446" y="154" fill="#b8892b">ȳ</text>
+          <text class="label" x="446" y="60" fill="#2b5ec8">ŷ</text>
+
+          <!-- green vertical bars from regression line to mean -->
+          <!-- line: y = 240 + (60-240)*(x-40)/400 = 240 - 180*(x-40)/400 -->
+          <!-- at x=90: 240 - 180*50/400 = 240-22.5 = 217.5 -->
+          <!-- at x=140: 240 - 180*100/400 = 240-45 = 195 -->
+          <!-- at x=190: 240 - 180*150/400 = 240-67.5 = 172.5 -->
+          <!-- at x=240: 240 - 180*200/400 = 240-90 = 150 -->
+          <!-- at x=290: 240 - 180*250/400 = 240-112.5 = 127.5 -->
+          <!-- at x=340: 240 - 180*300/400 = 240-135 = 105 -->
+          <!-- at x=390: 240 - 180*350/400 = 240-157.5 = 82.5 -->
+          <g>
+            <line class="explvar" x1="90" y1="217.5" x2="90" y2="150"/>
+            <circle cx="90" cy="217.5" r="3.5" fill="#2b5ec8"/>
+            <line class="explvar" x1="140" y1="195" x2="140" y2="150"/>
+            <circle cx="140" cy="195" r="3.5" fill="#2b5ec8"/>
+            <line class="explvar" x1="190" y1="172.5" x2="190" y2="150"/>
+            <circle cx="190" cy="172.5" r="3.5" fill="#2b5ec8"/>
+            <circle cx="240" cy="150" r="3.5" fill="#2b5ec8"/>
+            <line class="explvar" x1="290" y1="127.5" x2="290" y2="150"/>
+            <circle cx="290" cy="127.5" r="3.5" fill="#2b5ec8"/>
+            <line class="explvar" x1="340" y1="105" x2="340" y2="150"/>
+            <circle cx="340" cy="105" r="3.5" fill="#2b5ec8"/>
+            <line class="explvar" x1="390" y1="82.5" x2="390" y2="150"/>
+            <circle cx="390" cy="82.5" r="3.5" fill="#2b5ec8"/>
+          </g>
+          <text class="label" x="240" y="295" text-anchor="middle" fill="#2f7d4f">each green segment = (ŷᵢ − ȳ)</text>
+        </svg>
+      </div>
+
+      <div>
+        <div class="formula">
+          <span class="lbl">Formula</span>
+          SSR = Σ (ŷᵢ − ȳ)²
+        </div>
+        <p class="lede" style="font-size:15px">A flat regression line would sit right on ȳ and SSR would be zero — the model explains nothing. A steep line that tracks the data closely produces large (ŷ − ȳ) distances and a big SSR.</p>
+        <div class="callout">SSR = <strong>variation the model captures</strong>. Bigger SSR (relative to SST) means a better fit.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SSE -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">03</span>
+      <h2 class="h"><em>SSE</em> — what the model misses</h2>
+      <span class="acronym">Σ(y−ŷ)²</span>
+    </div>
+    <p class="lede"><strong>SSE (Sum of Squares Error)</strong> — also called the residual sum of squares (RSS) — is the leftover. The gap between each actual point and where the line <em>predicted</em> it would be. Ordinary least squares is literally the procedure that <em>minimizes</em> SSE.</p>
+
+    <div class="two">
+      <div>
+        <svg viewBox="0 0 460 300" aria-label="SSE visualization">
+          <g class="gridline">
+            <line x1="40" y1="50" x2="440" y2="50"/>
+            <line x1="40" y1="110" x2="440" y2="110"/>
+            <line x1="40" y1="170" x2="440" y2="170"/>
+            <line x1="40" y1="230" x2="440" y2="230"/>
+          </g>
+          <line class="axis" x1="40" y1="270" x2="440" y2="270"/>
+          <line class="axis" x1="40" y1="30" x2="40" y2="270"/>
+          <line class="regline" x1="40" y1="240" x2="440" y2="60"/>
+          <text class="label" x="446" y="60" fill="#2b5ec8">ŷ</text>
+
+          <!-- actual points with red residuals to the line -->
+          <g>
+            <!-- actual points (same as SST diagram): 230,210,170,130,110,90,70 at x=90,140,190,240,290,340,390 -->
+            <!-- predictions on the line: 217.5, 195, 172.5, 150, 127.5, 105, 82.5 -->
+            <line class="residvar" x1="90" y1="230" x2="90" y2="217.5"/>
+            <circle class="pt" cx="90" cy="230" r="4"/>
+            <line class="residvar" x1="140" y1="210" x2="140" y2="195"/>
+            <circle class="pt" cx="140" cy="210" r="4"/>
+            <line class="residvar" x1="190" y1="170" x2="190" y2="172.5"/>
+            <circle class="pt" cx="190" cy="170" r="4"/>
+            <line class="residvar" x1="240" y1="130" x2="240" y2="150"/>
+            <circle class="pt" cx="240" cy="130" r="4"/>
+            <line class="residvar" x1="290" y1="110" x2="290" y2="127.5"/>
+            <circle class="pt" cx="290" cy="110" r="4"/>
+            <line class="residvar" x1="340" y1="90" x2="340" y2="105"/>
+            <circle class="pt" cx="340" cy="90" r="4"/>
+            <line class="residvar" x1="390" y1="70" x2="390" y2="82.5"/>
+            <circle class="pt" cx="390" cy="70" r="4"/>
+          </g>
+          <text class="label" x="240" y="295" text-anchor="middle" fill="#c8402b">each red segment = (yᵢ − ŷᵢ) = residual</text>
+        </svg>
+      </div>
+
+      <div>
+        <div class="formula">
+          <span class="lbl">Formula</span>
+          SSE = Σ (yᵢ − ŷᵢ)²
+        </div>
+        <p class="lede" style="font-size:15px">Small SSE means the line hugs the data — the model is accurate. Large SSE means points are scattered far from predictions, and there is systematic structure the model failed to capture (or pure noise).</p>
+        <div class="callout">The fundamental identity: <strong>SST = SSR + SSE</strong>. Budget = Explained + Leftover.</div>
+      </div>
+    </div>
+
+    <!-- Decomposition bar -->
+    <div class="decomp">
+      <h4 style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:10px">Example decomposition · SST = 1,000</h4>
+      <div class="bar-row">
+        <span class="bar-label">SST</span>
+        <div class="bar-track"><div class="bar-fill" style="width:100%;background:var(--gold)">total variation</div></div>
+        <span class="bar-val">1,000</span>
+      </div>
+      <div class="bar-row">
+        <span class="bar-label">SSR</span>
+        <div class="bar-track"><div class="bar-fill" style="width:78%;background:var(--green)">explained by model</div></div>
+        <span class="bar-val">780</span>
+      </div>
+      <div class="bar-row">
+        <span class="bar-label">SSE</span>
+        <div class="bar-track"><div class="bar-fill" style="width:22%;background:var(--accent)">residual</div></div>
+        <span class="bar-val">220</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- R² -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">04</span>
+      <h2 class="h"><em>R²</em> — the share explained</h2>
+      <span class="acronym">SSR / SST</span>
+    </div>
+    <p class="lede"><strong>R² (coefficient of determination)</strong> is simply the fraction of SST that the model explains. Equivalently, one minus the fraction it leaves unexplained. It lives between 0 and 1 — the higher, the better the fit.</p>
+
+    <div class="formula">
+      <span class="lbl">Formula</span>
+      R² = SSR / SST = 1 − (SSE / SST)
+    </div>
+
+    <div class="compare">
+      <div class="mini">
+        <h4>Low R²</h4>
+        <svg viewBox="0 0 200 140">
+          <line class="axis" x1="20" y1="120" x2="190" y2="120"/>
+          <line class="axis" x1="20" y1="20" x2="20" y2="120"/>
+          <line class="regline" x1="20" y1="75" x2="190" y2="65" stroke-width="1.8"/>
+          <circle class="pt" cx="40" cy="40" r="3"/>
+          <circle class="pt" cx="60" cy="100" r="3"/>
+          <circle class="pt" cx="85" cy="35" r="3"/>
+          <circle class="pt" cx="105" cy="95" r="3"/>
+          <circle class="pt" cx="130" cy="50" r="3"/>
+          <circle class="pt" cx="155" cy="105" r="3"/>
+          <circle class="pt" cx="175" cy="40" r="3"/>
+        </svg>
+        <div class="val">R² = <em>0.18</em></div>
+        <p style="font-size:12px;color:var(--muted);margin-top:6px;font-family:'JetBrains Mono',monospace">line barely helps</p>
+      </div>
+
+      <div class="mini">
+        <h4>Medium R²</h4>
+        <svg viewBox="0 0 200 140">
+          <line class="axis" x1="20" y1="120" x2="190" y2="120"/>
+          <line class="axis" x1="20" y1="20" x2="20" y2="120"/>
+          <line class="regline" x1="20" y1="110" x2="190" y2="30" stroke-width="1.8"/>
+          <circle class="pt" cx="40" cy="95" r="3"/>
+          <circle class="pt" cx="60" cy="105" r="3"/>
+          <circle class="pt" cx="85" cy="70" r="3"/>
+          <circle class="pt" cx="105" cy="85" r="3"/>
+          <circle class="pt" cx="130" cy="55" r="3"/>
+          <circle class="pt" cx="155" cy="55" r="3"/>
+          <circle class="pt" cx="175" cy="25" r="3"/>
+        </svg>
+        <div class="val">R² = <em>0.64</em></div>
+        <p style="font-size:12px;color:var(--muted);margin-top:6px;font-family:'JetBrains Mono',monospace">trend + noise</p>
+      </div>
+
+      <div class="mini">
+        <h4>High R²</h4>
+        <svg viewBox="0 0 200 140">
+          <line class="axis" x1="20" y1="120" x2="190" y2="120"/>
+          <line class="axis" x1="20" y1="20" x2="20" y2="120"/>
+          <line class="regline" x1="20" y1="110" x2="190" y2="28" stroke-width="1.8"/>
+          <circle class="pt" cx="40" cy="105" r="3"/>
+          <circle class="pt" cx="60" cy="96" r="3"/>
+          <circle class="pt" cx="85" cy="80" r="3"/>
+          <circle class="pt" cx="105" cy="68" r="3"/>
+          <circle class="pt" cx="130" cy="55" r="3"/>
+          <circle class="pt" cx="155" cy="40" r="3"/>
+          <circle class="pt" cx="175" cy="30" r="3"/>
+        </svg>
+        <div class="val">R² = <em>0.94</em></div>
+        <p style="font-size:12px;color:var(--muted);margin-top:6px;font-family:'JetBrains Mono',monospace">line hugs data</p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:22px">R² = 0.78 means <strong>78% of the variation in y is explained by the model</strong>; the remaining 22% is residual (unexplained by your predictors).</div>
+  </div>
+
+  <!-- MSR and MSE -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">05</span>
+      <h2 class="h"><em>MSR</em> & <em>MSE</em> — the mean squares</h2>
+      <span class="acronym">SS ÷ df</span>
+    </div>
+    <p class="lede">Sums of squares grow with sample size. To compare them fairly — and to build the F-test — we divide each by its <strong>degrees of freedom</strong>. The result is a <em>mean square</em>, which is basically an average squared deviation.</p>
+
+    <div class="two">
+      <div>
+        <div class="formula">
+          <span class="lbl">Mean Square Regression</span>
+          MSR = SSR / k
+          <br><span style="color:var(--muted);font-size:12px">k = number of predictors</span>
+        </div>
+        <p class="lede" style="font-size:15px">MSR is the average amount of variation explained <em>per predictor</em>. If you add a useful predictor, MSR climbs.</p>
+      </div>
+      <div>
+        <div class="formula">
+          <span class="lbl">Mean Square Error</span>
+          MSE = SSE / (n − k − 1)
+          <br><span style="color:var(--muted);font-size:12px">n = sample size</span>
+        </div>
+        <p class="lede" style="font-size:15px">MSE is the average squared residual — the estimated <strong>variance of the errors</strong> σ². Its square root (RMSE) is in the original units of y and tells you typical prediction error.</p>
+      </div>
+    </div>
+
+    <div class="equation-row">
+      F <span class="ornament">=</span> <em>MSR</em> / <em>MSE</em>
+    </div>
+    <p class="lede" style="text-align:center;font-size:15px;color:var(--muted);max-width:none">The F-statistic for overall model significance is exactly this ratio — signal per predictor divided by noise per residual degree of freedom.</p>
+  </div>
+
+  <!-- Adjusted R² -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">06</span>
+      <h2 class="h">Adjusted <em>R²</em> — R² with a conscience</h2>
+      <span class="acronym">honest fit</span>
+    </div>
+    <p class="lede">Here is the dirty secret of R²: <strong>it never goes down when you add a predictor</strong>, even a useless one. Throw in random noise as a variable and R² either stays flat or creeps up. That makes plain R² a terrible tool for comparing models of different sizes.</p>
+
+    <div class="formula">
+      <span class="lbl">Formula</span>
+      Adjusted R² = 1 − (1 − R²) × (n − 1) / (n − k − 1)
+    </div>
+
+    <p class="lede">Adjusted R² penalizes you for each extra predictor. It only rises when a new variable helps <em>more than you'd expect by chance</em>. If you add junk, adjusted R² actually <em>falls</em>.</p>
+
+    <h4 style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin:22px 0 0">Adding predictors to a model (n = 100)</h4>
+    <table>
+      <thead>
+        <tr><th>Model</th><th>k predictors</th><th class="num">R²</th><th class="num">Adj. R²</th><th>verdict</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Baseline</td><td>2 real</td><td class="num">0.620</td><td class="num">0.612</td><td>solid fit</td></tr>
+        <tr class="highlight"><td>+ useful predictor</td><td>3</td><td class="num">0.710</td><td class="num">0.701</td><td>both ↑ — keep it</td></tr>
+        <tr><td>+ weak predictor</td><td>4</td><td class="num">0.714</td><td class="num">0.702</td><td>R² ↑, Adj ≈ flat</td></tr>
+        <tr><td>+ random noise var</td><td>5</td><td class="num">0.716</td><td class="num">0.697</td><td>Adj. R² <em>dropped</em></td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout" style="margin-top:22px">Rule of thumb: if you are choosing between models with different numbers of predictors, <strong>trust adjusted R² over plain R²</strong>.</div>
+  </div>
+
+  <!-- Cheat sheet -->
+  <div class="card">
+    <div class="card-head">
+      <span class="tag">Summary</span>
+      <h2 class="h">The whole family, at a <em>glance</em></h2>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Name</th><th>Formula</th><th>In one sentence</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>SST</strong></td><td>Σ(y − ȳ)²</td><td>Total variation in y around its mean.</td></tr>
+        <tr><td><strong>SSR</strong></td><td>Σ(ŷ − ȳ)²</td><td>Variation explained by the regression line.</td></tr>
+        <tr><td><strong>SSE</strong></td><td>Σ(y − ŷ)²</td><td>Variation left unexplained — residuals squared.</td></tr>
+        <tr><td><strong>MSR</strong></td><td>SSR / k</td><td>Average explained variation per predictor.</td></tr>
+        <tr><td><strong>MSE</strong></td><td>SSE / (n−k−1)</td><td>Average residual variance — estimate of σ².</td></tr>
+        <tr><td><strong>R²</strong></td><td>SSR / SST</td><td>Share of variation the model explains.</td></tr>
+        <tr><td><strong>Adj. R²</strong></td><td>1 − (1−R²)(n−1)/(n−k−1)</td><td>R² penalized for extra predictors.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="foot">
+    <span>End of primer</span>
+    <span class="ornament">❦</span>
+    <span>SST = SSR + SSE</span>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,6087 @@
+---
+title: "Equity Valuation"
+subject: "Equity Investments"
+tags: [CFA-L2, equity-investments]
+aliases: []
+---
+
+# Equity Valuation
+
+*CFA Level II — Schweser Notes 2025*
+
+---
+
+## Readings
+
+- [[#Reading 17 — Equity Valuation: Applications and Processes|Reading 17: Equity Valuation: Applications and Processes]]
+- [[#Reading 18 — Discounted Dividend Valuation|Reading 18: Discounted Dividend Valuation]]
+- [[#Reading 19 — Free Cash Flow Valuation|Reading 19: Free Cash Flow Valuation]]
+- [[#Reading 21 — residual income Valuation|Reading 21: Residual Income Valuation]]
+- [[#Reading 22 — Private Company Valuation|Reading 22: Private Company Valuation]]
+
+---
+
+# Reading 17 — Equity Valuation: Applications and Processes
+
+
+> [!tip] Exam Focus
+> This review is simply an introduction to the process of equity [[Valuation|valuation]] and
+> its application. Many of the concepts and techniques introduced are
+> developed more fully in subsequent topic reviews. Candidates should be
+> familiar with the concepts introduced here, including [[Intrinsic value]], analyst
+> perception of [[Mispricing|mispricing]], going concern versus [[Liquidation|liquidation]]on value|[[Liquidation|liquidation]] value]], and the
+> difference between absolute and relative [[Valuation|valuation]] techniques.
+
+
+## Module 17.1: Equity Valuation: Applications and Processes
+> **LOS 17.a:** Define [[Valuation|valuation]] and [[Intrinsic value|intrinsic value]] and explain
+sources of perceived [[Mispricing|mispricing]].
+Valuation is the process of determining the value of an asset. There are
+many approaches and estimating the inputs for a valuation model can be
+quite challenging. Investment success, however, can depend crucially on the
+analyst’s ability to determine the values of securities.
+When we use the term [[Intrinsic value|intrinsic value]] (IV), we are referring to the
+valuation of an asset or security by someone who has complete
+understanding of the characteristics of the asset or issuing firm. To the
+
+extent that stock prices are not perfectly (informationally) efficient, they
+may diverge from the intrinsic values.
+Analysts seeking to produce positive risk-adjusted returns do so by trying to
+identify securities for which their estimate of [[Intrinsic value|intrinsic value]] differs from
+current market price. One framework divides [[Mispricing|mispricing]] perceived by the
+analyst into two sources: the difference between market price and the
+[[Intrinsic value|intrinsic value]] (actual [[Mispricing|mispricing]]) and the difference between the analyst’s
+estimate of [[Intrinsic value|intrinsic value]] and actual intrinsic value (valuation error). We
+can represent this relation as follows:
+
+
+> **LOS 17.b:** Explain the going concern assumption and
+contrast a going concern value to a [[Liquidation value|liquidation value]].
+The going concern assumption is simply the assumption that a company
+will continue to operate as a business, as opposed to going out of business.
+The valuation models we will cover are all based on the going concern
+assumption. An alternative, when it cannot be assumed that the company
+will continue to operate (survive) as a business, is a firm’s [[Liquidation|liquidation]]
+value. The [[Liquidation value|liquidation value]] is the estimate of what the assets of the firm
+would bring if sold separately, net of the company’s [[Liabilities|liabilities]].
+A related concept, [[Orderly liquidation value|orderly liquidation value]], is the value of the assets if
+they can be sold over time so as to fetch better prices.
+
+> **LOS 17.c:** Describe definitions of value and justify which
+[[Definition of value|definition of value]] is most relevant to public company
+valuation.
+As stated earlier, intrinsic value is the most relevant metric for an analyst
+valuing public equities. However, other definitions of value may be relevant
+in other contexts. [[Fair market value|Fair market value]]ue|market value]] is the price at which a hypothetical
+willing, informed, and able seller would trade an asset to a willing,
+informed, and able buyer. This definition is similar to the concept of fair
+value used for financial reporting purposes. A company’s market price
+
+should reflect its [[Fair market value|fair market value]]ue|market value]] over time if the market has confidence
+that the company’s management is acting in the interest of equity investors.
+[[Investment value|Investment value]] is the value of a stock to a particular buyer. Investment
+value may depend on the buyer’s specific needs and expectations, as well as
+perceived synergies with existing buyer assets.
+When valuing a company, an analyst should be aware of the purpose of
+valuation. For most investment decisions, intrinsic value is the relevant
+concept of value. For acquisitions, [[Investment value|investment value]] may be more
+appropriate.
+
+> **LOS 17.d:** Describe applications of equity valuation.
+
+> [!pnote] Professor's Note
+> ***This is simply a list of the possible scenarios that may form the***
+> ***basis of an equity valuation question. No matter what the scenario***
+> ***is, the tools you will use are the same.***
+> ***Valuation is the process of estimating the value of an asset by (1) using a***
+> ***model based on the variables the analyst believes influence the fundamental***
+> ***value of the asset or (2) comparing it to the observable [[Market value|market value]] of***
+> ***“similar” assets. Equity valuation models are used by analysts in a number***
+> ***of ways. Rather than an end unto itself, valuation is a tool that is used in the***
+> ***pursuit of other objectives like those listed in the following paragraphs.***
+> ***The general steps in the equity valuation process are:***
+> ***1. Understand the business.***
+> ***2. Forecast company performance.***
+> ***3. Select the appropriate valuation model.***
+> ***4. Convert the forecasts into a valuation.***
+> ***5. Apply the valuation conclusions.***
+> ***Stock selection. The most direct use of equity valuation is to guide the***
+> ***purchase, holding, or sale of stocks. Valuation is based on both a***
+> ***comparison of the intrinsic value of the stock with its market price and a***
+> ***comparison of its price with that of comparable stocks.***
+>
+> ***Reading the market. Current market prices implicitly contain investors’***
+> ***expectations about the [[Future Value]] of the variables that influence the***
+> ***stock’s price (e.g., earnings growth and [[Expected Return]]). Analysts can***
+> ***estimate these expectations by comparing market prices with a stock’s***
+> ***intrinsic value.***
+> ***Projecting the value of corporate actions. Many market professionals use***
+> ***valuation techniques to determine the value of proposed corporate mergers,***
+> ***acquisitions, divestitures, management buyouts (MBOs), and***
+> ***recapitalization efforts.***
+> ***Fairness opinions. Analysts use equity valuation to support professional***
+> ***opinions about the fairness of a price to be received by minority***
+> ***shareholders in a merger or [[Acquisition|acquisition]].***
+> ***Planning and consulting. Many firms engage analysts to evaluate the***
+> ***effects of proposed corporate strategies on the firm’s stock price, pursuing***
+> ***only those that have the greatest value to shareholders.***
+> ***Communication with analysts and investors. The valuation approach***
+> ***provides management, investors, and analysts with a common basis upon***
+> ***which to discuss and evaluate the company’s performance, current state,***
+> ***and future plans.***
+> ***Valuation of private business. Analysts use valuation techniques to***
+> ***determine the value of firms or holdings in firms that are not publicly***
+> ***traded. Investors in nonpublic firms rely on these valuations to determine***
+> ***the value of their positions or proposed positions.***
+> ***Portfolio management. While equity valuation can be considered a standalone function in which the value of a single equity position is estimated, it***
+> ***can be more valuable when used in a portfolio management context to***
+> ***determine the value and risk of a portfolio of investments. The investment***
+> ***process is usually considered to have three parts: planning, execution, and***
+> ***evaluation of results. Equity valuation is a primary concern in the first two***
+> ***of these steps.***
+> ***Planning. The first step of the investment process includes defining***
+> ***[[Investment objectives|investment objectives]] and constraints and articulating an investment***
+> ***strategy for selecting securities based on valuation parameters or***
+>
+> ***techniques. Sometimes investors may not select individual equity***
+> ***positions, but the valuation techniques are implied in the selection of an***
+> ***index or other preset basket of securities. [[Active investment|Active investment]] managers***
+> ***may use benchmarks as indicators of market expectations and then***
+> ***purposely deviate in composition or weighting to take advantage of their***
+> ***differing expectations.***
+> ***Executing the investment plan. The valuation of potential investments***
+> ***guides the implementation of an investment plan. The results of the***
+> ***specified valuation methods determine which investments will be made***
+> ***and which will be avoided.***
+>
+> ***> **LOS 17.e:** Describe questions that should be addressed in***
+> ***conducting an industry and competitive analysis.***
+> ***The five elements of [[Industry structure|industry structure]] as developed by Professor***
+> ***Michael Porter are:***
+> ***1. Threat of new entrants in the industry.***
+> ***2. Threat of [[Substitutes|substitutes]].***
+> ***3. Bargaining power of buyers.***
+> ***4. Bargaining power of suppliers.***
+> ***5. Rivalry among existing competitors.***
+> ***The attractiveness (long-term profitability) of any industry is determined by***
+> ***the interaction of these five competitive forces (Porter’s five forces).***
+> ***There are three generic strategies a company may employ in order to***
+> ***compete and generate profits:***
+> ***1. Cost leadership: Being the lowest-cost producer of the good.***
+> ***2. Product differentiation: Addition of product features or services that***
+> ***increase the attractiveness of the firm’s product so that it will command a***
+> ***premium price in the market.***
+> ***3. Focus: Employing one of the previous strategies within a particular***
+> ***segment of the industry in order to gain a competitive advantage.***
+>
+> ***Once the analyst has identified a company’s strategy, she can evaluate the***
+> ***performance of the business over time in terms of how well it executes its***
+> ***strategy and how successful it is.***
+> ***The basic building blocks of equity valuation come from accounting***
+> ***information contained in the firm’s reports and releases. In order for the***
+> ***analyst to successfully estimate the value of the firm, the financial factors***
+> ***must be disclosed in sufficient detail and accuracy. Investigating the issues***
+> ***associated with the accuracy and detail of a firm’s disclosures is often***
+> ***referred to as a quality of financial statement information. This analysis***
+> ***requires examination of the firm’s [[Income statement|income statement]], [[Balance sheet|balance sheet]], and the***
+> ***notes to the financial statements. Studies have shown that the quality of***
+> ***earnings issue is reflected in a firm’s stock price, with firms with more***
+> ***transparent earnings having higher market values.***
+> ***An analyst can often only discern important results of management***
+> ***discretion through a detailed examination of the footnotes accompanying***
+> ***the financial reports. Quality of earnings issues can be broken down into***
+> ***several categories and may be addressed only in the footnotes and***
+> ***disclosures to the financial statements.***
+> ***Accelerating or premature recognition of income. Firms have used a variety***
+> ***of techniques to justify the recognition of income before it traditionally***
+> ***would have been recognized. These include recording sales and billing***
+> ***customers before products are shipped or accepted and bill and hold***
+> ***schemes in which items are billed in advance and held for future delivery.***
+> ***These schemes have been used to obscure declines in operating***
+> ***performance and boost reported revenue and income.***
+> ***Reclassifying gains and nonoperating income. Firms occasionally have***
+> ***gains or income from sources that are peripheral to their operations. The***
+> ***reclassification of these items as operating income will distort the results of***
+> ***the firm’s continuing operations, often hiding underperformance or a***
+> ***decline in sales.***
+> ***Expense recognition and losses. Delaying the recognition of expenses,***
+> ***capitalizing expenses, and classifying operating expenses as nonoperating***
+> ***expenses is an opposite approach that has the same effect as reclassifying***
+>
+> ***gains from peripheral sources, increasing operating income. Management***
+> ***also has discretion in creating and estimating reserves that reflect expected***
+> ***future [[Liabilities|liabilities]], such as a bad debt reserve or a provision for expected***
+> ***litigation losses.***
+> ***Amortization, [[Depreciation|depreciation]], and [[Discount rates|discount rates]]. Management has a great***
+> ***deal of discretion in the selection of amortization and [[Depreciation|depreciation]] methods,***
+> ***as well as the choice of [[Discount rates|discount rates]] in determination of pension plan***
+> ***obligations. These decisions can reduce the current recognition of expenses,***
+> ***in effect deferring recognition to later periods.***
+> ***Off-balance-sheet issues. The firm’s [[Balance sheet|balance sheet]] may not fully reflect the***
+> ***assets and [[Liabilities|liabilities]] of the firm. Special purpose entities (SPEs) can be used***
+> ***by the firm to increase sales (by recording sales to the [[Special purpose entity]]) or to obscure***
+> ***the nature and value of assets or [[Liabilities|liabilities]]. Leases can be structured as***
+> ***operating, rather than finance, leases in order to reduce the total liabilities***
+> ***reported on the [[Balance sheet|balance sheet]].***
+> ***Warning signs of poor [[Earnings Quality]] (and risk of negative earnings***
+> ***surprises) include:***
+> ***1. Past history of SEC violations, or late filings.***
+> ***2. Related-party transactions.***
+> ***3. Excessive loans to officers, employees, or directors.***
+> ***4. Poor accounting disclosures related to (for example) segmental***
+> ***information or accounting assumptions and policies, and inadequate***
+> ***discussion of negative factors.***
+> ***5. High management or director turnover.***
+> ***6. Consulting services provided by an audit firm.***
+> ***7. Disputes with and/or changes in auditors.***
+> ***8. Executive compensation tied to profitability or stock price.***
+> ***9. Declining margins or market share.***
+> ***10. Pressure to meet debt [[Covenants|covenants]] or earnings expectations.***
+>
+> ***> **LOS 17.f:** Contrast absolute and [[Relative valuation models|relative valuation models]]***
+> ***and describe examples of each type of model.***
+>
+> ***Absolute valuation models. An [[Absolute valuation model|absolute valuation model]] is one that***
+> ***estimates an asset’s intrinsic value, which is its value arising from its***
+> ***investment characteristics without regard to the value of other firms. One***
+> ***absolute valuation approach is to determine the value of a firm today as the***
+> ***discounted or [[Present Value]] of all the cash flows expected in the future.***
+> ***Dividend discount models estimate the value of a share based on the present***
+> ***value of all expected dividends discounted at the opportunity [[Cost of capital]].***
+> ***Many analysts realize that equity holders are entitled to more than just the***
+> ***dividends and so expand the measure of cash flow to include all expected***
+> ***cash flow to the firm that is not payable to senior claims (bondholders,***
+> ***taxing authorities, and senior stockholders). These models include the free***
+> ***cash flow approach and the [[Residual income]] approach.***
+> ***Another absolute approach to valuation is represented by asset-based***
+> ***models. This approach estimates a firm’s value as the sum of the market***
+> ***value of the assets it owns or controls. This approach is commonly used to***
+> ***value firms that own or control natural resources, such as oil fields, coal***
+> ***deposits, and other mineral claims.***
+> ***[[Relative valuation models|Relative valuation models]]. Another very common approach to valuation is***
+> ***to determine the value of an asset in relation to the values of other assets.***
+> ***This is the approach [[Underlying|underlying]] [[Relative valuation models|relative valuation models]]. The most***
+> ***common models use market price as a multiple of an individual financial***
+> ***factor of the firm, such as [[Earnings per share|earnings per share]]. The resulting ratio, price-toearnings (P/E), is easily compared to that of other firms. If the P/E is higher***
+> ***than that of comparable firms, it is said to be relatively overvalued, that is,***
+> ***overvalued relative to the other firms (not necessarily overvalued on an***
+> ***intrinsic value basis). The converse is also true: if the P/E is lower than that***
+> ***of comparable firms, the firm is said to be relatively undervalued.***
+>
+> ***> **LOS 17.g:** Describe [[Sum-of-the-parts valuation|sum-of-the-parts valuation]] and***
+> ***conglomerate discounts.***
+> ***Rather than valuing a company as a single entity, an analyst can value***
+> ***individual parts of the firm and add them up to determine the value for the***
+> ***company as a whole. The value obtained is called the sum-of-the-parts***
+>
+> ***value, or sometimes [[Breakup value|breakup value]] or [[Private market value|private market value]]. This process is***
+> ***especially useful when the company operates multiple divisions (or product***
+> ***lines) with different business models and risk characteristics (i.e., a***
+> ***conglomerate).***
+> ***[[Conglomerate discount|Conglomerate discount]] is based on the idea that investors apply a***
+> ***markdown to the value of a company that operates in multiple unrelated***
+> ***industries, compared to the value a company that has a single industry***
+> ***focus. [[Conglomerate discount|Conglomerate discount]] is thus the amount by which [[Market value|market value]]***
+> ***under-represents sum-of-the-parts value.***
+> ***Three explanations for conglomerate discounts are:***
+> ***1. Internal capital inefficiency. The company’s allocation of capital to***
+> ***different divisions may not have been based on sound decisions.***
+> ***2. Endogenous (internal) factors. For example, the company may have***
+> ***pursued unrelated business acquisitions to hide poor operating***
+> ***performance.***
+> ***3. Research measurement errors. Some hypothesize that conglomerate***
+> ***discounts do not exist, but rather are a result of incorrect measurement.***
+>
+> ***> **LOS 17.h:** Explain broad criteria for choosing an***
+> ***appropriate approach for valuing a given company.***
+> ***When selecting an approach for valuing a given company, an analyst should***
+> ***consider whether the model:***
+> ***Fits the characteristics of the company (e.g., Does it pay dividends? Is***
+> ***earnings growth estimable? Does it have significant [[Intangible assets|intangible assets]]?).***
+> ***Is appropriate based on the quality and availability of input data.***
+> ***Is suitable given the purpose of the analysis.***
+> ***The purpose of the analysis may be, for example, valuation for making a***
+> ***purchase offer for a controlling interest in the company. In this case, a***
+> ***model based on cash flow may be more appropriate than one based on***
+> ***dividends because a controlling interest would allow the purchaser to set***
+> ***[[Dividend policy|dividend policy]].***
+>
+> ***One thing to remember with respect to choice of a valuation model is that***
+> ***the analyst does not have to consider only one. Using multiple models and***
+> ***examining differences in estimated values can reveal how a model’s***
+> ***assumptions and the perspective of the analysis are affecting the estimated***
+> ***values.***
+
+### Module Quiz 17.1
+
+1. Susan Weiber, CFA, has noted that even her best estimates of a stock’s intrinsic
+value can differ significantly from the current market price. The least likely
+explanation is differences between:
+A. her estimate and the actual intrinsic value.
+B. the actual intrinsic value and the market price.
+C. the intrinsic value and the going concern value.
+2. For a company for which the [[Going-concern assumption|going-concern assumption]] is not valid, the most
+appropriate valuation approach would be to calculate its:
+A. [[Residual income model|residual income model]] value.
+B. [[Dividend discount model]] value.
+C. [[Liquidation|liquidation]]on value|liquidation value]].
+3. Davy Jarvis, CFA, is performing an equity valuation as part of the planning and
+execution phase of the portfolio management process. His results will also be
+useful for:
+A. communication with analysts and investors.
+B. [[Technical analysis|technical analysis]].
+C. benchmarking.
+4. The five elements of [[Industry structure|industry structure]], as outlined by Michael Porter, include:
+A. threat of [[Substitutes|substitutes]].
+B. rivalry among buyers.
+C. bargaining power of competitors.
+5. Tom Walder has been instructed to use absolute valuation models, and not
+[[Relative valuation models|relative valuation models]], in his analysis. Which of the following is least likely to
+be an example of an [[Absolute valuation model|absolute valuation model]]?
+A. The [[Dividend discount model|dividend discount model]].
+B. The [[Price-to-earnings ratio|price-to-earnings]] market multiple model.
+C. The [[Residual income|residual income]]me model|[[Residual income|residual income]] model]].
+6. Davy Jarvis, CFA, is performing an equity valuation and reviews his notes for key
+points he wanted to cover when planning the valuation. He finds the following
+questions:
+Does the company pay dividends?
+Is earnings growth estimable?
+Does the company have significant [[Intangible assets|intangible assets]]?
+
+Which of the following general questions is Jarvis trying to answer when planning
+this phase of the valuation?
+A. Does the model fit the characteristics of the investment?
+B. Is the model appropriate based on the availability of input data?
+C. Can the model be improved to make it more suitable, given the purpose of the
+analysis?
+
+Use the following information to answer Questions 7 and
+8.
+Sun Pharma is a large pharmaceutical company based in Sri
+Lanka that manufactures prescription drugs under license
+from large multinational pharmaceutical companies. Delenga
+Mahamurthy, CEO of Sun Pharma, is evaluating a potential
+[[Acquisition|acquisition]] of Island Cookware, a small manufacturing
+company that produces cooking utensils.
+Mahamurthy feels that Sun Pharma’s excellent distribution
+network could add value to Island Cookware. Sun Pharma
+plans to acquire Island Cookware for cash. Several days
+later, Sun Pharma announces that they have acquired Island
+Cookware [[At market|at market]] price.
+7. Sun Pharma’s most appropriate valuation for Island Cookware is its:
+A. sum-of-the-parts value.
+B. [[Investment value|investment value]].
+C. liquidation value.
+8. Upon announcement of the merger, the market price of Sun Pharma drops. This
+is most likely a result of the:
+A. unrelated business effect.
+B. tax effect.
+C. [[Conglomerate discount|conglomerate discount]].
+
+
+> [!abstract] Key Concepts
+> LOS 17.a
+
+Intrinsic value is the value of an asset or security estimated by someone
+who has complete understanding of the characteristics of the asset or
+issuing firm. To the extent that market prices are not perfectly
+
+(informationally) efficient, they may diverge from intrinsic value. The
+difference between the analyst’s estimate of intrinsic value and the current
+price is made up of two components: the difference between the actual
+intrinsic value and the market price, and the difference between the actual
+intrinsic value and the analyst’s estimate of intrinsic value:
+
+LOS 17.b
+
+The going concern assumption is simply the assumption that a company
+will continue to operate as a business as opposed to going out of business.
+The liquidation value is the estimate of what the assets of the firm would
+bring if sold separately, net of the company’s liabilities.
+LOS 17.c
+
+[[Fair market value|Fair market value]] is the price at which a hypothetical willing, informed, and
+able seller would trade an asset to a willing, informed and able buyer.
+[[Investment value|Investment value]] is the value to a specific buyer after including any
+additional value attributable to synergies. Investment value is an appropriate
+measure for [[Strategic buyers|strategic buyers]] pursuing acquisitions.
+LOS 17.d
+
+Equity valuation is the process of estimating the value of an asset by (1)
+using a model based on the variables the analyst believes influence the
+[[Fundamental value|fundamental value]] of the asset or (2) comparing it to the observable market
+value of “similar” assets. Equity valuation models are used by analysts in a
+number of ways. Examples include stock selection, reading the market,
+projecting the value of corporate actions, fairness opinions, planning and
+consulting, communication with analysts and investors, valuation of private
+business, and portfolio management.
+LOS 17.e
+
+The five elements of [[Industry structure|industry structure]] as developed by Professor Michael
+Porter are:
+1. Threat of new entrants in the industry.
+2. Threat of [[Substitutes|substitutes]].
+
+3. Bargaining power of buyers.
+4. Bargaining power of suppliers.
+5. Rivalry among existing competitors.
+Quality of earnings issues can be broken down into several categories:
+Accelerating or premature recognition of income.
+Reclassifying gains and nonoperating income.
+Expense recognition and losses.
+Amortization, [[Depreciation|depreciation]], and [[Discount rates|discount rates]].
+Off-balance-sheet issues.
+It may be that these issues are addressed only in the footnotes and
+disclosures to the financial statements.
+LOS 17.f
+
+An [[Absolute valuation model|absolute valuation model]] is one that estimates an asset’s intrinsic value
+(e.g., the discounted dividend approach). Relative valuation models
+estimate an asset’s investment characteristics compared to the value of other
+firms (e.g., comparing P/E ratios to those of other firms in the industry).
+LOS 17.g
+
+[[Sum-of-the-parts valuation|Sum-of-the-parts valuation]] is the process of valuing the individual
+components of a company and then adding these values together to obtain
+the value of the whole company. [[Conglomerate discount|Conglomerate discount]] refers to the
+amount by which market price is lower than the sum-of-the-parts value.
+Conglomerate discount is an apparent price reduction applied by the
+markets to firms that operate in multiple industries.
+LOS 17.h
+
+When selecting an approach for valuing a given company, an analyst should
+consider whether the model fits the characteristics of the company, is
+appropriate based on the quality and availability of input data, and is
+suitable, given the purpose of the analysis.
+
+
+### Answer Key For Module Quizzes
+
+
+Module Quiz 17.1
+1. C The difference between the analyst’s estimate of intrinsic value and the
+current price is made up of two components:
+(LOS 17.a)
+2. C The liquidation value is the estimate of what the assets of the firm will
+bring when sold separately, net of the company’s liabilities. It is most
+appropriate when the firm is not a going concern and will not pay
+dividends. The [[Residual income model|residual income model]] is based on the going concern
+assumption, and is not appropriate for valuing a firm that is expected
+to go out of business. (LOS 17.b)
+3. A Communication with analysts and investors is one of the common uses
+of an equity valuation. [[Technical analysis|Technical analysis]] and benchmarking do not
+require equity valuation. (LOS 17.d)
+4. A The five elements of [[Industry structure|industry structure]] as developed by Professor
+Michael Porter are:
+1. Threat of new entrants in the industry.
+2. Threat of [[Substitutes|substitutes]].
+3. Bargaining power of buyers.
+4. Bargaining power of suppliers.
+5. Rivalry among existing competitors.
+(LOS 17.e)
+5. B Absolute valuation models estimate value as some function of the
+present value of future cash flows (e.g., dividend discount and free
+cash flow models) or [[Economic profit|economic profit]] (e.g., [[Residual income|residual income]] models).
+Relative valuation models estimate an asset’s value relative to the
+value of other similar assets. The price-to-earnings market multiple
+model is an example of a relative valuation model. (LOS 17.f)
+6. A Jarvis is most likely trying to be sure the selected model fits the
+characteristics of the investment. Model selection will depend heavily
+
+on the answers to these questions. (LOS 17.f)
+7. B The appropriate valuation for Sun Pharma’s [[Acquisition|acquisition]] is the
+investment value, which incorporates the value of any synergies
+present in the [[Acquisition|acquisition]]. Sum-of-the-parts value is not applicable, as
+the valuation does not require separate valuation of different divisions
+of Island Cookware. Liquidation value is also not relevant, as Sun
+Pharma does not intend to liquidate the assets of Island Cookware.
+(LOS 17.c)
+8. C Upon announcement of the acquisition, the market price of Sun
+Pharma should not change if the acquisition was at [[Fair value]].
+However, the market is valuing the whole company at a value less than
+the value of its parts: this is a conglomerate discount. We are not given
+any information about tax consequences of the merger and hence a tax
+effect is unlikely to be the cause of the market price drop. The
+acquisition of an unrelated business may result in a conglomerate
+discount, but there is no defined ‘unrelated business effect.’ (LOS
+17.c)
+
+
+---
+
+# Reading 18 — Discounted Dividend Valuation
+
+
+> [!tip] Exam Focus
+> This topic review presents the use of dividend discount models, one of the
+> classes of models using the present value of future cash flows to determine
+> the value of a stock. Dividend discount models use forecasted dividends as
+> the estimate of cash flow to the shareholder. This material has several
+> important topics that will require careful study. You should be able to
+> choose the appropriate model for the firm to be valued (based on the pattern
+> of expected dividend growth), forecast the future dividends to be
+> discounted, and determine the appropriate [[Discount rate]] to apply. You
+> should also understand the concept of sustainable growth and be able to
+> estimate a firm’s [[Sustainable growth rate]].
+
+
+## Module 18.1: Ddm Basics
+
+
+> **LOS 18.a:** Compare dividends, [[Free cash flow|free cash flow]], and residual available
+online.
+income as inputs to [[Discounted cash flow models|discounted cash flow models]] and
+
+identify investment situations for which each measure is
+suitable.
+In stock valuation models, there are three predominant definitions of future
+cash flows: dividends, [[Free cash flow]], and residual income.
+Dividends. Dividend discount models (DDMs) define cash flow as the
+dividends to be received by the shareholders. The primary advantage of
+
+using dividends as the definition of cash flow is that it is theoretically
+justified. The shareholder’s investment today is worth the present value of
+the future cash flows he expects to receive, and ultimately he will be repaid
+for his investment in the form of dividends. Even if the investor sells the
+stock at any time prior to the liquidation of the company, before all the
+dividends are paid, he will receive from the buyer of the shares the present
+value of the expected future dividends.
+An additional advantage of dividends as a measure of cash flow is that
+dividends are less volatile than other measures (earnings or [[Free cash flow|free cash flow]]),
+and therefore the value estimates derived from dividend discount models
+are less volatile and reflect the long-term earning potential of the company.
+The primary disadvantage of dividends as a cash flow measure is that it is
+difficult to implement for firms that don’t currently pay dividends. It is
+possible to estimate expected future dividends by forecasting the point in
+the future when the firm is expected to begin paying dividends. The
+problem with this approach in practice is the uncertainty associated with
+forecasting the fundamental variables that influence stock price (earnings,
+dividend payout rate, growth rate, and required return) so far into the future.
+A second disadvantage of measuring cash flow with dividends is that it
+takes the perspective of an investor who owns a minority stake in the firm
+and cannot control the [[Dividend policy|dividend policy]]. If the [[Dividend policy|dividend policy]] dictated by
+the controlling interests bears a meaningful relationship to the firm’s
+[[Underlying|underlying]] profitability, then dividends are appropriate. However, if the
+[[Dividend policy|dividend policy]] is not related to the firm’s ability to create value, then
+dividends are not an appropriate measure of expected future cash flow to
+shareholders.
+Dividends are appropriate as a measure of cash flow in the following cases:
+The company has a history of dividend payments.
+The [[Dividend policy|dividend policy]] is clear and related to the earnings of the firm.
+The perspective is that of a minority shareholder.
+Firms in the mature stage of the industry life cycle are most likely to meet
+the first two criteria.
+
+
+### Example: Identifying the appropriate valuation model
+
+
+Based on the financial information on Eastern Consolidated, Inc.,
+provided in the following table, determine whether or not a dividend
+discount model is the appropriate model to value Eastern Consolidated
+[[Common stock|common stock]].
+Earnings and Dividend Data for Eastern Consolidated
+
+Answer:
+Earnings have grown at a compound rate of ($7.50 / $5.00) 1/4 − 1 =
+0.107 = 10.7% over the four years while dividends have been constant,
+resulting in a decrease in the dividend [[Payout ratio]]. A dividend discount
+model is not appropriate in this case because the firm’s dividend policy is
+not [[Consistent|consistent]] with its profitability trend.
+[[Free cash flow|Free cash flow]]. [[Free cash flow to the firm|Free cash flow to the firm]] ([[FCFF]]) is defined as the cash
+flow generated by the firm’s operations that is in excess of the capital
+investment required to sustain the firm’s current productive capacity. Free
+cash flow to equity ([[FCFE]]) is the cash available to stockholders after
+funding capital requirements and expenses associated with debt financing.
+One advantage of free cash flow models is that they can be applied to many
+firms, regardless of dividend policies or capital structures. The ability to
+influence the distribution and application of a firm’s free cash flow makes
+these models more pertinent to a firm’s [[Controlling shareholders|controlling shareholders]]. Free cash
+flow is also useful to [[Minority shareholders|minority shareholders]] because the firm may be
+acquired for a market price equal to the value to the controlling party.
+However, there are cases in which the application of a free cash flow model
+may be very difficult. Firms that have significant capital requirements may
+have negative free cash flow for many years into the future. This can be
+caused by a technological revolution in an industry that requires greater
+investment to remain competitive or by rapid [[Expansion|expansion]] into untapped
+
+markets. This negative free cash flow complicates the cash flow forecast
+and makes the estimates less reliable.
+Free cash flow models are most appropriate:
+For firms that do not have a dividend payment history or have a dividend
+payment history that is not clearly and appropriately related to earnings.
+For firms with free cash flow that corresponds with their profitability.
+When the valuation perspective is that of a controlling shareholder.
+
+> [!pnote] Professor's Note
+> ***See the next topic review for details on free cash flow models.***
+> ***Residual income. Residual income is the amount of earnings during the***
+> ***period that exceeds the investors’ required return. The theoretical basis for***
+> ***this approach is that the required return is the [[Opportunity cost|opportunity cost]] to the***
+> ***suppliers of capital, and the residual income is the amount that the firm is***
+> ***able to generate in excess of this return. The residual [[Income approach|income approach]] can***
+> ***be applied to firms with negative free cash flow and to dividend- and nondividend-paying firms.***
+> ***Residual income models can be more difficult to apply, however, because***
+> ***they require in-depth analysis of the firm’s accounting accruals.***
+> ***Management discretion in establishing accruals for both income and***
+> ***expense may obscure the true results for a period. If the accounting is not***
+> ***transparent or if the quality of the firm’s reporting is poor, the accurate***
+> ***[[Estimation|estimation]] of residual income is likely to be difficult.***
+> ***The residual [[Income approach|income approach]] is most appropriate for:***
+> ***Firms that do not have dividend histories.***
+> ***Firms that have negative free cash flow for the foreseeable future (usually***
+> ***due to capital demands).***
+> ***Firms with transparent financial reporting and high-quality earnings.***
+
+> [!pnote] Professor's Note
+> ***Residual income models are addressed later in the Equity***
+> ***Valuation portion of the curriculum.***
+>
+>
+> ***> **LOS 18.b:** Calculate and interpret the value of a common***
+> ***stock using the [[Dividend discount model|dividend discount model]] ([[Dividend discount model]]) for single***
+> ***and multiple holding periods.***
+>
+> ***One-Period DDM***
+> ***We can rearrange the holding period formula to solve for the value today of***
+> ***the stock given the expected dividend, the expected price in one year, and***
+> ***the required return:***
+
+### Example: Calculating value for a one-period DDM
+
+
+BuyBest shares are expected to pay a dividend at the end of the year of
+€1.25. The analyst estimates the required return to be 8% and the
+expected price at the end of the year to be €28.00. The current price is
+€26.00. Calculate the value of the shares today, and determine whether
+BuyBest is overvalued, undervalued, or properly valued.
+Answer:
+The current value of the shares according to the DDM is equal to:
+
+BuyBest is undervalued. The current market price of €26.00 is less than
+the [[Fundamental value|fundamental value]] of €27.08.
+
+Two-Period DDM
+The value of a share of stock using the two-period DDM is the present
+value of the dividends in Years 1 and 2, plus the present value of the
+expected price in Year 2:
+
+
+### Example: Calculating value for a two-period DDM
+
+
+Machines Unlimited shares are expected to pay dividends of 1.55
+Canadian dollars (C$) and C$1.72 at the end of each of the next two
+years, respectively. The investor expects the price of the shares at the end
+of this 2-year holding period to be C$42.00. The investor’s required rate
+of return is 14%. Calculate the current value of Machines Unlimited
+shares.
+Answer:
+The value of Machines Unlimited shares can be determined with a twoperiod DDM as:
+
+Multi-Period DDM
+The DDM can easily be adapted to any number of holding periods by
+adjusting the [[Discount factor|discount factor]] to match the time to receipt of each expected
+return. With this, the present value becomes the sum of the properly
+discounted values of all expected cash flows (dividends and terminal
+value):
+
+For example, if we extend the holding period to three years, we simply
+extend the formula.
+
+
+### Example: Calculating value for a three-period DDM
+
+
+Reliable Motors shares are expected to pay dividends of $1.50, $1.60,
+and $1.75 at the end of each of the next three years, respectively. The
+investor expects the price of the shares at the end of this 3-year holding
+period to be $54.00. The investor’s [[Required rate of return]] is 15%.
+Calculate the current value of Reliable’s shares.
+Answer:
+The value of Reliable Motors shares can be determined with a multiperiod DDM as:
+
+When we have to calculate the total of three or more discounted cash
+flows, we can generally save a considerable amount of time (and improve
+accuracy) by using our financial calculators as shown in the following
+table:
+Calculating the PV of Multiple Cash Flows With the TI BA II Plus™
+
+Warm-Up: The General [[Dividend discount model|Dividend Discount Model]]
+If we extend the holding period indefinitely, the value simply becomes the
+present value of an infinite stream of dividends, represented by John Burr
+Williams’s (1938) original DDM formula:
+
+While the DDM is theoretically correct, applying it in practice requires the
+analyst to accurately forecast dividends for many periods, a task for which
+we rarely can expect to have sufficient information. We can use one of
+several growth models, including the:
+Gordon constant growth model.
+Two-stage growth model.
+[[H-Model]].
+Three-stage growth model.
+With the appropriate model, we can forecast dividends up to the end of the
+investment horizon where we no longer have confidence in the forecasts
+and then forecast a [[Terminal value]] based on some other method, such as a
+multiple of [[Book value|book value]] or earnings. Choosing the appropriate growth model
+is essential to accurate forecasts.
+
+### Module Quiz 18.1
+
+1. Restoration Software is a growth stock that has never paid a dividend. Free cash
+flow is forecasted to be negative for the next five years because of Restoration’s
+aggressive [[Expansion|expansion]] plans. Restoration has always received an unqualified
+opinion from its auditors and is generally considered to have high-quality
+earnings. Which of the following models is most appropriate to value
+Restoration?
+A. [[Free cash flow to the firm model|Free cash flow to the firm model]].
+B. [[Free cash flow to equity|Free cash flow to equity]]ty model|[[Free cash flow to equity|Free cash flow to equity]] model]].
+C. [[Residual income model|Residual income model]].
+
+
+## Module 18.2: Gordon Growth Model
+> **LOS 18.c:** Calculate the value of a [[Common stock|common stock]] using the
+[[Gordon Growth Model]] and explain the model’s [[Underlying|underlying]]
+assumptions.
+The [[Gordon growth model]] (GGM) assumes that dividends increase at a
+constant rate indefinitely. The simplifying factor of the constant growth
+assumption is that the rate of growth can be expressed per period in the
+
+same way that the required return is expressed, allowing the expression to
+be condensed into a simple formula:
+
+which condenses to:
+
+The model assumes that:
+The firm expects to pay a dividend, D1, in one year.
+Dividends grow indefinitely at a constant rate, g (which may be less than
+zero).
+The growth rate, g, is less than the required return, r.
+A firm’s growth rate projections can be compared to the growth rate of the
+economy to determine if it can continue indefinitely. It is unrealistic to
+assume that any firm can continue to grow indefinitely at a rate higher than
+the long-term growth rate in real [[GDP]] ([[GDP]]) plus the
+long-term [[Inflation|inflation]]on rate|[[Inflation|inflation]] rate]]. In general, a perpetual dividend growth rate
+forecast above 5% is suspect.
+
+### Example: Calculating value with the Gordon growth model
+
+
+DownUnder Financial recently paid a dividend of 1.80 Australian dollars
+(A$). An analyst has examined the financial statements and historical
+dividend policy of DownUnder and expects that the firm’s [[Dividend rate|dividend rate]]
+will grow at a constant rate of 3.5% indefinitely. The analyst also
+determines DownUnder’s [[Beta|beta]] is 1.5, the [[Risk-Free Rate]] is 4%, and the
+expected return on the market portfolio is 8%. Calculate the current value
+of DownUnder’s shares.
+Answer:
+
+First use the [[CAPM]] ([[CAPM]]) to estimate
+DownUnder’s required return:
+Then use the Gordon growth model to estimate share value:
+
+
+> [!pnote] Professor's Note
+> ***The dividend to be discounted is the next period dividend, D1, not***
+> ***the dividend from the previous period, D0. Use either D0 × (1+ g)***
+> ***or D1 in the numerator, depending on whether you’re given the***
+> ***most recent dividend paid (D0 ) or the expected dividend in one***
+> ***year (D1).***
+> ***When companies have [[Share repurchase|share repurchase]] programs, an analyst can focus on***
+> ***total payout (i.e., dividends plus repurchases) and use that in their valuation***
+> ***model. Alternatively, dividend discount models focusing on cash dividends***
+> ***can also be used, after adjusting for the number of shares outstanding***
+> ***(taking share repurchases into account).***
+>
+> ***> **LOS 18.d:** Calculate the value of non-callable fixed-rate***
+> ***perpetual [[Preferred stock|preferred stock]].***
+> ***A firm that has no additional opportunities to earn returns in excess of the***
+> ***[[Required rate of return|required rate of return]] should distribute all of its earnings to shareholders in***
+> ***the form of dividends. Under this assumption the growth rate would be***
+> ***zero, and the current value of the firm would be equal to the current***
+> ***dividend divided by the [[Required rate of return|required rate of return]]. This is exactly the same***
+> ***approach used to determine the value of fixed-rate perpetual preferred***
+> ***shares.***
+
+### Example: Calculating the value of fixed-rate perpetual preferred
+
+
+stock
+United Publishing has a [[Fixed-rate perpetual preferred stock|fixed-rate perpetual preferred stock]] outstanding
+with a dividend of 6% (based on an issue at par of £100). If the investors’
+[[Required rate of return|required rate of return]] for holding these shares is 9.5%, calculate the
+current value of these shares.
+Answer:
+Dividends are not growing because the preferred dividend is based on a
+fixed rate of 6.0% on a stated [[Par value|par value]] of £100, so this is comparable to
+DDM with a fixed dividend in [[Perpetuity|perpetuity]].
+
+
+> **LOS 18.e:** Describe strengths and limitations of the Gordon
+growth model and justify its selection to value a company’s
+[[Common shares|common shares]].
+The Gordon growth model (GGM) has a number of characteristics that
+make it useful and appropriate for many applications. The model:
+Is applicable to stable, mature, dividend-paying firms.
+Is appropriate for valuing market indices.
+Is easily communicated and explained because of its straightforward
+approach.
+Can be used to determine price-implied growth rates, required rates of
+return, and [[Value of growth|value of growth]] opportunities.
+Can be used to supplement other, more complex valuation methods.
+There are also some characteristics that limit the applications of the GGM:
+Valuations are very sensitive to estimates of growth rates and required
+rates of return, both of which are difficult to estimate with precision.
+The model cannot be easily applied to non-dividend-paying stocks.
+
+Unpredictable growth patterns of some firms would make using the model
+difficult and the resulting valuations unreliable.
+
+> **LOS 18.f:** Calculate and interpret the implied growth rate of
+dividends using the Gordon growth model and current stock
+price.
+The Gordon growth model includes four variables, so if we know any three
+of them, we can solve for the fourth. In practice, we can typically observe
+the price and current dividend for a publicly traded stock. Consequently, we
+are usually interested in either backing out the implied required return,
+using an assumed growth rate, or the implied growth rate, using an assumed
+required return. In this example, we calculate the implied growth rate using
+an estimated return.
+
+### Example: Calculating the implied growth rate using the Gordon
+
+
+growth model
+Suppose that the current price and most recent annual dividend for
+Aurora Mining (AM) are $24.25 and $1.10, respectively. If the required
+return on Aurora is 8.5%, what is the implied growth rate?
+Answer:
+We can set up the Gordon growth model in its standard form using the
+information we know:
+
+Rearranging the terms gives us:
+
+So, assuming that our estimated required return is on target, the implied
+growth rate for Aurora Mining’s dividends is 3.8%.
+
+> [!pnote] Professor's Note
+> ***Also be prepared to solve for the implied required return given the***
+> ***other variables in the model.***
+>
+> ***> **LOS 18.g:** Calculate and interpret the present value of***
+> ***growth opportunities (PVGO) and the component of the***
+> ***leading [[Price-to-earnings ratio|price-to-earnings ratio]] (P/E) related to PVGO.***
+> ***A firm that has additional opportunities to earn returns in excess of the***
+> ***[[Required rate of return|required rate of return]] would benefit from retaining earnings and investing***
+> ***in those growth opportunities rather than paying out dividends. The***
+> ***[[Fundamental value|fundamental value]] then represents not only the present value of the future***
+> ***dividends (on a non-growth basis) but also the present value of the growth***
+> ***opportunities (PVGO):***
+>
+> ***This means the value of a firm’s equity has two components:***
+> ***The value of its assets in place (E1/r), which is the present value of a***
+> ***perpetual cash flow of E1.***
+> ***The present value of its future investment opportunities (PVGO).***
+> ***A substantial portion of the [[Value of growth|value of growth]] companies is in their PVGO. In***
+> ***contrast, companies in slow-growth industries (e.g., utilities) have low***
+> ***PVGO, and most of their value comes from their assets in place.***
+
+### Example: Calculating PVGO
+
+
+Reliable, Inc.’s shares trade at 60.00 Swiss francs (Sf) with expected
+earnings of Sf 5.00 per share and a required return of 10%. Suppose that
+the shares are properly priced, so price is equal to [[Fundamental value|fundamental value]].
+Calculate the PVGO and the portion of the leading P/E related to PVGO.
+Answer:
+
+2/12 or 16.7% of the firm’s leading P/E ratio is attributable to PVGO.
+
+> **LOS 18.h:** Calculate and interpret the justified leading and
+trailing P/Es using the Gordon growth model.
+The price-to-earnings (P/E) ratio is the most commonly used relative
+valuation indicator. An analyst derives a [[Justified P/E|justified P/E]] based on the firm’s
+[[Fundamentals|fundamentals]]. The two most common forms are the leading P/E, which is
+based on the earnings forecast for the next period, and the trailing P/E,
+which is based on the earnings for the previous period. Both of these can be
+derived from the DDM:
+
+
+> [!pnote] Professor's Note
+> ***The notation is tricky here. Because these are justified P/E ratios,***
+> ***the “price” in the numerator is actually the fundamental value of***
+> ***the stock derived from the Gordon growth model. It would be***
+> ***more accurate to label these ratios V0 / E0 and V0 / E1, but the***
+> ***common convention is to call them “justified P/Es.”***
+
+### Example: Calculating justified leading and trailing P/E
+
+
+Alliance, Inc., is currently selling for $16.00 on current earnings of $3.00
+and a current dividend of $1.50. Dividends are expected to grow at 3.5%
+per year indefinitely. The risk-free rate is 4%, the market equity risk
+premium is 6%, and Alliance’s beta is estimated to be 1.1. Calculate the
+justified leading and trailing P/E ratios of Alliance, Inc.
+Answer:
+
+
+> [!pnote] Professor's Note
+> ***Remember that if earnings are expected to grow, E1 will be***
+> ***greater than E0 , and the justified leading P/E (P0 / E1) will be***
+> ***smaller than the justified trailing P/E (P0 / E0 ) because you’re***
+> ***dividing by a larger number when you are calculating leading P/E.***
+> ***In fact, trailing P/E will be larger than leading P/E by a factor of***
+> ***(1 + g): justified trailing P/E = justified leading P/E × (1 + g).***
+> ***Next we discuss multistage growth models, which accommodate more***
+> ***realistic growth rate assumptions.***
+
+### Module Quiz 18.2
+
+1. JCI, Inc., pays an annual dividend of 5.00 Canadian dollars (C$). The company is
+expected to continue paying this dividend with no future growth in dividends.
+Investors require a 9% rate of return on this investment. The current risk-free rate
+is 4%. The current stock value of JCI, Inc., is closest to:
+
+### A. C$55.56.
+
+
+### B. C$100.00.
+
+
+### C. C$125.00.
+
+
+2. The current stock price of MCD is $89.00. The current dividend for MCD is $2.50,
+and dividends are expected to grow at a constant rate of 8%. The implied
+required return for MCD is closest to:
+
+### A. 3%.
+
+
+### B. 8%.
+
+
+### C. 11%.
+
+3. CFCRegs, Inc., just paid a dividend of $2.00 per share. The required return is
+13%, and the stock is currently trading at $30.28 per share. The growth rate
+implied by the Gordon growth model is closest to:
+
+### A. 4%.
+
+
+### B. 6%.
+
+
+### C. 8%.
+
+4. Video Discs Forever, Inc., manufactures and distributes a line of DVD players.
+The company has fallen on hard times and although it will pay a $4 dividend in
+the next period, it expects dividends to decline by 3% per year thereafter. If the
+[[Discount rate|discount rate]] for the company is 9%, the current value of one share of VDF’s
+[[Common stock|common stock]] is closest to:
+
+### A. $33.33.
+
+
+### B. $44.44.
+
+
+### C. $66.67.
+
+5. Titan Industries is not expected to pay a dividend until ten years from now, at
+which time it is expected to pay a dividend of $1.25 and increase the dividend at
+a rate of 4% thereafter. If the required rate of return is 12%, the current value of
+Titan is closest to:
+
+### A. $5.64.
+
+
+### B. $12.78.
+
+
+### C. $15.63.
+
+6. EBEE is expected to grow at a rate of 30% for the next five years. After that,
+competition is expected to lower EBEE’s growth to a constant 7% indefinitely. The
+[[Market Risk Premium]] is 6%, and the risk-free rate is 5%. EBEE’s beta is 1.2, and
+the company just paid a dividend of $2.50. The current stock value of EBEE is
+closest to:
+
+### A. $127.28.
+
+
+### B. $154.57.
+
+
+### C. $191.00.
+
+
+## Module 18.3: Multiperiod Models
+
+
+> **LOS 18.k:** Explain the growth phase, transition phase, and
+maturity phase of a business.
+While the basic GGM assumes constant growth, most firms go through a
+pattern of growth that includes several phases:
+An initial growth phase, where the firm has rapidly increasing earnings,
+little or no dividends, and heavy reinvestment.
+A transition phase, in which earnings and dividends are still increasing
+but at a slower rate as competitive forces reduce profit opportunities and
+the need for reinvestment.
+A mature phase, in which earnings grow at a stable but slower rate, and
+payout ratios are stabilizing as reinvestment matches [[Depreciation|depreciation]] and
+asset maintenance requirements.
+The level and pattern of specific fundamental variables during the three
+phases, as well as the appropriate valuation model to apply in each phase,
+are shown in Figure 18.1.
+
+**Figure 18.1: Growth, Transition, and Maturity Phase**
+
+
+This pattern is not predestined because many firms are successful in
+constantly adapting and entering into new growth opportunities. Mature
+firms may develop [[Technology|technology]] that forms the basis for a whole new product
+and market. The point is that a multistage model is required in order to
+value many firms. Fortunately, the GGM is easily adaptable to multistage
+growth.
+
+
+> **LOS 18.l:** Explain the assumptions and justify the selection
+of the two-stage DDM, the H-model, the [[Three-Stage DDM|three-stage DDM]],
+or spreadsheet modeling to value a company’s common
+shares.
+For most companies, the Gordon growth model assumption of constant
+dividend growth that continues into [[Perpetuity|perpetuity]] is unrealistic. For example,
+many companies experience growth rates in excess of the required rate of
+return for short periods of time as a result of a competitive advantage they
+have developed. We need more realistic multistage growth models to
+estimate value for companies with several stages of future growth. The
+appropriate model is the one that most closely matches the firm’s expected
+pattern of growth. However, whichever multistage model we use, there are
+two important points to keep in mind:
+We’re still just forecasting dividends into the future and discounting them
+back to today to find intrinsic value.
+Over the long term, growth rates tend to revert to a long-run rate
+approximately equal to the long-term growth rate in real gross domestic
+product (GDP) plus the long-term [[Inflation rate|inflation rate]]. Historically, that number
+has been between 2% and 5%. Anything higher than 5% as a long-run
+perpetual growth rate is difficult to justify.
+
+> [!pnote] Professor's Note
+> ***The required rate of return applicable to each stage might also be***
+> ***different. For instance, a firm with a [[Supernormal growth|supernormal growth]] rate is***
+> ***probably more risky (should have a higher required return) than a***
+> ***stable, mature firm with a slower growth rate. In most cases on***
+> ***the exam, however, a single required return is applied to all of the***
+> ***stages.***
+> ***Two-Stage DDM: The most basic multistage model is a two-stage DDM in***
+> ***which we assume the company grows at a high rate for a relatively short***
+> ***period of time (the first stage) and then reverts to a long-run perpetual***
+> ***growth rate (the second stage). The length of the high-growth phase is a***
+> ***function of the [[Visibility|visibility]] of the company’s operations; in other words, it tells***
+> ***how far into the future the analyst can predict growth rates with a certain***
+>
+> ***[[Degree of confidence|degree of confidence]]. An example in which the two-stage model would***
+> ***apply is a situation in which a company has a patent that will expire. For***
+
+### Example: , suppose a firm is expected to grow at 15% until patents expire in
+
+four years, then immediately revert to a long-run growth rate of 3% in
+[[Perpetuity|perpetuity]]. This stock should be modeled by a two-stage model, with
+dividends growing at 15% before the patent expires and 3% thereafter (see
+
+**Figure 18.2).**
+
+
+**Figure 18.2: Example of a Two-Stage DDM**
+
+
+H-Model: The problem with the basic two-stage DDM is that it is usually
+unrealistic to assume that a stock will experience high growth for a short
+period, then immediately fall back to a long-run level. The H-model utilizes
+a more realistic assumption: the growth rate starts out high and then
+declines linearly over the high-growth stage until it reaches the long-run
+average growth rate. For example, consider a firm that generates high profit
+margins, faces little competition from within its industry, and is currently
+growing at 15%. We might forecast that the firm’s growth rate will decline
+by 3% per year as competitors enter the market until it reaches 3% at the
+end of the fourth year, when the industry matures and growth rates stabilize
+(see Figure 18.3).
+
+**Figure 18.3: Example of an H-Model**
+
+
+[[Three-Stage DDM|Three-stage DDM]]: Three-stage models are appropriate for firms that are
+expected to have three distinct stages of earnings growth. A three-stage
+model is a slightly more complex refinement of a two-stage model. For
+
+### Example: , suppose we forecast that a biotech company will experience
+
+[[Supernormal growth|supernormal growth]] of 25% for three years, then 15% growth for five years,
+and finally slow down to a stable, long-run rate of 3% (see Figure 18.4).
+Alternatively, in Stage 2, the growth rate may also linearly decay to the
+Stage 3 stable, long-run growth rate.
+
+**Figure 18.4: Example of a [[Three-Stage DDM|Three-Stage DDM]]**
+
+
+Spreadsheet modeling: The two- and three-stage models we’ve discussed so
+far are really just models in which we’ve simplified the growth pattern to
+make the calculations doable. Obviously that’s an important consideration
+on the exam. However, in practice we can use spreadsheets to model any
+pattern of dividend growth we’d like with different growth rates for each
+year because the spreadsheet does all the calculations for us. Spreadsheet
+modeling is applicable to firms about which you have a great deal of
+information and can project different growth rates for differing periods,
+such as construction firms and defense contractors with many long-term
+contracts. Figure 18.5 is an example of three different spreadsheet models.
+
+**Figure 18.5: Examples of Spreadsheet Modeling**
+
+
+> **LOS 18.m:** Describe [[Terminal value|terminal value]] and explain alternative
+approaches to determining the [[Terminal value|terminal value]] in a DDM.
+No matter which [[Dividend discount model|dividend discount model]] we use, we have to estimate a
+[[Terminal value|terminal value]] at some point in the future. There are two ways to do this:
+using the Gordon growth model and using the market multiple approach.
+The most common method (on the exam) is to estimate the [[Terminal value|terminal value]]
+with the Gordon growth model. In other words, at some point in the future,
+we assume dividends will begin to grow at a constant, long-term rate. Then
+the [[Terminal value|terminal value]] at that point is just the value derived from the Gordon
+growth model.
+Many analysts also use market [[Price multiples|price multiples]] to estimate the terminal
+value rather than use the GGM method of discounting dividends. For
+
+### Example: , we could forecast earnings and a P/E ratio at the forecast horizon
+
+and then estimate the terminal value as the P/E multiplied by the earnings
+estimate.
+
+
+### Example: Estimating terminal value
+
+
+Level Partners is expected to have earnings in ten years of $12 per share,
+a [[Dividend payout ratio|dividend payout ratio]]io|payout ratio]] of 50%, and a required return of 11%. At that
+time, the dividend growth rate is expected to fall to 4% in [[Perpetuity|perpetuity]], and
+the trailing P/E ratio is forecasted to be eight times earnings. Estimate the
+terminal value at the end of ten years using the Gordon growth model and
+the P/E multiple.
+Answer:
+The dividend at the end of ten years is expected to be $6 ($12 multiplied
+by 50%). The dividend in Year 11 is then $6.00 × 1.04 = $6.24. The
+terminal value using the Gordon growth model is therefore:
+
+The terminal value given forecasted earnings of $12 and a P/E ratio of 8
+is:
+terminal value in Year 10 (trailing P/E multiple) = $12.00 × 8 = $96.00
+
+> **LOS 18.n:** Calculate and interpret the value of common
+shares using the two-stage DDM, the H-model, and the
+[[Three-Stage DDM|three-stage DDM]].
+
+Valuation Using the Two-Stage Model
+The two-stage fixed growth rate model is based on the assumption that the
+firm will enjoy an initial period of high growth, followed by a mature or
+stable period in which growth will be lower but sustainable:
+
+
+### Example: Calculating value with a two-stage DDM
+
+
+Sea Island Recreation currently pays a dividend of $1.00. An analyst
+forecasts growth of 10% for the next three years, followed by 4% growth
+in perpetuity thereafter. The required return is 12%. Calculate the current
+value per share.
+Answer:
+We could solve the problem by plugging the appropriate numbers into the
+formula as follows:
+
+If we were robots instead of humans, this would be fine. However,
+because we are human beings (and not mindless machines), it might be
+better to actually try to understand what we are doing, limit the need to
+remember yet another formula, and reduce the possibility of error. This
+can be accomplished by drawing a time line and placing the appropriate
+cash flows on the line, followed by the fairly straightforward computation
+on our financial calculators that we did earlier (in the multiperiod DDM).
+The forecasted dividends are shown in the following figure.
+
+Dividend Cash Flows
+
+Constant growth at 4% begins after the third year, and we can employ the
+DDM to determine the value of the stock at time t = 3. Accordingly:
+
+Now the problem is exactly like the three-period DDM we solved in an
+earlier LOS: we know the dividends in Years 1, 2, and 3, the terminal
+value in Year 3, and the [[Discount rate|discount rate]]. The cash flows that we need to
+solve the problem are shown in the following figure.
+Dividend and Terminal Value Cash Flows
+
+The financial calculator does the hard work for us: CF0 = 0; C01 = 1.10;
+C02 = 1.21; C03 = 18.63; I = 12; CPT → [[Net present value]] = 15.21.
+We arrived at an estimated value of $15.21 using the calculator, which is
+exactly the same answer we got with the ugly formula. After a bit of
+practice, you should find that the calculator method is easier than the
+complicated formula, and, just as importantly, it will be less prone to
+error.
+The value of a firm that doesn’t currently pay a dividend is a simple version
+of the two-stage DDM, where the firm pays no dividends in the first stage.
+Therefore, the value of the firm is just the present value of the terminal
+value computed at the point in time at which dividends are projected to
+start.
+
+### Example: Valuing a non-dividend-paying stock
+
+
+Arena Distributors is a new company and currently pays no dividends.
+The company recently reported earnings of $1.50 per share and is
+expected to grow at a 15% rate for the next four years. Beginning in Year
+5, Arena is expected to distribute 20% of its earnings in the form of
+dividends and to have a constant growth rate of 5%. The required rate of
+return is 12%. Calculate the value of Arena shares today.
+Answer:
+First forecast the earnings in Year 5. Then calculate the dividends in Year
+5 as 20% of Year 5 earnings. Applying the Gordon growth model to the
+Year 5 dividend gives us an estimate of the terminal value in Year 4. The
+terminal value discounted back four years is the current value of the
+stock.
+
+Valuation Using the H-Model
+The earnings growth of most firms does not abruptly change from a high
+rate to a low rate as in the two-stage model but tends to decline over time as
+competitive forces come into play. The H-model approximates the value of
+a firm assuming that an initially high rate of growth declines linearly over a
+specified period. The formula for this approximation is:
+
+Note that the first term is what the shares would be worth if there were no
+high-growth period and the perpetual growth rate was gL. The second term
+is an approximation of the additional value that results from the highgrowth period.
+
+### Example: Calculating value with the H-model
+
+
+Omega Foods currently pays a dividend of €2.00. The growth rate, which
+is currently 20%, is expected to decline linearly over the next ten years to
+a stable rate of 5% thereafter. The required return is 12%. Calculate the
+current value of Omega.
+Answer:
+
+Remember that the H-model provides only an approximation of the value
+of Omega shares. To find the exact answer, we’d have to forecast each of
+the first ten dividends, applying a different growth rate to each, and then
+discount them back to the present at 12%. In general, the H-value
+approximation is more accurate the shorter the high-growth period, t,
+and/or the smaller the spread between the short-term and long-term
+growth rates, gS – gL.
+
+Valuation Using the Three-Stage DDM
+A three-stage model can be used to estimate the value of a firm that is
+projected to have three stages of growth with a fixed rate of growth for each
+stage. The approach is the same as the two-stage model, with the projected
+dividends and the terminal value of the shares discounted to their present
+value at the required rate of return. Again, a time line or an equivalent cash
+flow table will help the intuition. Your speed and accuracy will develop
+with practice.
+
+### Example: Calculating value with the three-stage DDM
+
+
+R&M has a current dividend of $1.00 and a required rate of return of
+12%. A dividend growth rate of 15% is projected for the next two years,
+followed by a 10% growth rate for the next four years before settling
+down to a constant 4% growth rate thereafter. Calculate the current value
+of R&M.
+Answer:
+Relevant Cash Flows for R&M Example
+
+Now we enter the cash flows into our calculator, noting that the total cash
+flow at Time 6 is $1.936 + $25.168 = $27.104: CF0 = 0; C01 = 1.150;
+C02 = 1.323; C03 = 1.455; C04 = 1.600; C05 = 1.760; C06 = 27.104; I =
+12; CPT → [[Net present value|NPV]] = 18.864.
+According to the three-stage model, R&M is worth $18.864 today. This
+question is tedious, but it is not a question to be feared, as long as your
+calculator batteries hold up.
+
+### Example: Three-stage growth model with linear growth decline in
+
+
+Stage 2
+As an analyst, you have gathered the following information on a
+company you are tracking. The current annual dividend is $0.75.
+Dividends are expected to grow at a rate of 12% over the next three
+years, decline linearly to 4% over the next six years, and then remain at a
+long-term [[Equilibrium|equilibrium]] growth rate of 4% in perpetuity. The required
+return is 9%. Calculate the value of the company.
+Answer:
+
+Let’s start by valuing the last two stages using the H-model. We know
+that:
+
+It follows that:
+
+Now we have a series of three cash flows to discount in order to find the
+current value of the stock, and our financial calculator does the rest of the
+work.
+
+The price of the stock is $23.2056.
+
+Valuation Models Using Spreadsheets
+If you have been calculating along with the examples, you already
+recognize that the use of these models can be computationally intensive,
+though the formulas are straightforward. These characteristics make DDM
+models ideally suited to being solved with spreadsheet software. A
+spreadsheet allows the analyst to easily calculate values based on models
+with many stages, growth rates, and required rates of return.
+
+> **LOS 18.o:** Explain the use of spreadsheet modeling to
+forecast dividends and to value [[Common shares|common shares]].
+We have previously noted that, in practice, financial analysts are much
+more likely to use a spreadsheet than any of the stylized models presented
+here when valuing equity securities. The reason for this is the inherent
+flexibility and computational accuracy of spreadsheet modeling.
+A firm’s dividends (or cash flows) often do not grow at a smooth rate for an
+extended period. When changes in dividends can be predicted, there can
+
+obviously be more than two or three stages of change involved. Moreover,
+there are often idiosyncratic events that, even if they can be predicted, do
+not fit neatly into any of the patterns required by these models. Using a
+spreadsheet is relatively straightforward and can accommodate nearly any
+pattern that the analyst can imagine.
+Step 1: Establish the base level of cash flows or dividends. In the case of
+dividends, this would ordinarily be either the amount paid over the
+preceding year or some normalized level based upon projected firm
+earnings.
+Step 2: Estimate changes in the firm’s dividends for the foreseeable future
+(also known as the [[Supernormal growth|supernormal growth]] period) and project future
+cash dividends on the basis of these estimates. Because the
+spreadsheet can be programmed in a virtually infinite series of
+combinations, any dividend pattern desired can be achieved.
+Step 3: Because an equity security has an infinite life, the analyst needs to
+estimate what normalized level of growth will occur at the end of the
+[[Supernormal growth|supernormal growth]] period. This allows for an estimate of a terminal
+value, representing the cash flow (i.e., the firm’s value if sold at this
+time) to be received at the end of the supernormal growth period.
+Step 4: Discount all projected dividends and the terminal value back to
+today to obtain an estimate of the firm’s current value.
+The last step is where the use of the spreadsheet really pays off. The analyst
+is in position to conduct detailed scenario analyses wherein the model
+inputs can be altered to see how changes in the pattern of future dividends,
+interest rates, and firm risk affect firm valuation estimates.
+The bottom line is that performing the analysis just listed for a period of 10
+or 20 years is relatively easy with a spreadsheet but would be all but
+impossible with any of the stylized models presented.
+
+> **LOS 18.i:** Estimate a required return based on any DDM,
+including the Gordon growth model and the H-model.
+
+We have been using DDMs to determine the value of a stock, assuming that
+we know the dividends and required rates of return. The models are just as
+useful in determining the required rate of return, given the current value and
+dividends of a stock. No matter which model you’re using (whether it’s a
+two-stage DDM, an H-model, a three-stage DDM, or a spreadsheet model),
+in theory this is easy: Given all the other inputs to the model, we can back
+into the expected return that makes the present value of the forecasted
+dividend stream equal to the current market price.
+For example, if the dividend growth rate is constant forever, we can use the
+Gordon growth model to calculate the implied expected return given the
+expected dividend, the current market price, and the expected growth rate:
+
+
+### Example: Calculating expected return with the Gordon growth model
+
+
+Smyth & Weston Explosives’ stock is expected to pay a dividend of
+$1.60, has a current price of $40.00, and has a projected growth rate of
+9%. Calculate S&W’s implied required return.
+Answer:
+
+The H-model can be rewritten in terms of r and used to solve for r given the
+other model inputs:
+
+
+### Example: Solving for expected return with the H-model
+
+
+Beluga Fisheries, Inc., just paid a current dividend of $0.75, which has
+been growing at a rate of 10%. This growth rate is expected to decline to
+5% over the next five years and then remain at 5% indefinitely. Calculate
+the implied required return for Beluga based on the current price of
+$30.00.
+Answer:
+
+Using the general two-stage model is more difficult because we have to
+solve for r with an iterative process because there is no closed-form
+solution. Here is an example of how to approach the problem using the twostage DDM.
+
+### Example: Solving for expected return with the two-stage DDM
+
+
+Ozone Laboratories, Inc., recently paid a dividend of $1.00. Dividends
+are expected to grow at a rate of 11% for the next two years and 8%
+thereafter. The implied required return for Ozone based on the current
+price of $35.60 is closest to:
+
+### A. 9.5%.
+
+
+### B. 10.0%.
+
+
+### C. 11.2%.
+
+Answer:
+We have to solve for r in the following equation:
+
+This actually requires an iterative process. The easiest way to do this is to
+start with the middle value from the three answer choices (10%, in this
+case):
+
+Use your calculator to value the stock:
+
+Hence, the [[Discount rate|discount rate]] has to be higher. The only higher value (from the
+multiple choices) is 11.2%.
+Let’s confirm:
+
+
+> **LOS 18.p:** Calculate and interpret the sustainable growth
+rate of a company and demonstrate the use of DuPont
+analysis to estimate a company’s [[Sustainable growth rate|sustainable growth rate]].
+The [[Sustainable growth rate|sustainable growth rate]] (SGR) is the rate at which earnings (and
+dividends) can continue to grow indefinitely, assuming that the firm’s debtto-equity ratio is unchanged and it doesn’t issue new equity. SGR is a
+simple function of the earnings retention ratio and the return on equity:
+
+The SGR is important because it tells us how quickly a firm can grow with
+internally generated funds.
+
+### Example: Calculating SGR
+
+
+Biotechnica, Inc., is growing earnings at an annual rate of 9%. It
+currently pays out dividends equal to 20% of earnings. Biotechnica’s
+ROE is 15%. Calculate its SGR.
+Answer:
+
+A firm’s rate of growth is a function of both its earnings retention and its
+return on equity. ROE can be estimated with the DuPont formula, which
+presents the relationship between margin, sales, and leverage as
+determinants of ROE:
+
+If the other factors remain constant, we can see that the growth of a firm’s
+earnings (and dividends) is a function of its ROE and its [[Retention Rate]]:
+This has also been called the PRAT model, where SGR is a function of the
+[[Profit margin|profit margin]] (P), the retention rate (R), the asset turnover (A), and financial
+leverage (T). Two of these factors are functions of the firm’s financing
+decisions (leverage and earnings retention), and two are functions of
+performance (return on assets equals [[Profit margin|profit margin]] multiplied by asset
+turnover). These factors can be used as building blocks in developing an
+estimate of a firm’s growth. If the actual growth rate is forecasted to be
+greater than SGR, the firm will have to issue equity unless the firm
+increases its retention ratio, [[Profit margin|profit margin]], total asset turnover, or leverage.
+
+> [!pnote] Professor's Note
+> ***For the Equity Valuation portion of the curriculum, we use***
+> ***beginning-of-year [[Balance sheet|balance sheet]] values for mixed ratios (e.g., total***
+> ***asset turnover) unless otherwise specified in the question.***
+
+### Example: Calculating ROE and SGR
+
+
+Halo Construction has been successful in a mature industry. Over the last
+three years, Halo has averaged a [[Profit margin|profit margin]] of 10%, a total asset
+turnover of 1.8, and a leverage ratio of 1.25. Assuming Halo continues to
+distribute 40% of its earnings as dividends, calculate its long-term SGR.
+Answer:
+
+
+### Example: Calculating ROE and SGR
+
+
+Given the following partial balance sheets and [[Income statement|income statement]] for Far
+Horizons Company, calculate three components of the ROE (using the
+DuPont model) and the [[Sustainable growth rate|sustainable growth rate]] for 2023 based on
+
+beginning balance sheet values. Use a [[Dividend payout ratio|dividend payout ratio]]io|payout ratio]] of 30%. All
+values are in millions of USD.
+Far Horizons [[Income statement|Income Statement]]
+
+Far Horizons Balance Sheet
+
+Answer:
+
+
+> **LOS 18.j:** Evaluate whether a stock is overvalued, fairly
+valued, or undervalued by the market based on a DDM
+estimate of value.
+If a stock is trading at a price (market price) higher than the price implied
+by a [[Dividend discount model|dividend discount model]] (model price), the stock is considered to be
+overvalued. Similarly, if the market price is lower than the model price, the
+stock is considered to be undervalued, and if the model price is equal to
+the market price, the stock is considered to be fairly valued.
+
+> [!pnote] Professor's Note
+> ***Overpriced means overpriced in the market.***
+> ***In other words: market price > calculated value.***
+
+### Module Quiz 18.3
+
+1. Aerosail Company exhibits the following fundamental characteristics:
+Profit margins are higher than the industry average but have fallen over the
+last four years from 45% to 32%.
+[[Free cash flow to equity|Free cash flow to equity]] is positive and has grown 18% in the last two years.
+Dividend payout has increased from 5% to 15% in the last three years.
+Which phase of the life cycle is Aerosail most likely in, and which dividend
+discount model is most appropriate to value the company’s [[Common stock|common stock]]?
+
+2. An analyst forecasts dividends over the next three years for Aerosail Company of
+$1.00, $2.00, and $2.50. He forecasts a terminal value in three years of $52.00.
+Aerosail is currently selling for $39.71. The implied required return based on the
+analyst forecast is closest to:
+
+### A. 10.2%.
+
+
+### B. 13.5%.
+
+
+### C. 14.8%.
+
+Use the following information to answer Questions 3 through 7.
+Jamie Johnson, CFA, has been asked by her supervisor to evaluate the value of
+two stocks in the recreational vehicle industry, AAA Motorhomes (AAA) and
+Three Star Travelers (TST). Johnson compiled analyst information for the two
+companies in Table 1. The expected return on the market is 11%, and the riskfree rate is 4%. Johnson’s supervisor has requested that Johnson focus on
+dividends in estimating the value of the two firms.
+
+3. The sustainable growth rates for each firm are closest to:
+
+4. Johnson decides to start by estimating the value of the two stocks using the
+constant growth dividend discount model and estimating the required rate of
+returns using the [[Capital asset pricing model|capital asset pricing model]] (CAPM). Both firms are expected to
+grow at their sustainable growth rates. The estimated values are closest to:
+
+5. Johnson believes the estimate for TST using the constant dividend discount
+model (DDM) is appropriate. However, she believes that AAA is expected to grow
+at a higher rate of 20% for the next four years and then grow at a rate of 7% after
+that. Using the two-stage model, and CAPM for the required rate of return, the
+current value of AAA is closest to:
+
+### A. $45.69.
+
+
+### B. $58.00.
+
+
+### C. $61.62.
+
+6. After further consideration, Johnson feels the growth rates of AAA and TST are
+more likely to gradually decline over the next four years and therefore considers
+the H-model. She estimates TST growth will decline from current 15% to longterm 5% and AAA growth will decline from current 20% to long-term 7%. Johnson
+estimates the required rate of return for AAA and TST to be 15.3% and 12.6%,
+respectively. Johnson’s estimated values of AAA and TST using the H-model are
+closest to:
+
+7. Johnson’s supervisor also requested a calculation of the justified leading P/E
+ratios for the two firms using a macroeconomic [[Multifactor model]] based on the
+information in Table 2 (on the previous page) to estimate the required returns.
+Assuming that the earnings and dividends will grow at 5% for TST and 7% for
+AAA, the justified leading P/E ratios are closest to:
+
+Use the following information to answer Questions 8 and 9.
+Sally Curten, CFA, has gathered the following information on Jameston Fiber
+Optics, Inc., (JFOI) and industry norms.
+Selected Financial Data for JFOI (in millions)
+
+8. The return on equity for JFOI is closest to:
+
+### A. 17.2%.
+
+
+### B. 37.4%.
+
+
+### C. 78.5%.
+
+9. Using [[DuPont analysis|DuPont analysis]], Curten determines that the most influential factor(s) that
+management used to increase the ROE for JFOI compared to the industry is:
+A. asset efficiency.
+B. profitability.
+C. leverage.
+Use the following information to answer Questions 10 and 11.
+Lisa Design pays a current annual dividend of €2.00 and is currently growing at a
+rate of 20%. This rate is expected to decline to 10% over four years and remain
+at that level indefinitely. The required rate of return for an investment in Lisa
+Design is 18%.
+10. The current estimated value of Lisa Design using the H-model is closest to:
+
+### A. €24.22.
+
+
+### B. €29.78.
+
+
+### C. €32.50.
+
+11. Suppose instead that the 20% growth rate is expected to persist for four years
+and then decline immediately to 10%, at which level it will remain indefinitely. The
+current estimated value of Lisa Design is closest to:
+
+### A. €31.99.
+
+
+### B. €32.50.
+
+
+### C. €37.76.
+
+12. Jill Smart is an analyst with Allenton Partners. Jill is reviewing the valuation of
+three companies (P, Q, and R) using the dividend discount model (DDM) and
+their corresponding current market prices.
+The information below summarizes the findings:
+
+Based on the above information, which statement best describes the market’s
+valuation of P, Q, and R?
+
+A. P is overvalued, Q is undervalued, and R is fairly valued.
+B. P is undervalued, Q is fairly valued, and R is overvalued.
+C. P is undervalued, Q is overvalued, and R is fairly valued.
+13. Viking Insurance forecasts earnings next year of $4.50 per share. Viking has a
+[[Dividend payout ratio|dividend payout ratio]]io|payout ratio]] of 40%. The required return is 15%. Return on equity is
+8.33%. The [[Present value of growth opportunities|present value of growth opportunities]] and the value of the stock
+based on the Gordon growth model are closest to:
+
+
+> [!abstract] Key Concepts
+> LOS 18.a
+
+In stock valuation models, there are three predominant definitions of future
+cash flows: dividends, free cash flow, and residual income.
+Dividends are appropriate when:
+The company has a history of dividend payments.
+The dividend policy is clear and related to the earnings of the firm.
+The asset is being valued from the position of a minority shareholder.
+Free cash flow is appropriate when:
+The company does not have a dividend payment history or has a dividend
+payment history that is not related to earnings.
+The free cash flow corresponds with the firm’s profitability.
+The asset is being valued from the position of a controlling shareholder.
+Residual income is most appropriate for firms that:
+Do not have dividend payment histories.
+Have negative free cash flow for the foreseeable future.
+Have transparent financial reporting and high-quality earnings.
+LOS 18.b
+
+Stock valuation can be approached using DDMs for single periods, two
+periods, and multiple holding periods. No matter what the holding period,
+the stock price is the present value of the forecasted dividends plus the
+
+present value of the estimated terminal value, discounted at the required
+return.
+LOS 18.c
+
+The Gordon growth model assumes that:
+Dividends grow at a constant growth rate.
+Dividend policy is related to earnings.
+Required rate of return r is greater than the long-term constant growth rate
+g.
+
+LOS 18.d
+
+The value of a [[Fixed-rate perpetual preferred stock|fixed-rate perpetual preferred stock]]ck|preferred stock]] is equal to the dividend
+divided by the required return:
+
+LOS 18.e
+
+The GGM has a number of characteristics that make it useful and
+appropriate for many applications:
+Very applicable to stable, mature dividend-paying firms.
+Can be applied to indices very easily.
+Easily communicated and explained because of its straightforward
+approach.
+Useful in determining price-implied growth rates, required rates of return,
+and [[Value of growth|value of growth]] opportunities.
+Can be added to other more complex valuations.
+There are also some characteristics that limit the applications of the Gordon
+model:
+Valuations are very sensitive to estimates of growth rates and required
+rates of return, both of which are difficult to estimate with precision.
+The model cannot be easily applied to non-dividend-paying stocks.
+
+Unpredictable growth patterns of some firms would make using the model
+difficult.
+LOS 18.f
+
+If P0 is fairly priced:
+
+LOS 18.g
+
+The value of an asset is equal to the current earnings stream divided by the
+required return, plus the [[Present value of growth opportunities|present value of growth opportunities]] (PVGO):
+
+LOS 18.h
+
+The Gordon growth model can also be used to estimate justified leading and
+trailing P/E ratios based on the [[Fundamentals|fundamentals]] of the firm:
+
+LOS 18.i
+
+Given all of the other inputs to the Gordon growth model or H-model, we
+can rearrange the formula to back into the expected return that makes the
+present value of the forecasted dividend stream equal to the current market
+price:
+GGM:
+
+H-Model:
+
+LOS 18.j
+
+If the model price is lower than (higher than, equal to) the market price, the
+stock is considered overvalued (undervalued, fairly valued).
+
+LOS 18.k
+
+Most firms go through a pattern of growth that includes three stages:
+An initial growth stage, where the firm has rapidly increasing earnings,
+little or no dividends, and heavy reinvestment.
+A transition stage, in which earnings and dividends are still increasing but
+at a slower rate as competitive forces reduce profit opportunities and the
+need for reinvestment.
+A mature stage, in which earnings grow at a stable but slower rate, and
+payout ratios are stabilizing as reinvestment matches depreciation and
+asset maintenance requirements.
+LOS 18.l
+
+Multistage growth models have a number of strengths and a few limitations.
+Strengths:
+Multiple-stage DDMs are flexible.
+The models can be used to estimate values given assumptions of growth
+and required return or to derive required returns and projected growth
+rates implied by market prices.
+The models enable the analyst to review all of the assumptions built into
+the models and to consider the impact of different assumptions.
+The models are very easily constructed and computed with the use of
+spreadsheet software.
+Limitations:
+The estimates are only as good as the assumptions and projections used as
+inputs.
+A model must be fully understood in order for the analyst to arrive at
+accurate estimates. Without a clear understanding of the model, the effects
+of assumptions cannot be determined.
+The estimates of value are very sensitive to the assumptions of growth and
+required return.
+Formulas and data input can lead to errors that are difficult to identify.
+LOS 18.m
+
+No matter which dividend discount model we use, we have to estimate a
+terminal value using either the Gordon growth model or the market multiple
+approach. The Gordon growth model assumes that in the future, dividends
+will begin to grow at a constant, long-term rate. Then the terminal value at
+that point is just the value derived from the Gordon growth model.
+Using market [[Price multiples|price multiples]] to estimate the terminal value involves, for
+
+### Example: , forecasting earnings and a P/E ratio at the forecast horizon and
+
+then estimating the terminal value as the P/E multiplied by the earnings
+estimate.
+LOS 18.n
+
+There are several multistage growth models, with the most appropriate
+being the one that most closely matches the firm’s actual growth pattern.
+The terminal value for multistage models is estimated using the Gordon
+growth model or market [[Price multiples|price multiples]].
+The two-stage model has two distinct stages with a stable rate of growth
+during each stage.
+The H-model also has two stages but assumes that the growth rate
+declines at a constant linear rate during the first stage and is stable in the
+second stage:
+
+The three-stage model can either have stable growth rates in each of the
+three stages or have a linearly declining rate in the second stage.
+The spreadsheet model can incorporate any number of stages with
+specified rates of growth for each stage. This is most easily modeled with
+a computer spreadsheet.
+LOS 18.o
+
+In practice, financial analysts are much more likely to use a spreadsheet
+than any of the stylized models present here when valuing equity securities.
+The reason for this is the inherent flexibility and computational accuracy of
+spreadsheet modeling. Steps include:
+Establish the base level of cash flows or dividends.
+
+Estimate changes in the firm’s dividends for the foreseeable future.
+Estimate what normalized level of growth will occur at the end of the
+supernormal growth period, allowing for an estimate of a terminal value.
+Discount and sum all projected dividends and the terminal value back to
+today.
+LOS 18.p
+
+The SGR is defined as the rate that earnings (and dividends) can continue to
+grow indefinitely, assuming that a firm’s [[Debt-to-equity ratio|debt-to-equity ratio]] is unchanged
+and it doesn’t issue any new equity. It can be derived from the relationship
+between the firm’s retention rate and ROE as determined by the DuPont
+formula:
+This has also been called the PRAT model, where SGR is a function of the
+profit margin (P), the retention rate (R), the asset turnover (A), and the
+[[Degree of financial leverage|degree of financial leverage]]ge|financial leverage]] (T). Use beginning-of-period balance sheet
+values unless otherwise instructed.
+
+
+### Answer Key For Module Quizzes
+
+Module Quiz 18.1
+1. C Residual income models are the best valuation method if the firm does
+not pay dividends, has negative free cash flow over the forecast
+horizon, and has transparent financial reporting and high earnings
+quality. (LOS 18.a)
+Module Quiz 18.2
+1. A The value of a perpetuity (equal payments forever) is equal to annual
+cash flow divided by required return:
+
+(LOS 18.d)
+2. C The constant DDM can be used to solve for the required rate of return:
+
+(LOS 18.c)
+3. B Solve the following equation for g:
+
+(LOS 18.c)
+4. A The growth rate is –3%. Therefore,
+
+(LOS 18.c)
+5. A We calculate the value of the expected cash flows at nine years
+because the formula uses the value of the dividend of t + 1 and then
+discounts that value to the present at the required rate of return of
+12%.
+
+(LOS 18.c)
+6. A EBEE’s stock price today can be calculated using the two-stage model.
+Start by finding the value of the dividends during the high-growth
+period of five years.
+
+(Alternatively, you could use your financial calculator to solve for the
+future value to find D1, D2, D3, D4, and D5.)
+
+Next find the value of the stock at the beginning of the constant
+growth period using the constant growth model:
+
+The easiest way to proceed is to use the NPV function on the financial
+calculator.
+
+The value of the firm today is $127.28 per share. (LOS 18.b)
+Module Quiz 18.3
+1. B Based on its [[Fundamentals|fundamentals]], Aerosail is most appropriately categorized
+as being in the transition phase. Multistage models are most
+appropriate for valuing firms in the transition phase. (LOS 18.k)
+2. B Solve for the [[Internal rate of return]] of the expected cash flows.
+CF0 = –39.71 C01 = 1.00 C02 = 2.00 C03 = 54.50 = 52.00 +
+2.50 CPT → [[Internal rate of return]] 13.5% (LOS 18.n)
+3. B Sustainable growth is equal to return on equity multiplied by retention
+ratio:
+SGR(AAA) = 0.30 × 0.40 = 0.120 = 12.0%
+SGR(TST) = 0.22 × 0.30 = 0.66 = 6.6%
+
+(LOS 18.p)
+4. C The required returns for the two companies based on the CAPM are
+calculated below.
+AAA: r = 0.04 + 1.2(0.11 – 0.04) = 0.04 + 0.084 = 0.124
+TST: r = 0.04 + 0.9(0.11 – 0.04) = 0.04 + 0.063 = 0.103
+
+The current values of the two stocks using the constant DDM are
+calculated next.
+
+Sustainable growth is equal to return on equity multiplied by
+retention ratio:
+SGR(AAA) = 0.30 × 0.40 = 0.120 = 12.0%
+SGR(TST) = 0.22 × 0.30 = 0.66 = 6.6%
+
+Current dividend is current EPS multiplied by [[Payout ratio|payout ratio]]:
+D0(AAA) = $2,50 × (1 – 0.4) = $1.50
+D0(TST) = $4.60 × (1 – 0.3) = $3.22
+
+Value is calculated with the Gordon constant growth model:
+
+(LOS 18.b)
+5. A AAA’s stock price today can be calculated using the two-stage model.
+Start by finding the value of the dividends during the high growth
+period of five years.
+D0 = (current EPS)(1 – retention ratio) = $2.50 × (1 – 0.40) = $1.50
+D1 = D0(1 + g)1 = $1.50(1.2)1 = $1.800
+D2 = D0(1 + g)2 = $1.50(1.2)2 = $2.160
+D3 = D0(1 + g)3 = $1.50(1.2)3 = $2.592
+D4 = D0(1 + g)4 = $1.50(1.2)4 = $3.110
+
+Next, find the value of the stock at the beginning of the constant
+growth period using the constant dividend discount model:
+
+The easiest way to proceed is to use the NPV function in the
+financial calculator.
+
+The value of the firm today is $45.69 per share. (LOS 18.n)
+6. C The estimated value of AAA using the H-model is calculated as
+follows:
+The estimated value of TST using the H-model is calculated as
+follows:
+(LOS 18.n)
+7. B Required rate of return from the macroeconomic [[Multifactor model|multifactor model]]:
+AAA: 0.04 + (0.048 × 0.63) + (0.031 × 0.47) + (0.045 × 0.70) + (0.038 × 0.98) + (–0.018
+× 0.05) = 0.1527
+TST: 0.04 + (0.048 × 0.42) + (0.031 × 0.39) + (0.045 × 0.51) + (0.038 × 0.91) + (–0.018
+× 0.21) = 0.126
+
+(LOS 18.h)
+8. C
+
+(LOS 18.p)
+
+9. C The higher ROE for JFOI is largely due to higher leverage. Assets-toequity for the industry is calculated as:
+The ratios for JFOI are calculated as:
+
+The comparison of DuPont equations for JFOI and the industry
+are shown below.
+
+Therefore, the higher leverage resulted in a larger ROE for JFOI
+relative to the industry. (LOS 18.p)
+10. C The H-model uses a half-life factor equal to one-half of the declining
+stage in years. This approach values the dividend growth at the longterm rate and adds an estimate for the additional value of the
+supernormal growth during the first stage.
+(LOS 18.i)
+
+### 11. C
+
+
+(LOS 18.n)
+12. C Stock P has model price higher than the market price and hence is
+undervalued by the market. Stock Q has model price lower than the
+market price and hence is overvalued. Stock R has model price equal
+to the market price and hence is fairly valued. (LOS 18.j)
+13. C The PVGO must be less than zero because the ROE is less than the
+required return, but the firm is still retaining and reinvesting its cash
+flow. That means it is destroying value!
+
+(LOS 18.g)
+
+
+---
+
+# Reading 19 — Free Cash Flow Valuation
+
+
+> [!tip] Exam Focus
+> This topic review introduces the concept of free cash flow. The value of a
+> firm’s stock is calculated by forecasting [[Free cash flow to the firm (FCFF)|free cash flow to the firm (FCFF)]]
+> or [[Free cash flow to equity (FCFE)|free cash flow to equity (FCFE)]] and discounting these cash flows back to
+> the present at the appropriate required rate of return. FCFF or FCFE are the
+> appropriate models to use when (1) the firm doesn’t pay dividends at all or
+> pays out fewer dividends than dictated by its cash flow, (2) free cash flow
+> tracks profitability, or (3) the analyst takes a corporate control perspective.
+> Make sure you see the parallels between the free cash flow framework and
+> the discounted dividend framework (i.e., the basic free cash flow model is
+> analogous to the Gordon growth model). Memorize the formulas for FCFF
+> and FCFE. This is a very important test topic, as many analysts prefer free
+> cash flow models to dividend discount models.
+
+
+## Module 19.1: Fcf Computation
+
+Warm-Up: Free Cash Flow
+Forget about all the complicated financial statement relationships for a
+minute and simply picture the firm as a cash processor. Cash flows into the
+firm in the form of revenue as it sells its product, and cash flows out as it
+pays its cash operating expenses (e.g., salaries and taxes, but not interest
+expense, which is a financing and not an operating expense). The firm takes
+
+the cash that’s left over and makes short-term net investments in working
+capital (e.g., [[Inventory|inventory]] and receivables) and long-term investments in
+[[Property, plant, and equipment|property, plant, and equipment]] (PP&E). The cash that remains is available
+to pay out to the firm’s investors: bondholders and common shareholders
+(let’s assume for the moment that the firm has not issued [[Preferred stock|preferred stock]]).
+That pile of remaining cash is called [[Free cash flow to the firm|free cash flow to the firm]]rm (FCFF)|[[Free cash flow to the firm|free cash flow to the firm]] (FCFF)]]
+because it’s free to pay out to the firm’s investors (see Figure 19.1). The
+formal definition of FCFF is the cash available to all of the firm’s investors,
+including stockholders and bondholders, after the firm buys and sells
+products, provides services, pays its cash operating expenses, and makes
+short- and long-term investments.
+
+> [!pnote] Professor's Note
+> ***Taxes paid are included in the definition of cash operating***
+> ***expenses for purposes of defining free cash flow, even though***
+> ***taxes aren’t generally considered a part of operating income.***
+> ***What does the firm do with its FCFF? First, it takes care of its bondholders***
+> ***because common shareholders are paid after all creditors. So it makes***
+> ***interest payments to bondholders and borrows more money from them or***
+> ***pays some of it back. However, making interest payments to bondholders***
+> ***has one advantage for common shareholders: it reduces the tax bill.***
+> ***The amount that’s left after the firm has met all its obligations to its other***
+> ***investors is called [[Free cash flow to equity (FCFE)|free cash flow to equity (FCFE)]], as can be seen in***
+>
+> *****Figure 19.1. However, the board of directors still has discretion over what*****
+>
+> ***to do with that money. It could pay it all out in dividends to its common***
+> ***shareholders, but it might decide to only pay out some of it and put the rest***
+> ***in the bank to save for next year. That way, if FCFE is low the next year, it***
+> ***won’t have to cut the dividend payment. So FCFE is the cash available to***
+> ***common shareholders after funding capital requirements, [[Working capital|working capital]]***
+> ***needs, and debt financing requirements.***
+
+> [!pnote] Professor's Note
+> ***You need to know these general definitions. We will explore how***
+> ***these two cash flow measures are estimated using accounting***
+> ***data, and in the process we’ll throw a lot of formulas at you. It’s***
+>
+> ***much easier to remember these formulas and repeat them on the***
+> ***exam if you have a conceptual understanding of what FCFF and***
+> ***FCFE represent. That way if, for example, you happen to forget***
+> ***the FCFE formula on exam day, you still have a chance to***
+> ***reconstruct it by thinking through what FCFE really is.***
+>
+> *****Figure 19.1: FCFF and FCFE*****
+
+> [!pnote] Professor's Note
+> ***You may be wondering, why does net borrowing affect FCFE but***
+> ***not FCFF? Think of FCFF as the cash flow generated by the***
+> ***firm’s core business. Borrowing isn’t generated by the firm’s core***
+> ***business, so net borrowing has no impact on FCFF. On the other***
+> ***hand, think of FCFE as cash that could be given to shareholders,***
+> ***if management wanted to. Net borrowing increases FCFE.***
+>
+> ***> **LOS 19.a:** Compare the [[Free cash flow to the firm (FCFF)|free cash flow to the firm (FCFF)]]***
+> ***and [[Free cash flow to equity (FCFE)|free cash flow to equity (FCFE)]] approaches to***
+> ***valuation.***
+>
+> ***We will use the typical discounted cash flow technique for free cash flow***
+> ***valuation, in which we estimate value today by discounting expected future***
+> ***cash flows at the appropriate required return. What makes this complicated***
+> ***is that we’ll end up with two values we want to estimate (firm value and***
+> ***equity value), two cash flow definitions (FCFF and FCFE), and two***
+> ***required returns [[[WACC]] ([[WACC]]) and required***
+> ***return on equity]. The key to this question on the exam is knowing which***
+> ***cash flows to discount at which rate to estimate which value.***
+> ***The value of the firm is the present value of the expected future FCFF***
+> ***discounted at the WACC (this is so important we’re going to repeat it as a***
+> ***formula):***
+> ***firm value = FCFF discounted at the WACC***
+> ***The [[Weighted average cost of capital|weighted average cost of capital]]al|cost of capital]] is the required return on the firm’s***
+> ***assets. It’s a weighted average of the required return on common equity and***
+> ***the after-tax required return on debt. The formula is presented later in this***
+> ***topic review.***
+
+> [!pnote] Professor's Note
+> ***Technically, what we’ve called firm value is actually the value of***
+> ***the operating assets (the assets that generate cash flow).***
+> ***Significant nonoperating assets, such as excess cash (not total***
+> ***cash on the balance sheet), excess marketable securities, or land***
+> ***held for investment should be added to this estimate to calculate***
+> ***total firm value. Most of the time, the value of these assets is***
+> ***small in relation to the present value of the FCFFs, so we don’t***
+> ***lose much by ignoring it. If you are asked to calculate the value of***
+> ***the firm using the FCFF approach, calculate the present value of***
+> ***the FCFFs and then look for any additional information in the***
+> ***problem that specifically says “excess cash and marketable***
+> ***securities” or “land held for investment.”***
+> ***The value of the firm’s equity is the present value of the expected future***
+> ***FCFE discounted at the required return on equity:***
+> ***equity value = FCFE discounted at the required return on equity***
+>
+> ***Given the value of the firm, we can also calculate equity value by simply***
+> ***subtracting out the market value of the debt:***
+> ***equity value = firm value − market value of debt***
+> ***Details of the calculations are discussed later in this topic review. However,***
+> ***this is an extremely important concept, so memorize it now.***
+
+> [!pnote] Professor's Note
+> ***A very common mistake is to use the wrong [[Discount rate|discount rate]] or the***
+> ***wrong cash flow definition. Remember, always discount FCFF at***
+> ***the WACC to find firm value, and discount FCFE at the required***
+> ***return on equity to estimate equity value.***
+> ***The differences between FCFF and FCFE account for differences in capital***
+> ***structure and consequently reflect the perspectives of different capital***
+> ***suppliers. FCFE is easier and more straightforward to use in cases where***
+> ***the company’s [[Capital structure|capital structure]] is not particularly volatile. On the other***
+> ***hand, if a company has negative FCFE and significant debt outstanding,***
+> ***FCFF is generally the best choice. We can always estimate equity value***
+> ***indirectly by discounting FCFF to find firm value and then subtracting the***
+> ***market value of debt to arrive at equity value.***
+> ***When a firm’s [[Capital structure|capital structure]] is volatile, the [[Adjusted present value|adjusted present value]]***
+> ***(APV) approach can also be used. Under the APV approach, the firm’s***
+> ***unlevered cash flows (i.e., cash flows assuming no impact of leverage) are***
+> ***discounted at the firm’s unlevered [[Cost of equity]]. NPV of debt (the value of***
+> ***the tax shield, less the cost of [[Financial distress|financial distress]]) is then added to the***
+> ***unlevered value.***
+>
+> ***> **LOS 19.b:** Explain the ownership perspective implicit in the***
+> ***FCFE approach.***
+> ***The ownership perspective in the free cash flow approach is that of an***
+> ***acquirer who can change the firm’s dividend policy, which is a control***
+> ***perspective, or for [[Minority shareholders|minority shareholders]] of a company that is in-play (i.e.,***
+> ***it is a takeover target with potential bidders). The ownership perspective***
+> ***implicit in the dividend discount approach is that of a minority owner who***
+>
+> ***has no direct control over the firm’s dividend policy. If investors are willing***
+> ***to pay a premium for control of the firm, there may be a difference between***
+> ***the values of the same firm derived using the two models.***
+> ***Analysts often prefer to use free cash flow rather than dividend-based***
+> ***valuation for the following reasons:***
+> ***Many firms pay no, or low, cash dividends.***
+> ***Dividends are paid at the discretion of the board of directors. It may,***
+> ***consequently, be poorly aligned with the firm’s long-run profitability.***
+> ***If a company is viewed as an acquisition target, free cash flow is a more***
+> ***appropriate measure because the new owners will have discretion over its***
+> ***distribution (control perspective).***
+> ***Free cash flows may be more related to long-run profitability of the firm***
+> ***as compared to dividends.***
+
+### Module Quiz 19.1
+
+1. Chamber Group is analyzing the potential takeover of Outmenu, Inc. Chamber
+has gathered the following data on Outmenu. All figures are in millions of dollars.
+
+The most appropriate model for valuing Outmenu is the:
+A. [[Free cash flow to equity model|free cash flow to equity model]].
+B. dividend discount H-model.
+C. [[Free cash flow to the firm model|free cash flow to the firm model]].
+2. An analyst calculates firm value using a single-stage model on December 31,
+2023, as:
+
+Assuming there are no nonoperating assets on the balance sheet, the analyst
+has most likely:
+A. correctly calculated firm value.
+
+B. incorrectly calculated firm value. The [[Weighted average cost of capital|weighted average cost of capital]]al|cost of capital]] should
+be substituted for the required return on equity.
+C. incorrectly calculated firm value. The [[Weighted average cost of capital|weighted average cost of capital]]al|cost of capital]] should
+be substituted for the required return on equity, and FCFE2023(1 + g) should
+be substituted for FCFE2024.
+
+
+## Module 19.2: Fixed Capital and Working Capital
+> **LOS 19.c:** Explain the appropriate adjustments to net
+income, earnings before interest and taxes (EBIT), earnings
+before interest, taxes, depreciation, and amortization
+(EBITDA), and [[Cash Flow from Operations|cash flow from operations]] (CFO) to
+calculate FCFF and FCFE.
+You may feel overwhelmed by the formulas in this topic review. We’ll show
+you the ones you need to know for this LOS without showing you the
+derivations. The basic idea is that we can arrive at FCFF by starting with
+one of four different financial statement items ([[Net income|net income]], EBIT, EBITDA,
+or [[Cash Flow from Operations|cash flow from operations]] [CFO]) and then making the appropriate
+adjustments. Then we can calculate FCFE from FCFF or by starting with
+[[Net income|net income]] or CFO.
+Calculating FCFF from [[Net income|net income]]. FCFF is calculated from [[Net income|net income]]
+as:
+
+Notice that net income does not represent free cash flows defined as FCFF,
+so we have to make four important adjustments to net income to get to
+FCFF: noncash charges, fixed capital investment, [[Working capital|working capital]]
+investment, and interest expense.
+
+Noncash charges. Noncash charges are added back to net income to arrive
+at FCFF because they represent expenses that reduced reported net income
+but didn’t actually result in an outflow of cash. The most significant
+noncash charge is usually depreciation. Here are some other examples of
+noncash charges that often appear on the cash flow statement:
+Amortization of intangibles should be added back to net income, much
+like depreciation.
+Provisions for [[Restructuring|restructuring]] charges and other noncash losses should be
+added back to net income. However, if the firm is accruing these costs to
+cover future cash outflows, then the forecast of future free cash flow
+should be reduced accordingly. Gains or losses on sale of long-term assets
+are also removed (they would be accounted for under fixed capital
+investment).
+Income from [[Restructuring|restructuring]] charge reversals and other noncash gains
+should be subtracted from net income.
+For a bond issuer, the amortization of a bond discount should be added
+back to net income, and the accretion of the bond premium should be
+subtracted from net income to calculate FCFF.
+Deferred taxes, which result from differences in the timing of reporting
+income and expenses for accounting versus tax purposes, must be
+carefully analyzed. Over time, differences between book and taxable
+income should offset each other and have no significant effect on overall
+cash flows. If, however, the analyst expects [[Deferred tax liabilities|deferred tax liabilities]] to
+continue to increase (i.e., not reverse), increases in [[Deferred tax liabilities|deferred tax liabilities]]
+should be added back to net income. Increases in [[Deferred tax assets|deferred tax assets]] that
+are not expected to reverse should be subtracted from net income.
+Fixed capital investment. Investments in fixed capital do not appear on the
+[[Income statement|income statement]], but they do represent cash leaving the firm. That means
+we have to subtract them from net income to estimate FCFF. Fixed capital
+investment is a net amount: it is equal to the difference between capital
+expenditures (investments in long-term fixed assets) and the proceeds from
+the sale of long-term assets:
+
+$$
+FCInv = capital expenditures − proceeds from sales of long-term assets
+$$
+
+
+Both capital expenditures and proceeds from long-term asset sales (if any)
+are likely to be reported on the firm’s [[Statement of cash flows|statement of cash flows]], as cash flow
+from [[Investing activities|investing activities]] (CAPEX acquired via a non-cash exchange would
+be reported in the footnotes). If no long-term assets were sold during the
+year, then capital expenditures will also equal the change in the gross PP&E
+account from the balance sheet. However, gross PP&E is often not
+provided; in that case we can use the formula based on net PP&E (shown in
+the following).
+If no long-term assets were sold during the year:
+
+$$
+FCInv = ending net PP&E − beginning net PP&E + depreciation
+$$
+
+If long-term assets were sold during the year, then:
+Determine capital expenditures from either (1) an item in the statement of
+cash flows called something like “purchase of fixed assets” or “purchases
+of PP&E” under cash flow from [[Investing activities|investing activities]], or (2) data provided
+in the vignette.
+Determine proceeds from sales of fixed assets from either (1) an item in
+the [[Statement of cash flows|statement of cash flows]] called something like “proceeds from disposal
+of fixed assets,” or (2) data provided in the vignette.
+Calculate FCInv = capital expenditures − proceeds from sale of long-term
+assets.
+If capital expenditures or sales proceeds are not given directly, find gain
+(loss) on asset sales from the income statement and PP&E figures from
+balance sheet. Calculate FCInv = ending net PP&E − beginning net PP&E
++ depreciation − gain on sale. If there is a loss on sale of assets, add that
+instead of deducting it.
+
+### Example: Calculating FCInv with no long-term asset sales
+
+
+Airbrush, Inc., financial statements for 2023 include the following
+information:
+Selected Financial Data
+
+There were no sales of PP&E during the year; depreciation expense was
+$300. Calculate Airbrush’s FCInv for 2023.
+Answer:
+
+Note that this is the same as the change in gross PP&E.
+
+### Example: Calculating FCInv with long-term asset sales
+
+
+Suppose that Airbrush reports capital expenditures of $1,400, long-term
+asset sales of $600, and depreciation expense of $850. The long-term
+assets sold were fully depreciated. Calculate Airbrush’s revised FCInv for
+2023.
+Answer:
+
+[[Working capital|Working capital]] investment. The investment in net [[Working capital|working capital]] is equal
+to the change in working capital, excluding cash, [[Cash equivalents|cash equivalents]], notes
+payable, and the current portion of long-term debt. Note that there would
+be a + sign in front of a reduction in working capital; we would add it back
+because it represents a cash inflow.
+Interest expense. Interest was expensed on the income statement, but it
+represents a financing cash flow to bondholders that is available to the firm
+before it makes any payments to its capital suppliers. Therefore, we have to
+add it back. However, we don’t add back the entire interest expense, only
+the after-tax interest cost, because paying interest reduces our tax bill. For
+
+### Example: , if the marginal tax rate is 30%, every dollar of interest paid
+
+
+reduces the tax bill by 30 cents. The net effect on free cash flow is an
+increase in the after-tax interest cost of 70 cents.
+
+
+## Module 19.3: Variations of Formulae
+
+
+available
+
+**Figure 19.2: Calculating FCFF and FCFE Using the Statement of Cash**
+
+online.
+Flows
+
+Unfortunately, you have to memorize a number of free cash flow formulas
+to be fully prepared for the exam. However, we can use the statement of
+cash flows (as it is required to be reported under U.S. [[GAAP]]) as a
+framework to provide some intuition concerning the free cash flow
+formulas and perhaps make it a little easier to remember these formulas.
+Given our conceptual discussion of FCFF and FCFE, it would make sense
+to define them as shown in the first column of Figure 19.2.
+
+> [!pnote] Professor's Note
+> ***Depreciation is added back in full because we will claim it on our***
+> ***taxes, yet it doesn’t represent an actual cash flow. Interest isn’t***
+>
+> ***added back in full, because if we retain that cash, we’ll have***
+> ***lower interest expense, and thus higher tax.***
+> ***[[Free cash flow to the firm|Free cash flow to the firm]] is the [[Operating cash flow|operating cash flow]] left after the firm***
+> ***makes working capital and fixed capital investment. Therefore, we can get***
+> ***close to the actual calculation by using the first column in Figure 19.2:***
+>
+> ***We’re not quite there, however, because of one unique feature of the***
+> ***[[Statement of cash flows|statement of cash flows]]: interest expense is considered an operating cash***
+> ***flow, whereas we’d like to call it a financing cash flow. Because interest is***
+> ***tax deductible, the after-tax interest expense [interest × (1 – tax rate)]***
+> ***reduces net income; but we want to add it back to net income and then***
+> ***subtract it out as a financing cash outflow. By doing that, we go from our***
+> ***(almost) definition to the actual formula for FCFF (as shown in the second***
+> ***column in Figure 19.2):***
+>
+> ***We can also use the second column format to calculate FCFE directly from***
+
+### Fcff:
+
+Notice that any financial decisions that affect cash flows below FCFE (e.g.,
+dividends, share repurchases, and share issues) do not affect FCFF or
+
+### Fcfe.
+
+Calculating FCFF from EBIT. FCFF can also be calculated from earnings
+before interest and taxes (EBIT):
+
+If we start with earnings before interest and taxes (EBIT), we have to add
+back depreciation because it was subtracted out to get to EBIT. However,
+because EBIT is before interest and taxes, we don’t have to take out interest
+(remember that it’s a financing cash flow). We do have to adjust for taxes,
+though, by computing after-tax EBIT, which is EBIT multiplied by one
+
+minus the tax rate. We also make the same adjustments as we did before by
+subtracting out fixed capital and working capital investment.
+
+> [!pnote] Professor's Note
+> ***Because many noncash adjustments occur on the income***
+> ***statement below EBIT, we don’t need to adjust for them when***
+> ***calculating free cash flow if we start with EBIT. We assume that***
+> ***the only noncash charge that appears above EBIT is depreciation***
+> ***in the equation “FCFF from EBIT.” In general, however, the rule***
+> ***is to adjust for any noncash charge that appears on the income***
+> ***statement above the income statement item you’re starting with.***
+> ***Calculating FCFF from EBITDA. We can also start with earnings before***
+> ***interest, taxes, depreciation, and amortization (EBITDA) to arrive at FCFF:***
+>
+> ***Remember that EBITDA is before depreciation, so we only have to add***
+> ***back the depreciation tax shield, which is depreciation multiplied by the tax***
+> ***rate. Even though depreciation is a noncash expense, the firm reduces its***
+> ***tax bill by expensing it, so the free cash flow available is increased by the***
+> ***taxes saved.***
+> ***Calculating FCFF from CFO. Finally, FCFF can also be estimated by***
+> ***starting with [[Cash Flow from Operations|cash flow from operations]] (CFO) from the statement of cash***
+> ***flows:***
+>
+> ***[[Cash Flow from Operations|Cash flow from operations]] is equal to net income plus noncash charges less***
+> ***working capital investment. We have to add back to CFO the after-tax***
+> ***interest expense to get to FCFF because interest expense (and the resulting***
+> ***tax shield) was reflected on the income statement to arrive at net income.***
+> ***We also have to subtract out fixed capital investment since CFO only***
+> ***includes changes in working capital investment.***
+
+> [!pnote] Professor's Note
+> ***Which formula should you use on the exam? I suggest that, at a***
+> ***minimum, you memorize the first one (that starts with net***
+> ***income) and the last one (that starts with cash flow from***
+> ***operations). That way, given either an income statement or a cash***
+> ***flow statement, you can calculate FCFF. However, don’t be***
+> ***surprised if you’re required to know the other two as well.***
+> ***Calculating FCFE from FCFF. Calculating FCFE is easy once we have***
+
+### Fcff:
+
+
+If we start with FCFF, we have to adjust for the two cash flows to
+bondholders to calculate FCFE: the after-tax interest expense and any new
+long- or short-term borrowings. We only subtract the after-tax interest
+expense because paying interest reduces the firm’s tax bill and reduces the
+cash available to the shareholders by the interest paid minus the taxes
+saved.
+Calculating FCFE from net income. We can also calculate FCFE from net
+income by making some of the usual adjustments. The two differences
+between this “FCFE from net income” formula and the “FCFF from net
+income formula” are (1) after-tax interest expense is not added back and (2)
+net borrowing is added back.
+Calculating FCFE from CFO. Finally, we can calculate FCFE from CFO
+by subtracting out fixed capital investment (which reduces cash available to
+shareholders) and adding back net borrowing (which increases the cash
+available to shareholders).
+
+Free Cash Flow With [[Preferred stock|Preferred Stock]]
+The FCFF and FCFE formulas assume that the company uses only debt and
+common equity to raise funds. The use of preferred stock requires the
+
+analyst to revise the FCFF and FCFE formulas to reflect the payment of
+preferred dividends and any issuance or repurchase of such shares.
+Remember to treat preferred stock just like debt, except preferred dividends
+are not tax deductible.
+Specifically, any preferred dividends should be added back to the FCFF,
+just as after-tax interest charges are in the net [[Income approach|income approach]] to
+generating FCFF. This approach assumes that net income is net income to
+common shareholders after preferred dividends have been subtracted out.
+The WACC should also be revised to reflect the percent of total capital
+raised by preferred stock and the cost of that capital source. The only
+adjustment to FCFE would be to modify net borrowing to reflect new debt
+borrowing and net issuances by the amount of the preferred stock. Keep in
+mind that relatively few firms issue preferred stock.
+
+### Module Quiz 19.2, 19.3
+
+Use the following information to answer Questions 1 through 3.
+Meyer Henderson, CFA, is analyzing the financials of Roth Department Stores. He
+intends to use a [[Free cash flow to the firm (FCFF)|free cash flow to the firm (FCFF)]] model to value Roth’s common
+stock. In the 2023 financial statements and footnotes he has identified the following
+items:
+
+Item #1: Roth reported depreciation and software amortization of
+$23 million in 2023.
+Item #2: The deferred tax liability increased by $17 million in 2023.
+Item #3: Roth reported income of $6 million in 2023 from the
+reversal of previous [[Restructuring|restructuring]] charges related to store closings
+in 2022.
+Item #4: Net income totaled $173 million in 2023.
+Item #5: The net increase in noncash net working capital accounts
+was $47 million in 2023.
+Item #6: Net capital spending totaled $86 million in 2023.
+Item #7: Roth reported interest expense of $19 million.
+Henderson estimated Roth’s marginal tax rate to be 35%. He also expects Roth to
+be profitable for the foreseeable future, so he does not expect the deferred tax
+liability to reverse. As the base-year projection for his FCFF valuation, Henderson
+calculates FCFF for 2023 as:
+
+1. In implementing the FCFF model to value Roth, did Henderson correctly treat
+Items #1 and #2?
+A. Both items were treated correctly.
+B. One item was treated correctly and the other incorrectly.
+C. Neither item was treated correctly.
+2. In implementing the FCFF model to value Roth, did Henderson correctly treat
+Items #3 and #4?
+A. Both items were treated correctly.
+B. One item was treated correctly and the other incorrectly.
+C. Neither item was treated correctly.
+3. In implementing the FCFF model to value Roth, did Henderson correctly treat
+Items #5 and #7?
+A. Both items were treated correctly.
+B. One item was treated correctly and the other incorrectly.
+C. Neither item was treated correctly.
+4. Imagine that we are provided the following information for a firm:
+Net income = $50.
+Working capital investment = $4.
+Beginning gross fixed assets = $90; ending gross fixed assets = $136.
+Beginning [[Accumulated depreciation|accumulated depreciation]] = $30; ending [[Accumulated depreciation|accumulated depreciation]]
+= $40.
+Depreciation expense = $27.
+Net borrowing = $0.
+In addition, a piece of equipment with an original [[Book value|book value]] of $19 was sold for
+$10. The equipment had a book value at the time of the sale of $2. The gain was
+classified as unusual. [[Free cash flow to equity|Free cash flow to equity]] is closest to:
+
+### A. $6.
+
+
+### B. $10.
+
+
+### C. $18.
+
+5. Suppose an analyst uses the [[Statement of cash flows|statement of cash flows]] to calculate free cash flow
+to the firm (FCFF) as cash flow from operations less fixed capital investment, and
+[[Free cash flow to equity (FCFE)|free cash flow to equity (FCFE)]] as FCFF (calculated as before) plus net
+borrowing. The firm has short- and long-term debt on its balance sheet. Has the
+analyst correctly stated, overstated, or understated FCFF and FCFE?
+
+
+## Module 19.4: Example
+
+
+> **LOS 19.d:** Calculate FCFF and FCFE.
+Let’s try an example to see if all these formulas really work.
+### Example: Calculating FCFF and FCFE
+
+
+Anson Ford, CFA, is analyzing the financial statements of Sting’s
+Delicatessen. He has a 20X6 income statement and balance sheet, as well
+as 20X7 income statement, balance sheet, and cash flow from operations
+forecasts (as shown in the following tables). Assume there will be no
+sales of long-term assets in 20X7. Calculate forecasted free cash flow to
+the firm (FCFF) and free cash flow to equity (FCFE) for 20X7.
+Sting’s Income Statement
+
+Sting’s Balance Sheet
+
+Sting’s Cash Flow From Operations Forecast
+
+Answer:
+Fixed capital investment is equal to capital expenditures (because there
+are no asset sales), which is equal to the change in net PP&E plus
+depreciation:
+
+Working capital investment is the change in the working capital accounts,
+excluding cash and short-term borrowings:
+
+Given that depreciation is the only noncash charge, we can calculate
+FCFF from net income:
+
+It’s entirely possible that FCFF can be negative in the short term. We’ll
+talk more later about how to value firms with negative FCFF.
+Net borrowing is the difference between the new debt issues and debt
+repayments, and is calculated as the change in long- and short-term debt:
+
+
+### Example: Calculating FCFF and FCFE with the other formulas
+
+
+Calculate FCFF starting with EBIT, EBITDA, and CFO, and calculate
+FCFE starting with NI and CFO.
+Answer:
+
+
+### Example: Calculating FCFF and FCFE using the statement of cash
+
+
+flows
+In order to see how all these formulas fit together, reconstruct the
+framework from Figure 19.2 using the actual numbers from the previous
+
+### Example: .
+
+Answer:
+
+An analyst may also be concerned about the uses of cash flow. Typically,
+this is done to verify the FCFF calculation, as FCFF sources must always
+equal FCFF uses, and FCFE sources must always equal FCFE uses.
+
+
+### Module Quiz 19.4
+
+1. The adjustments to cash flow from operations necessary to obtain free cash flow
+to the firm (FCFF) are:
+A. add noncash charges, subtract fixed capital investment, and subtract working
+capital investment.
+B. add after-tax interest expense and subtract fixed capital investment.
+C. add net borrowing and subtract fixed capital investment.
+
+
+## Module 19.5: Fcf Other Aspects
+
+
+> **LOS 19.e:** Describe approaches for forecasting FCFF and
+
+### Fcfe.
+Two approaches are commonly used to forecast future FCFF and FCFE.
+The first method is to calculate historical free cash flow and apply a growth
+rate under the assumptions that growth will be constant and fundamental
+factors will be maintained. For example, we could calculate free cash flow
+in the most recent year and then forecast it to grow at 8% for four years and
+4% forever after that. This is the same method we used for dividend
+discount models. Note that the growth rate for FCFF is usually different
+than the growth rate for FCFE.
+The second method is to forecast the [[Underlying|underlying]] components of free cash
+flow and calculate each year separately. This is a more realistic, more
+flexible, and more complicated method because we can assume that each
+component of free cash flow is growing at a different rate over some shortterm horizon. This often ties sales forecasts to future capital expenditures,
+depreciation expenses, and changes in working capital. Importantly, capital
+expenditures have two dimensions: outlays that are needed to maintain
+existing capacity and marginal outlays that are needed to support growth.
+Thus, the first type of outlay is related to the current level of sales, and the
+second type depends on the predicted sales growth.
+In forecasting FCFE with the second method, it is common to assume that
+the firm maintains a target debt-to-asset ratio for net new investment in
+fixed capital and working capital. For example, if the target debt ratio is
+40% and fixed capital investment is $60 million, $24 million (0.40
+multiplied by $60 million) is assumed to be financed with debt and $36
+million with equity. Thus, net borrowing may be expressed without having
+to specifically forecast underlying debt issuance or repayment. This implies
+that we can forecast FCFE with the following formula:
+
+
+> **LOS 19.f:** Explain how dividends, share repurchases, share
+issues, and changes in leverage may affect future FCFF and
+
+
+### Fcfe.
+
+This is a deceptively simple LOS. The short answer is that dividends, share
+repurchases, and share issues have no effect on FCFF and FCFE; changes in
+leverage have only a minor effect on FCFE and no effect on FCFF.
+The reason is very straightforward. FCFF and FCFE represent cash flows
+available to investors and shareholders, respectively, before any payout
+decisions. Dividends and share repurchases, on the other hand, represent
+uses of those cash flows; as such, these financing decisions don’t affect the
+level of cash flow available. Changes in leverage will have a small effect on
+FCFE. For example, a decrease in leverage through a repayment of debt
+will decrease FCFE in the current year and increase forecasted FCFE in
+future years as interest expense is reduced.
+
+**Figure 19.3: Effect of Financing Decisions on Free Cash Flow**
+
+
+Note: [[Share repurchase|Share repurchase]] (or issue) is a use of free cash flow; not a determinant.
+* For example, if leverage increases, FCFE will be higher in the current year (net borrowing) and lower in
+future years (interest expense).
+
+
+> **LOS 19.g:** Compare the FCFE model and dividend discount
+models.
+The free cash flow to equity approach takes a control perspective that
+assumes that recognition of value should be immediate. Dividend discount
+models take a minority perspective, under which value may not be realized
+until the dividend policy accurately reflects the firm’s long-run profitability.
+
+> **LOS 19.h:** Evaluate the use of net income and EBITDA as
+proxies for cash flow in valuation.
+
+Net income is a poor proxy for FCFE. We can see that by simply examining
+the formula for FCFE in terms of NI.
+Once again, we have not burdened you with the derivation:
+Net income includes noncash charges like depreciation that have to be
+added back to arrive at FCFE. In addition, it ignores cash flows that don’t
+appear on the income statement, such as investments in working capital and
+fixed assets as well as net borrowings.
+
+EBITDA doesn’t reflect the cash taxes paid by the firm, and it ignores the
+cash flow effects of the investments in working capital and fixed capital.
+
+> **LOS 19.i:** Explain the use of [[Sensitivity analysis|sensitivity analysis]] in FCFF and
+FCFE valuations.
+[[Sensitivity analysis|Sensitivity analysis]] shows how sensitive an analyst’s valuation results are
+to changes in each of a model’s inputs. Some variables have a greater
+impact on valuation results than others. The importance of various
+forecasting errors can be assessed through comprehensive sensitivity
+analysis.
+
+> [!pnote] Professor's Note
+> ***On the exam, it is unlikely that you will be asked to conduct a***
+> ***comprehensive [[Sensitivity analysis|sensitivity analysis]] that includes numerous***
+> ***calculations. However, a few key calculations and/or an***
+> ***interpretation of a [[Sensitivity analysis|sensitivity analysis]] are quite possible.***
+> ***There are two major sources of error in valuation analysis:***
+> ***Estimating the future growth in FCFF and FCFE. Growth forecasts***
+> ***depend on a firm’s future profitability, which in turn depends on sales***
+> ***growth, changes in profit margin, position in the life cycle, its competitive***
+> ***strategy, and the overall profitability of the industry.***
+>
+> ***The chosen base years for the FCFF or FCFE growth forecasts. A***
+> ***representative base year must be chosen, or all of the subsequent analysis***
+> ***and valuation will be flawed.***
+> ***For example, suppose an analyst is conducting a sensitivity analysis on the***
+> ***value of a beverage stock using the FCFE approach. She provides high and***
+> ***low estimates of the following variables [[Consistent|consistent]] with their forecasted***
+> ***ranges in her model: FCFE, beta, risk-free rate of return, equity risk***
+> ***premium, and the FCFE growth rate. This produces a series of value***
+> ***estimates that reveal the sensitivity of her valuation estimate to variations in***
+> ***her underlying inputs.***
+>
+> ***> **LOS 19.j:** Explain the single-stage (stable-growth), twostage, and three-stage FCFF and FCFE models and justify***
+> ***the selection of the appropriate model given a company’s***
+> ***characteristics.***
+>
+> ***Single-Stage FCFF Model***
+> ***The single-stage FCFF model is analogous to the Gordon growth model***
+> ***discussed in the previous topic review on dividend valuation models. The***
+> ***single-stage FCFF model is useful for stable firms in mature industries. The***
+> ***model assumes that (1) FCFF grows at a constant rate (g) forever, and (2)***
+> ***the growth rate is less than the [[Weighted Average Cost of Capital (WACC)|weighted average cost of capital (WACC)]].***
+> ***The formula should look familiar; it’s the Gordon growth model with FCFF***
+> ***replacing dividends and WACC replacing required return on equity.***
+>
+> ***The WACC is the weighted average of the rates of return required by each***
+> ***of the capital suppliers (usually just equity and debt) where the weights are***
+>
+> ***the proportions of the firm’s total market value from each capital source:***
+>
+> ***It is assumed that payments to stockholders are not tax deductible, and***
+> ***payments to debtholders are tax deductible. Thus, the after-tax [[Cost of debt]]***
+> ***is the before-tax rate of return on debt multiplied by one minus the firm’s***
+> ***marginal tax rate. WACC will change over time as the firm’s capital***
+> ***structure changes. Therefore, analysts usually use [[Target capital structure|target capital structure]]***
+> ***weights rather than actual weights. On the exam, use target weights if they***
+> ***are given in the problem; otherwise use actual market-value weights.***
+>
+> ***Single-Stage FCFE Model***
+> ***The single-stage constant-growth FCFE valuation model is analogous to the***
+> ***single-stage FCFF model, with FCFE instead of FCFF and required return***
+> ***on equity instead of WACC:***
+
+> [!pnote] Professor's Note
+> ***It’s quite likely that a firm’s growth rate in FCFF will be different***
+> ***than its FCFE growth rate.***
+> ***The single-stage FCFE model is often used in international valuation,***
+> ***especially for companies in countries with high inflationary expectations***
+> ***when [[Estimation|estimation]] of nominal growth rates and required returns is difficult. In***
+> ***those cases, real (i.e., [[Inflation|inflation]]-adjusted) values are estimated for the inputs***
+>
+> ***to the single-stage FCFE model: FCFE, the growth rate, and the required***
+> ***return.***
+>
+> ***Multistage Models: How Many Variations Are***
+> ***There?***
+> ***This is where things get a little complicated. If we analyze every possible***
+> ***[[Permutation|permutation]] of multistage free cash flow models that might appear on the***
+> ***exam, you would be overwhelmed. There are at least three important ways***
+> ***that these models can differ. Let’s take them one at a time, but keep in mind***
+> ***the basic valuation principle at work here: value is always estimated as the***
+> ***present value of the expected future cash flows discounted at the***
+> ***appropriate discount rate.***
+> ***FCFF versus FCFE: Remember that the value of the firm is the present***
+> ***value of the FCFF discounted at the WACC; the value of equity is the***
+> ***present value of the FCFE discounted at the required return on equity.***
+> ***Two-stage versus three-stage models: We can model the future growth***
+> ***pattern in two stages or three. There are several variations of each approach***
+> ***depending on how we model growth within the stages.***
+> ***Forecasting growth in total free cash flow (FCFF or FCFE) versus***
+> ***forecasting the growth rates in the components of free cash flow: The***
+> ***simple free cash flow model, in which we forecast total FCFE or FCFF,***
+> ***looks a lot like the multistage dividend discount models. The benefit of***
+> ***using free cash flow models, however, is when we refine our approach by***
+> ***forecasting the values and/or growth rates in the components of free cash***
+> ***flow over the first stage and then calculate free cash flow in each year using***
+> ***one of our formulas. There are even variations of this approach in which we***
+> ***start with [[Earnings per share|earnings per share]] instead of sales.***
+>
+> ***Model Assumptions and Firm Characteristics***
+> ***The assumptions for the two- and three-stage free cash flow models are***
+> ***simply the assumptions we make about the projected pattern of growth in***
+>
+> ***free cash flow. We would use a two-stage model for a firm with two stages***
+> ***of growth: a short-term supernormal growth phase and a long-term stable***
+> ***growth phase. For example, a firm with a valuable patent that expires in***
+> ***seven years might experience a high growth rate for seven years and then***
+> ***immediately drop to a long-term, lower growth rate beginning in the eighth***
+> ***year. We would use a three-stage model for a firm that we expect to have***
+> ***three distinct stages of growth (e.g., a growth phase, a mature phase, and a***
+> ***transition phase).***
+
+### Example: s of Two-Stage FCFF and FCFE Models
+
+Let’s discuss some examples of two-stage models. We’re going to wait until
+the next LOS, however, to start doing the number crunching. For now,
+concentrate on the differences in the assumptions: FCFF versus FCFE,
+growth pattern in the first stage, and forecasting total free cash flow versus
+forecasting its components.
+We could analyze a:
+Two-stage FCFF model in which FCFF is projected to grow at 20% for
+the first four years and then 4% every year thereafter.
+Two-stage FCFE model in which FCFE declines from 20% to 4% over
+four years and then stays at 4% forever.
+Two-stage FCFE model in which sales grow at 20% for four years, the net
+profit margin is constant at 8%, fixed capital investment is equal to 60%
+of the dollar increase in sales, working capital investment is equal to 25%
+of the dollar increase in sales, and the debt ratio is 50%. Given a starting
+value for sales, we have all we need to forecast FCFE for the first four
+years.
+Remember that we also need a terminal value at the end of the first growth
+stage for each of these examples. The most common method for estimating
+terminal value is to apply a single-stage free cash flow model at the point in
+time when growth settles down to its long-run level. This is the same
+method we used in the last topic review with dividend discount models.
+
+
+### Example: s of Three-Stage FCFF and FCFE
+
+Models
+Three-stage models have all the complications of the two-stage models,
+with an additional growth stage to consider. Keep in mind, however, that
+what we’re trying to do is forecast FCFF or FCFE over some interim period
+with three distinct stages of growth, estimate the terminal value, and then
+estimate the value of the firm or the value of the equity today as the present
+value of those cash flows discounted at the appropriate required return. For
+
+### Example: , we could analyze a:
+
+Three-stage FCFE model in which FCFE grows at 30% for two years
+(Stage 1), 15% for four years (Stage 2), and then 5% forever (Stage 3).
+Three-stage FCFF model in which FCFF grows at 25% for three years
+(Stage 1), declines to 4% over next the five years (Stage 2), then stays at
+4% forever (Stage 3).
+Three-stage FCFE model in which we forecast the components of FCFE
+over three different stages.
+
+> **LOS 19.k:** Estimate a company’s value using the
+appropriate free cash flow model(s).
+We’ve already discussed free cash flow models, so now let’s get to the hard
+work: actually calculating value using these models. We won’t go through
+every different possible example, but we will give you a range of examples
+that cover nearly every important concept.
+
+Single-Stage FCFF Model
+The first example is a basic single-stage FCFF model where we first
+calculate WACC as the appropriate required return.
+
+### Example: Calculating firm value with a single-stage FCFF model
+
+
+Knappa Valley Winery’s (KVW) most recent FCFF is $5,000,000.
+KVW’s target [[Debt-to-equity ratio|debt-to-equity ratio]] is 0.25. The market value of the firm’s
+debt is $10,000,000, and KVW has 2,000,000 shares of common stock
+outstanding. The firm’s tax rate is 40%, the shareholders require a return
+of 16% on their investment, the firm’s before-tax [[Cost of debt|cost of debt]] is 8%, and
+the expected long-term growth rate in FCFF is 5%. Calculate the value of
+the firm and the value per share of the equity.
+Answer:
+Note that the problem gives the FCFF in the most recent year (FCFF0).
+Therefore, you need to increase FCFF0 at the growth rate by one year (at
+the 5% rate) to get FCFF1.
+Let’s calculate the WACC. The target [[Debt-to-equity ratio|debt-to-equity ratio]] is 0.25. This
+implies that for every $1 of debt, there is $4 of equity, for total capital of
+$5. Since total assets equals total capital, it follows that the target debt-toasset ratio is 1/5, or 20%, and the target equity-to-asset ratio is 4/5, or
+80%. The WACC is:
+
+We can now calculate the value of the firm as:
+
+Given that debt is worth $10,000,000, the implied total value of the
+equity is:
+With 2,000,000 shares outstanding, the value of the equity per share is:
+
+Notice that the actual [[Debt-to-equity ratio|debt-to-equity ratio]] (10,000,000 / 49,931,507 =
+0.20) does not equal the target ratio of 0.25. There is nothing inconsistent
+in this example. WACC is usually calculated using target capital weights.
+
+Single-Stage FCFE Model
+
+### Example: Calculating value with a single-stage FCFE model
+
+
+Ridgeway Construction has an FCFE of 2.50 Canadian dollars (C$) per
+share and is currently operating at a target debt-to-equity ratio of 0.4. The
+expected return on the market is 9%, the risk-free rate is 4%, and
+Ridgeway has a beta of 1.5. The expected growth rate of FCFE is 4.5%.
+Calculate the value of Ridgeway stock.
+Answer:
+Begin by computing the required return on equity with the CAPM:
+Note that the problem gives FCFE in the most recent year (FCFE0). The
+model calls for the FCFE next year, which is FCFE1. Therefore, you need
+to multiply FCFE0 by one plus the growth rate to get FCFE1. The equity
+value per share is:
+
+
+> [!pnote] Professor's Note
+> ***In the first example, we calculated total value and then equity***
+> ***value per share by dividing total value by the number of shares. In***
+> ***the second example we were given FCFE per share, so we could***
+> ***calculate value per share directly. Read the questions on the exam***
+> ***carefully to make sure you use the correct approach given the***
+> ***information in the problem.***
+>
+> ***Two-Stage FCFF Model***
+> ***The first two-stage example requires the FCFF model and a forecast of the***
+> ***components of FCFF during the high-growth stage.***
+
+### Example: Calculating value with a two-stage FCFF model
+
+
+The Prentice Paint Company earned a [[Net profit margin|net profit margin]] of 20% on
+revenues of $20 million this year. Fixed capital investment was $2
+million, and depreciation was $3 million. Working capital investment
+equals 7.5% of sales every year. Net income, fixed capital investment,
+depreciation, interest expense, and sales are expected to grow at 10% per
+year for the next five years. After five years, the growth in sales, net
+income, fixed capital investment, depreciation, and interest expense will
+decline to a stable 5% per year. The tax rate is 40%, and Prentice has 1
+million shares of common stock outstanding and long-term debt paying
+12.5% interest trading at its [[Par value|par value]] of $32 million. Calculate the value
+of the firm and its equity using the FCFF model if the WACC is 17%
+during the high-growth stage and 15% during the stable stage.
+Answer:
+The components of FCFF are calculated in the following table.
+FCFF for Years 0 Through 6 (in per-share amounts of $)
+
+Let’s demonstrate the calculation of the FCFF in Year 0:
+
+In Year 1, sales grow by 10% to $22.00 per share. Following five years of
+10% growth, the growth of each component falls to 5%.
+The terminal value (as of Year 5, discounted at the stable WACC of 15%)
+is:
+
+We can place the cash flows to be evaluated on a time line, such as the
+one in the following figure, to get a clearer picture of what we need to
+evaluate.
+FCFF Timeline
+
+Notice that the WACC in the high-growth stage (17%) is different than
+the stable stage (15%).
+We calculated terminal value in Year 5 using 15%, but we’ll calculate the
+present value today of the high-growth cash flows and the terminal value
+at 17%. The total of the firm today is:
+
+To perform this calculation quickly and accurately, use the following
+keystrokes on your financial calculator:
+
+Thus, given that the value of the firm’s debt is $32 per share, the value of
+equity per share is $70.06 – $32.00 = $38.06.
+It is uncommon for growth rates to drop as drastically and quickly from
+Stage 1 to Stage 2 as shown in the previous example. It is more likely to
+find a gradual decline in the growth rate as a company matures and attracts
+more competition that will decrease its profit margin and its sustainable
+growth rate. This next two-stage example is an FCFE model with declining
+growth rates in Stage 1 and constant growth in Stage 2.
+
+### Example: Two-stage FCFE model with declining growth in Stage 1
+
+
+Consider a rival to the Prentice Paint Company presented in the previous
+
+### Example: . Suppose that Sioux Falls Decor also has revenues of $20
+
+
+million this year. However, we assume that its future performance will be
+tracked relative to sales as follows:
+Sales growth and the [[Net profit margin|net profit margin]] are projected by year as shown
+in the following table:
+Sales and Net Margin Forecasts
+
+Fixed capital investment net of depreciation is projected to be 30% of
+the sales increase in each year.
+Working capital requirements are 7.0% of the projected dollar increase
+sales in each year.
+Debt will finance 40% of the investments in net capital and working
+capital.
+The company has a 12% required rate of return on equity.
+The firm has 1 million shares of common stock outstanding.
+Calculate the value of the equity of Sioux Falls using the two-stage FCFE
+model.
+Answer:
+Recognize that the target debt-to-asset ratio (DR) is 0.40. The following
+table shows the FCFE for Years 1 through 6 ($ amounts are per share).
+Calculating FCFE for Years 1 Through 6
+
+Let’s demonstrate the calculation of the cash flow components in Year 1:
+
+Terminal value (as of Year 5, assuming 5% stable long-term growth) is
+equal to:
+
+Total current value of equity:
+
+As usual, we would rely on the cash flow keys of our financial calculator
+to perform the previous calculation:
+
+Three-Stage FCFE Model
+The following example of a three-stage FCFE model is a little different than
+the last two examples because we’re given growth in total FCFE in each of
+three stages, rather than the growth rates in the components. Growth in the
+first and third stage is constant, while growth in the second stage is
+declining. There is one tricky feature to this problem—the required return
+in each of the three growth stages is different.
+
+### Example: Three-stage FCFE model with forecast growth in total
+
+
+FCFE
+Medina Classic Furniture, Inc., is expected to experience growth in three
+distinct stages in the future. Its most recent FCFE is 0.90 Canadian
+dollars (C$) per share. The following information has been compiled:
+High-growth period:
+Duration = 3 years.
+FCFE growth rate = 30%.
+Shareholders’ required return = 20%.
+Transitional period:
+Duration = 3 years.
+FCFE growth will decline by 9% per year down to the indicated stable
+growth rate.
+Shareholders’ required return = 15%.
+Stable-growth period:
+FCFE growth rate = 3%.
+Shareholders’ required return = 10%.
+Calculate the value of the firm’s equity using the three-stage FCFE
+model.
+Answer:
+
+The annual FCFE and the associated present value are presented in the
+table:
+
+The transitional present values are computed using a [[Combination|combination]] of the
+20% initial discount rate and the transitional 15% rate. For example, the
+present value of FCFE5 is computed as:
+
+We can calculate the [[Terminal value of the stock|terminal value of the stock]] as of Year 6 using the
+FCFE projected for Year 7. Notice that we use the Stage 3 required return
+of 10%.
+
+The value of Medina stock is:
+
+The changing [[Discount rates|discount rates]] were important here for a couple of reasons.
+First, the terminal value in Year 6 had to be discounted for three years at
+20% and for three years at 15%. Second, due to the changing discount
+rates, our financial calculator was not as helpful as it was in other
+multiple cash flow calculations. It simply cannot handle the changing
+discount rates in one easy set of calculations.
+
+
+> **LOS 19.l:** Describe approaches for calculating the terminal
+value in a multistage valuation model.
+There are two basic approaches for calculating terminal value: using a
+single-stage model or a multiple approach. All of our examples used the
+first approach, in which we forecasted an FCFF or FCFE at the point in
+time at which cash flows begin to grow at the long-term, stable growth rate,
+and then we estimated terminal value using a single-stage model.
+The other way to do this is to use valuation multiples (like P/E ratios) to
+estimate terminal value. The terminal value in year n in terms of P/E, for
+
+### Example: , would be expressed as:
+
+
+### Example: Estimating terminal value with a P/E multiple
+
+
+An analyst estimates the EPS of Polar [[Technology|Technology]] in five years to be
+$2.10, the EPS in six years to be $2.32, and the median trailing industry
+P/E to be 35. Calculate the terminal value in Year 5.
+Answer:
+terminal value in Year 5 = 35 × $2.10 = $73.50
+
+> **LOS 19.m:** Evaluate whether a stock is overvalued, fairly
+valued, or undervalued based on a free cash flow valuation
+model.
+If a stock is trading at a price (market price) higher than the price implied
+by a free cash flow valuation model (model price), the stock is considered
+to be overvalued. Similarly, if the market price is lower than the model
+price, the stock is considered to be undervalued, and if the model price is
+equal to the market price, the stock is considered to be fairly valued.
+
+### Module Quiz 19.5
+
+
+1. The Gray Furniture Co. earned £3.50 per share last year. Investment in fixed
+capital was £2.00 per share, depreciation was £1.60, and the investment in
+working capital was £0.50 per share. Gray is currently operating at its target debtto-asset ratio of 40%. Thus, 40% of annual investments in working capital and
+fixed capital will be financed with new borrowings. Shareholders require a return
+of 14% on their investment, and the expected growth rate is 4%. The value of
+Gray’s stock is closest to:
+
+### A. £27.04.
+
+
+### B. £29.90.
+
+
+### C. £30.78.
+
+Use the following information to answer Questions 2 through 4.
+The Sanford Software Co. earned $20 million before interest and taxes on
+revenues of $60 million last year. Investment in fixed capital was $12 million, and
+depreciation was $8 million. Working capital investment was $3 million. Sanford
+expects earnings before interest and taxes (EBIT), investment in fixed and
+working capital, depreciation, and sales to grow at 12% per year for the next five
+years. After five years, the growth in sales, EBIT, and working capital investment
+will decline to a stable 4% per year, and investments in fixed capital and
+depreciation will offset each other. Sanford’s tax rate is 40%. Suppose that the
+[[Weighted Average Cost of Capital (WACC)|weighted average cost of capital (WACC)]] is 11% during the high growth stage
+and 8% during the stable stage. The calculation of FCFF in Years 1 through 5 is
+shown in the following table:
+
+2. Free cash flow to the firm (FCFF) in Year 6 is closest to:
+
+### A. $14.14.
+
+
+### B. $16.49.
+
+
+### C. $18.26.
+
+3. The terminal value in Year 5 is closest to:
+
+### A. $206.12.
+
+
+### B. $220.25.
+
+
+### C. $412.25.
+
+4. The value of the firm using a FCFF model is closest to:
+
+### A. $149.04.
+
+
+### B. $265.17.
+
+
+### C. $270.35.
+
+Use the following information to answer Questions 5 through 9.
+
+An analyst following Barlow Energy has compiled the following information in
+preparation for additional analysis she has to include in a report she has been
+asked to produce (data is in hundreds of millions of $):
+
+Bonds are trading at par
+Preferred share dividends: $14
+Net income available to common: $125
+Investment in working capital: $30
+Investment in fixed capital: $100
+Net new borrowing: $40
+Depreciation: $50
+Tax rate: 40%
+Long-term growth rate of FCFF: 4%
+Long-term growth rate of FCFE: 4%
+
+### Wacc: 9.27%
+
+5. The current FCFF for Barlow Energy is closest to:
+
+### A. $36.
+
+
+### B. $62.
+
+
+### C. $86.
+
+6. The total value of Barlow Energy using a single-stage FCFF model is closest to:
+
+### A. $894.40.
+
+
+### B. $1,631.88.
+
+
+### C. $1,697.15.
+
+7. The value of Barlow Energy’s equity using a single-stage FCFF model is closest
+to:
+
+### A. $897.15.
+
+
+### B. $1,097.15.
+
+
+### C. $1,497.15.
+
+8. The current FCFE using the information for Barlow Energy is closest to:
+
+### A. $45.
+
+
+### B. $85.
+
+
+### C. $99.
+
+9. The value of Barlow Energy’s equity using a single-stage model and the current
+FCFE is closest to:
+
+### A. $468.
+
+
+### B. $850.
+
+
+### C. $884.
+
+10. Which of the following is the best estimate of the cash flows available to the firm’s
+investors before any financing decisions?
+A.
+B.
+C.
+Use the following information to answer Questions 11 and 12.
+Rachel Keimmel, CFA, is researching the MWC [[Corporation|Corporation]], a U.S.-based
+automobile parts manufacturing firm. MWC has recently entered into a long-term
+agreement with a German automobile company to be the sole supplier of an
+innovative suspension system that will be used with a newly designed,
+moderately priced sports car. Keimmel believes that this new agreement will
+favorably impact MWC’s stock price. To support her belief, Keimmel reviewed
+MWC’s financial statements and sales forecasts and reached the following
+conclusions:
+MWC’s earnings and FCFE growth will be 15% per year for two years, then
+stabilize at 8% per year.
+MWC will maintain its current [[Dividend payout ratio|dividend payout ratio]].
+MWC has a beta of 1.2.
+Government bonds yield 6.4%, and the market [[Equity risk premium]] is 5.5%.
+The most recent dividend paid to MWC shareholders was $2.30.
+Keimmel also has MWC’s current cash flow statement, which follows.
+
+11. The value of MWC’s common stock using the two-stage dividend discount model
+is closest to:
+
+### A. $56.33.
+
+
+### B. $61.55.
+
+
+### C. $65.88.
+
+12. The value of MWC’s common stock using the two-stage FCFE approach is
+closest to:
+
+### A. $55.09.
+
+
+### B. $59.10.
+
+
+### C. $68.24.
+
+13. The Hoffman Card Co. earned £1.50 per share last year. Investment in fixed
+capital was £0.80 per share, and depreciation was £0.30. Investment in working
+capital was £0.20 per share. Hoffman expects earnings to grow at 15% per year
+for the next five years, and that investment in fixed capital, depreciation, and
+investment in working capital will grow at the same rate. After five years, the
+growth in earnings and working capital requirements will decline to a stable 5%
+
+per year, and investment in fixed capital and depreciation will offset each other
+(i.e., they will be equal). Hoffman’s target debt ratio is 30%. The shareholders
+require a return of 17% on their investment during the high-growth stage, and a
+return of 10% on their investment during the stable stage. The FCFE in Year 6
+and the value per share of Hoffman’s common stock are closest to:
+
+14. Suppose an analyst estimates equity value by discounting free cash flow to
+equity (FCFE) at the [[Weighted Average Cost of Capital (WACC)|weighted average cost of capital (WACC)]] in the FCFE
+model and estimates firm and equity value by discounting free cash flow to the
+firm (FCFF) at the required return on equity in the FCFF model. The analyst
+would most likely:
+A. overestimate equity value with the FCFE model and underestimate firm value
+and equity value with the FCFF model.
+B. underestimate equity value with the FCFE model and overestimate firm value
+and equity value with the FCFF model.
+C. underestimate equity value with the FCFE model and underestimate firm
+value and equity value with the FCFF model.
+Use the following information to answer Questions 15 and 16.
+At the end of 2023, Meyer Henderson, CFA, also prepared a 10-year forecast of
+free cash flow to equity (FCFE) and free cash flow to the firm (FCFF) from 2024
+to 2033 for Trammel Medical Supplies. In early 2024, Trammel unexpectedly
+announced a new 15-year issue of senior debt. The proceeds are expected to be
+used to repurchase common stock in the open market during 2024.
+15. As a result of the unexpected debt issue, Henderson should most likely:
+A. increase his FCFE forecast for 2024 and decrease his FCFE forecast for 2025
+through 2033.
+B. decrease his FCFE forecast for 2024 and increase his FCFE forecast for 2025
+through 2033.
+C. increase his FCFE forecast for 2024 and not change his FCFE forecast for
+2025 through 2033.
+16. As a result of the unexpected debt issue, Henderson should most likely:
+A. increase his FCFF forecast for 2024 and decrease his FCFF forecast for 2025
+through 2033.
+B. decrease his FCFF forecast for 2024 and increase his FCFF forecast for 2025
+through 2033.
+C. not change his FCFF forecast for 2024 and also not change his FCFF forecast
+for 2025 through 2033.
+17. The Anderson Door Co. earned C$30 million before interest and taxes on
+revenues of C$80 million last year. Capital expenditures were C$20 million, and
+depreciation was C$15 million. The additions to working capital were C$6 million.
+The firm’s [[Weighted average cost of capital|weighted average cost of capital]]al|cost of capital]] is 12.45%, the marginal tax rate is
+40%, and the expected cash flow growth is 5%. The market value of debt is C$25
+
+million. The value of the firm’s equity is closest to:
+
+### A. C$73.70.
+
+
+### B. C$93.96.
+
+
+### C. C$98.70.
+
+
+> [!abstract] Key Concepts
+> LOS 19.a
+
+FCFF is the cash available to all of the firm’s investors, including
+stockholders and bondholders, after the firm buys and sells products,
+provides services, pays its cash operating expenses, and makes short- and
+long-term investments. FCFE is the cash available to common shareholders
+after funding capital requirements, working capital needs, and debt
+financing requirements.
+The value of the firm is the present value of the expected future FCFF
+discounted at the WACC. The value of the firm’s equity is the present value
+of the expected future FCFE discounted at the required return on equity.
+FCFE is easier and more straightforward to use in cases where the
+company’s [[Capital structure|capital structure]] is not particularly volatile. On the other hand, if
+a company has negative FCFE and significant debt outstanding, FCFF is
+generally the best choice.
+LOS 19.b
+
+Analysts prefer to use either FCFF or FCFE as a [[Measure of value|measure of value]] if:
+The firm does not pay dividends.
+The firm pays dividends, but the dividends do not reflect the company’s
+long-run profitability.
+The analyst takes a control perspective.
+Thus, in valuation, the use of free cash flows reflects a control perspective
+while the use of dividends reflects a minority common stockholder’s
+perspective. The ownership perspective in the free cash flow approach is
+that of an acquirer who can change the firm’s dividend policy, which is a
+control perspective.
+
+LOS 19.c, 19.d
+
+FCFF and FCFE may be calculated starting either from net income, cash
+flows from operations, EBIT, or EBITDA. You need to know how to
+calculate the following measures using financial data:
+
+LOS 19.e
+
+For forecasting FCFE, use:
+
+LOS 19.f
+
+Dividends, share repurchases, and share issues have no effect on FCFF and
+FCFE; changes in leverage have only a minor effect on FCFE and no effect
+on FCFF.
+LOS 19.g
+
+The free cash flow to equity approach takes a control perspective, which
+assumes that recognition of value should be immediate. Dividend discount
+models take a minority perspective, under which value may not be realized
+until the dividend policy accurately reflects the firm’s long-run profitability.
+LOS 19.h
+
+Net income is a poor proxy for FCFE. Net income includes noncash
+charges (e.g., depreciation) that have to be added back to arrive at FCFE. In
+addition, it ignores cash flows that don’t appear on the income statement,
+such as investments in working capital and fixed assets as well as net
+borrowings. This can be seen by simply examining the formula for FCFE in
+terms of NI:
+EBITDA is a poor proxy for FCFF. The following equation makes this
+point clear:
+
+EBITDA doesn’t reflect the cash taxes paid by the firm, and it ignores the
+cash flow effects of the investments in working capital and fixed capital.
+LOS 19.i
+
+Sensitivity analysis shows how sensitive an analyst’s valuation results are to
+changes in each of a model’s inputs. Some variables have a greater impact
+on valuation results than others. The importance of various forecasting
+errors can be assessed through comprehensive sensitivity analysis.
+LOS 19.j
+
+The single-stage free cash flow model is useful for stable firms in mature
+industries.
+We’d use a two-stage model for a firm with two stages of growth: a shortterm supernormal growth phase and a long-term stable growth phase. We’d
+use a three-stage model for a firm that we expect to have three distinct
+stages of growth (e.g., a growth phase, a mature phase, and a transition
+phase).
+LOS 19.k
+
+The free cash flow models assume free cash flows grow at a constant rate,
+g, forever and that the growth rate is less than the required return (WACC
+for FCFF models and required return on equity for FCFE models).
+
+The assumptions for the two- and three-stage free cash flow models are
+simply the assumptions we make about the projected pattern of growth in
+free cash flow.
+LOS 19.l
+
+There are two basic approaches for calculating terminal value: using a
+single-stage model or a multiple approach. The multiple approach uses
+valuation multiples (like P/E ratios) to estimate terminal value.
+LOS 19.m
+
+If a stock’s model price is lower than (higher than, equal to) the market
+price, the stock is considered overvalued (undervalued, fairly valued).
+
+
+### Answer Key For Module Quizzes
+
+Module Quiz 19.1
+1. C Dividend discount models like the Gordon growth model and the
+dividend discount H-model are not appropriate in this case for two
+reasons: (1) dividends are not related to the firm’s earnings stream, and
+(2) this is a takeover situation in which a free cash flow model is more
+appropriate.
+The FCFF model is preferred to the FCFE model because (1) FCFE
+is negative and volatile and (2) leverage is relatively high. (LOS
+19.a)
+2. A Although the calculation is a bit unusual (we usually calculate firm
+value as the present value of FCFF discounted at the weighted average
+cost of capital), the analyst has correctly calculated firm value. The
+first term is equal to the market value of equity on 12/31/2023; firm
+value is equal to the market value of equity plus the market value of
+debt. (LOS 19.a)
+Module Quiz 19.2, 19.3
+For Questions 1 through 3, Items #1, 2, 4, 5, 6, and 7 were applied
+correctly. Only Item #3 related to the reversal of [[Restructuring|restructuring]] charges was
+applied incorrectly: income from restructuring charge reversals is a noncash
+gain that should be subtracted from net income to calculate FCFF.
+Depreciation and software amortization should be added back to net
+income, after-tax interest should be added back, and the increase in deferred
+taxes should be added back (because it is not expected to reverse in the
+foreseeable future). Net working capital and fixed capital investments
+should be subtracted from net income to arrive at FCFF. The correct
+calculation of FCFF is
+
+1. A See answer explanation above for Questions 1 through 3. (Module
+19.3, LOS 19.c)
+2. B See answer explanation above for Questions 1 through 3. (Module
+19.3, LOS 19.c)
+3. A See answer explanation above for Questions 1 through 3. (Module
+19.3, LOS 19.c)
+4. B Given: NI = $50; depreciation = $27; ending net PP&E = ending gross
+fixed assets – ending [[Accumulated depreciation|accumulated depreciation]] = $136 – $40 = $96;
+beginning net PP&E = beginning gross fixed assets − beginning
+[[Accumulated depreciation|accumulated depreciation]] = $90 − $30 = $60; WCInv = $4; net
+borrowings = $0; gains on sale of equipment = $8.
+
+(Module 19.3, LOS 19.c)
+5. C The firm must have interest expense on its income statement because
+of the debt on its balance sheet. By ignoring the after-tax interest cash
+flow, the analyst has understated FCFF, which is actually equal to CFO
+plus after-tax interest cash flow less fixed capital investment. He has,
+however, calculated FCFE correctly because FCFE is equal to CFO
+less fixed capital investment (his incorrect FCFF calculation) plus net
+borrowing. (Module 19.3, LOS 19.c)
+Module Quiz 19.4
+1. B Free cash flow to the firm is equal to cash flow from operations plus
+after-tax interest expense [interest(1 − tax rate)] minus fixed capital
+investment. (LOS 19.d)
+Module Quiz 19.5
+
+1. C
+
+(LOS 19.e)
+2. B The following table shows FCFF for Years 0 through 6 (in $):
+
+(LOS 19.c)
+3. C The terminal value (as of Year 5) is found by using the FCFF in Year 6
+and WACC of 8% and growth rate of 4% in the stable growth stage:
+
+(LOS 19.k)
+4. C The value of the firm today is the present value of the forecasted cash
+flows, discounted at the WACC during the high-growth stage of 11%:
+
+Using the TI BA II Plus™ calculator, enter CF0 = 0.00; C01 = 5.60;
+C02 = 6.28; C03 = 7.03; C04 = 7.87; C05 = 8.81 + 412.25 = 421.06;
+
+$$
+I = 11; CPT → NPV = 270.35
+$$
+
+(LOS 19.k)
+5. C With the bonds trading at par, the interest expense is based on the
+before-tax yield:
+
+Add back preferred dividends to net income available to common to
+get FCFF:
+
+(LOS 19.c)
+6. C The value of the firm is the present value of the constantly growing
+FCFF. Using single-stage FCFF model we get:
+
+(LOS 19.k)
+7. A The value of the equity is equal to firm value less the market value of
+debt and preferred stock:
+(LOS 19.k)
+8. B FCFF = 86 (computed earlier).
+
+(LOS 19.c)
+9. C
+(LOS 19.k)
+10. B Free cash flow to the firm (FCFF) is the estimate of the cash flows
+available to the firm’s investors after the firm buys and sells products,
+provides services, pays its cash operating expenses, and makes shortand long-term investment decisions, but before the firm makes any
+financing decisions. EBITDA is a poor proxy for free cash flow. FCFF
+is calculated as:
+(LOS 19.h)
+
+11. A Based on the CAPM, the required return on MWC’s common equity
+can be computed as follows:
+The current value of MWC common stock can be estimated using the
+two-stage DDM approach as follows:
+
+(LOS 19.k)
+12. B The current value of MWC common stock can be estimated using the
+two-stage FCFE approach as follows:
+
+(LOS 19.d)
+13. A The following table shows FCFE for Years 0 through 6 (in £).
+
+
+### Example: of FCFE calculation (Year 1):
+
+
+Calculate terminal value in Year 5 using FCFE estimate for Year 6,
+discounted at required return of 10% in the stable growth period.
+
+Use the short-term discount rate of 17% to discount the cash flows
+back to the present:
+
+The keystrokes for a TI BA II Plus™ calculator are:
+
+(LOS 19.k)
+14. A WACC is less than required return on equity. Incorrectly using the
+WACC (which is too low) in the FCFE model will overestimate equity
+value. Incorrectly using required return on equity (which is too high)
+in the FCFF model will underestimate firm value and equity value.
+(LOS 19.k)
+
+15. A The increased net borrowing for 2024 will cause the forecasted free
+cash flow to equity (FCFE) to increase in 2024. However, in future
+years, the higher interest expense associated with the debt issue will
+cause the FCFE forecast to decrease. (LOS 19.f)
+16. C Free cash flow to the firm (FCFF) represents cash flow available to all
+investors before any financing cash flows, including interest
+payments. Changes in leverage are uses of cash (i.e., financing
+decisions) that do not affect FCFF. (LOS 19.f)
+
+### 17. A
+
+
+(LOS 19.k)
+
+
+---
+
+# Reading 21 — Residual Income Valuation
+
+
+> [!tip] Exam Focus
+> This topic review introduces the fourth type of valuation model found in the
+> CFA curriculum: Residual income models. You should understand the
+> differences between these models and the dividend discount, free cash flow,
+> and [[Market multiple models|market multiple models]]. The successful application of residual income
+> models depends on making the appropriate adjustments to the financial
+> statements, so you also should be able to use the techniques you learned in
+> the Financial Statement Analysis material in applying these models. The
+> concept of [[Continuing residual income|continuing residual income]] is also related to the material on
+> [[Industry analysis|industry analysis]] in FSA. With all these links to other concepts in the Level
+> II curriculum, this material is highly testable.
+
+
+## Module 21.1: Residual Income Defined
+
+
+> **LOS 21.a:** Calculate and interpret residual income,
+[[Economic value added|economic value added]], and market value added.
+Residual income (RI), or [[Economic profit|economic profit]], is the net income of a firm less a
+charge that measures stockholders’ [[Opportunity cost|opportunity cost]] of capital. The
+rationale for the residual [[Income approach|income approach]] is that it recognizes the cost of
+equity capital in the measurement of income. This concept of economic
+income is not reflected in traditional accounting income, whereby a firm
+can report positive net income but not meet the return requirements of its
+equity investors. Accounting net income includes a [[Cost of debt|cost of debt]] (i.e.,
+
+interest expense), but does not reflect dividends or other equity capitalrelated funding costs. This means that accounting income may overstate
+returns from the perspective of equity investors. Conversely, residual
+income explicitly deducts all capital costs.
+
+### Example: Calculating residual income
+
+
+Madeira Fruit Suppliers, Inc., (MFS) distributes fruit to grocery stores in
+large U.S. cities. The [[Book value|book value]] of its assets is $1.4 billion, which is
+financed with $800 million in equity and $600 million in debt. Its beforetax [[Cost of debt|cost of debt]] is 3.33%, and its marginal tax rate is 34%. MFS has a
+[[Cost of equity|cost of equity]] of 12.3%. MFS’s abbreviated income statement is shown in
+the following figure.
+Partial Income Statement for MFS
+
+Determine whether MFS is profitable by calculating residual income and
+explaining its relationship to reported accounting income.
+Answer:
+While the accounting net income of $80,520,000 indicates that MFS is
+profitable, it remains to be seen whether the firm is profitable after
+deducting a charge for equity. The dollar-based [[Equity charge|equity charge]] is:
+
+Even though MFS is profitable in the traditional accounting sense, it is
+economically unprofitable after taking into account the necessary charge
+to meet stockholders’ [[Opportunity cost|opportunity cost]] of supplying capital to the
+company.
+
+[[Economic value added]] and MVA
+[[Economic value added|Economic value added]] (EVA®) measures the value added for shareholders
+by management during a given year. EVA is calculated as:
+
+
+> [!pnote] Professor's Note
+> ***Notice the difference in calculation between residual income and***
+> ***EVA. Residual income is net income (after subtracting interest***
+> ***expense) minus a charge for equity capital based on the cost of***
+> ***equity. EVA is NOPAT (before subtracting interest expense minus***
+> ***a charge for debt and equity capital based on the WACC).***
+> ***Conceptually, however, they are both measuring economic***
+> ***income. For the purpose of EVA computation, we use beginningof-year total capital. Market value added (discussed later) uses***
+> ***end-of-year (the same point at which market value is determined)***
+> ***total capital.***
+> ***The analyst should make the following adjustments (if applicable) to the***
+> ***financial statements before calculating NOPAT and invested capital:***
+> ***Capitalize and amortize research and development charges (rather than***
+> ***expense them), and add them back to earnings to calculate NOPAT.***
+> ***Add back charges on strategic investments that will generate returns in the***
+> ***future.***
+> ***Eliminate deferred taxes and consider only cash taxes as an expense.***
+> ***Treat operating leases as capital leases and adjust nonrecurring items.***
+> ***Add [[LIFO reserve|LIFO reserve]] to invested capital and add back change in LIFO***
+> ***reserve to NOPAT.***
+>
+> ***Market value added (MVA) is the difference between the market value of***
+> ***a firm’s long-term debt and equity and the [[Book value|book value]] of invested capital***
+> ***supplied by investors. It measures the value created by management’s***
+> ***decisions since the firm’s inception. MVA is calculated as:***
+
+### Example: Calculating EVA and MVA
+
+
+VBM, Inc., reports NOPAT of $2,100, a WACC of 14.2%, and invested
+capital of $18,000 at the beginning of the year and $21,000 at the end of
+the year. The market price (year-end) of the firm’s stock is $25 per share,
+and VBM has 800 shares outstanding. The market value (year-end) of the
+firm’s long-term debt is $4,000. Calculate VBM’s EVA and MVA.
+Answer:
+First calculate EVA:
+$WACC = 0.142 × $18,000 = $2,556
+
+$$
+EVA = $2,100 − $2,556 = –$456
+$$
+
+The market value of the company is the market value of the equity plus
+the market value of the debt:
+MV of company = ($25 × 800) + $4,000 = $24,000
+The firm’s MVA is:
+
+$$
+MVA = $24,000 − $21,000 = $3,000
+$$
+
+
+> **LOS 21.b:** Describe the uses of residual income models.
+There are several commercially available residual income-based valuation
+models. It is interesting to note that these models, like EVA and MVA,
+usually apply the concept of residual income to the measurement of
+managerial effectiveness and executive compensation. However, for the
+exam we’re most interested in the equity valuation applications of residual
+income models. Residual income models have also been proposed as a
+method to measure [[Goodwill]] [[Impairment]].
+
+
+## Module 21.2: Residual Income Computation
+
+
+> **LOS 21.c:** Calculate the intrinsic value of a common stock
+using the residual income model and compare value
+recognition in residual income and other present value
+models.
+We can forecast residual income given some basic accounting information
+and an estimate of future earnings growth using the following formula:
+
+
+### Example: Forecasting residual income
+
+
+Laura Kraft, CFA, was assigned the task of forecasting the residual
+income for Delilah Cosmetics, Inc., over the next two years. To
+accomplish this task, Kraft assembled the information provided in the
+following figure. Kraft used a required rate of return of 11%. Forecast
+Delilah’s residual income for 2025 and 2026.
+Delilah Data Forecast
+
+Answer:
+Delilah Residual Income Forecast
+
+The residual income valuation model breaks the intrinsic value of a stock
+into two elements: (1) current [[Book value of equity|book value of equity]] and (2) present value of
+expected future residual income:
+
+Don’t let this formula intimidate you! All the above expression really says is
+that a stock’s intrinsic value, V0, is equal to its current [[Book value per share|book value per share]],
+B0, plus the present value of all its expected future residual income, which
+is the difference between end-of-period earnings and equity charges based
+on beginning-of-period book value.
+The difficulty in implementing this model is that we have to make some
+assumptions about the pattern of residual income growth in the future
+because it’s difficult to take the present value of an infinite stream of
+residual incomes without more restrictive assumptions. In the following
+
+### Example: , we make it easy by assuming the company ceases operations at
+
+the end of three years, so we only have three residual income forecasts to
+discount back.
+
+### Example: Computing intrinsic value with a residual income model
+
+
+Consolidated Pipe Products has a required rate of return of 14%. The
+current book value is C$6.50. Earnings forecasts for 2025, 2026, and
+2027 are C$1.10, C$1.00, and C$0.95, respectively. Dividends in 2025
+and 2026 are forecasted to be C$0.50 and C$0.60, respectively. The
+
+dividend in 2027 is a [[Liquidating dividend|liquidating dividend]], which means that
+Consolidated will pay out its entire book value in dividends and cease
+doing business at the end of 2027. Calculate the value of Consolidated’s
+stock using the residual income model.
+Answer:
+The residual income forecast is shown in the following table, with
+calculated values in blue.
+Consolidated Pipe Residual Income Forecast
+
+The intrinsic value of Consolidated Pipe Products is its current book
+value plus the present value of the future residual income forecasts:
+
+We can also use the cash flow function on our calculators to solve this
+problem and save ourselves a little time. Here are the keystrokes:
+
+Value tends to be recognized earlier in the RI approach than in other present
+value-based approaches. To see this, recall that with a dividend discount
+model (DDM) or free cash flow to equity (FCFE) model, a large portion of
+the estimated intrinsic value comes from the present value of the expected
+terminal value. Yet the uncertainty of the expected terminal value is usually
+greater than any of the other forecasted cash flows because it occurs several
+years in the future. Valuation with residual income models, however, is
+relatively less sensitive to terminal value estimates, which reduces forecast
+error. This is because intrinsic values estimated with residual income
+models include the firm’s current book value (which is known and doesn’t
+
+need to be forecasted), and the current book value usually represents a
+substantial percentage of the estimated intrinsic value.
+
+> **LOS 21.d:** Explain fundamental determinants of residual
+income.
+The general residual income models make no assumptions regarding the
+long-term future earnings or dividend growth. However, if we make the
+simplifying assumption of a constant dividend and earnings growth rate, we
+can develop a residual income model that highlights the fundamental
+drivers of residual income. Value can be expressed in terms of book value:
+
+This model is actually just another version of the Gordon growth model, so
+if you can use the same inputs, both models will give you the same value
+estimates.
+This version of the residual income model is referred to as the single-stage
+residual income valuation model. In this formulation (assuming constant
+earnings and dividend growth) the first term is the current book value, the
+value of the company’s assets net of liabilities. The second term in brackets
+is the present value of the expected future residual income. We can use this
+relationship to identify the fundamental drivers of residual income:
+If [[Return on equity (ROE)|return on equity (ROE)]] is equal to the required return on equity, the
+justified market value of a share of stock is equal to its book value. When
+ROE is higher than the required return on equity, the firm will have
+positive residual income and will be valued at more than book value.
+is the additional value generated by the firm’s ability to
+produce returns in excess of the [[Cost of equity|cost of equity]] and, consequently, is the
+present value of a firm’s expected economic profits (i.e., residual income).
+[[Tobin’s q|Tobin’s Q]] is a related concept:
+
+
+> [!pnote] Professor's Note
+> ***The single-stage model assumes constant ROE and constant***
+> ***earnings growth, which implies that residual income will persist***
+> ***indefinitely. Residual income is likely to approach zero over time,***
+> ***however, as competitive forces drive industry profit margins to***
+> ***normal levels. Thus, in practice, the single-stage model is***
+> ***modified to handle declining RI by forecasting continuing***
+> ***residual income.***
+>
+> ***> **LOS 21.e:** Explain the relation between residual income valuation and***
+> ***the justified [[Price-to-book ratio|price-to-book]] ratio based on forecasted [[Fundamentals|fundamentals]].***
+> ***As with the DDM and FCFE models, residual income models can be used***
+> ***to estimate justified [[Price multiples|price multiples]]. Among the various market multiples,***
+> ***residual income models are most closely related to the price-to-book value***
+> ***(P/B) ratio because the justified P/B is directly linked to expected future***
+> ***residual income. This can be seen by observing the single-stage model. If***
+> ***ROE is greater than the required return on equity, the second term (the***
+> ***present value of residual income) will be positive, the market value will be***
+> ***greater than book value, and the justified P/B ratio will be greater than one.***
+
+### Module Quiz 21.1, 21.2
+
+1. The present value of Sporting Shoes (SS) projected residual income for the next
+five years plus beginning book value is C$75.00 per share. Beyond that time
+horizon, the firm will sustain a residual income of C$11.25 per share, which is the
+residual income for Year 6. The [[Cost of equity|cost of equity]] is 10%. The justified value of SS’s
+common stock is closest to:
+
+### A. C$69.85.
+
+
+### B. C$112.50.
+
+
+### C. C$144.85.
+
+
+## Module 21.3: Constant Growth Model for Ri
+
+
+> **LOS 21.f:** Calculate and interpret the intrinsic value of a
+common stock using single-stage (constant-growth) and
+multistage residual income models.
+### Example: Calculating value with a single-stage residual income model
+
+
+Western Atlantic Railroad has a book value of $23.00 per share. The
+company’s return on new investments (ROE) is 14%, and its required
+return on equity is 12%. The dividend payout ratio is 60%. Calculate the
+value of the shares using a single-stage residual income model and the
+present value of expected economic profits.
+Answer:
+First, calculate the growth rate:
+Then, calculate intrinsic value using the single-stage model:
+
+The present value of the firm’s expected economic profits is $7.19.
+
+### Example: Western Atlantic Railroad valuation with Gordon growth
+
+
+model
+Use the information in the previous example to calculate the value of
+Western Atlantic common stock using the Gordon growth model.
+Answer:
+Earnings in Year 1 (E1) is equal to beginning book value multiplied by
+ROE: E1 = $23.00 × 0.14 = $3.22. With a dividend payout ratio of 60%,
+D1 = $3.22 (0.6) = $1.932. Then, using the Gordon growth model:
+
+Notice that this is the same estimate as in the previous example where we
+used the single-stage residual income model.
+
+> [!pnote] Professor's Note
+> ***Multistage residual income models will be discussed in a later***
+> ***LOS.***
+>
+> ***> **LOS 21.g:** Calculate the implied growth rate in residual income, given***
+> ***the market price-to-book ratio and an estimate of the required rate of***
+> ***return on equity.***
+> ***We can rearrange the single-stage residual income valuation model and***
+> ***solve for the growth rate in terms of the other variables:***
+>
+> ***This expression can now be used to directly compute the market’s***
+> ***expectations of residual income growth implied by the current market price***
+> ***under the assumption that intrinsic value is equal to market price.***
+
+### Example: Calculating implied growth rate
+
+
+You are considering the purchase of Tellis Telecommunications, Inc.,
+which has a P/B ratio of 2.50. ROE is expected to be 13%, current book
+value per share is €8.00, and the [[Cost of equity|cost of equity]] is 11%. Calculate the
+growth rate implied by the current P/B ratio.
+Answer:
+The P/B ratio of 2.50 and the current [[Book value per share|book value per share]] of €8.00 imply
+a current market price of €20.00(8 × 2.50). This implies a growth rate of:
+
+
+### Module Quiz 21.3
+
+1. Jill Smart is an analyst with Allenton Partners. Jill is reviewing the valuation of
+three companies (P, Q, and R) using the residual income model and their
+corresponding current market prices.
+The information below summarizes the findings:
+
+Based on the above information, which statement best describes the market’s
+valuation of P, Q, and R?
+A. P is overvalued, Q is undervalued, and R is fairly valued.
+B. P is undervalued, Q is fairly valued, and R is overvalued.
+C. P is undervalued, Q is overvalued, and R is fairly valued.
+2. An investor is considering the purchase of Capital City Investments, Inc., which
+has a price-to-book value (P/B ratio) of 5.00. [[Return on equity (ROE)|Return on equity (ROE)]] is expected
+to be 18%, the market price per share is $25.00, and the growth rate is expected
+to be 8%. Assume the shares are currently priced at their [[Fair value|fair value]]. The cost of
+equity implied by the current P/B ratio is closest to:
+
+### A. 12%.
+
+
+### B. 16%.
+
+
+### C. 10%.
+
+3. Century Scales has a required return on equity of 12% and is expected to grow
+indefinitely at a rate of 5%. The expected [[Return on equity (ROE)|return on equity (ROE)]] that would
+justify a price-to-book multiple of 2.14 is closest to:
+
+### A. 10%.
+
+
+### B. 15%.
+
+
+### C. 20%.
+
+4. Marg Myers, CFA, has determined that Rocky Romano Ice Cream Company can
+be valued using a single-stage residual income model. Myers estimates Rocky’s
+[[Return on equity (ROE)|return on equity (ROE)]] is greater than the cost of equity capital, which is greater
+than the [[Sustainable growth rate|sustainable growth rate]]. [[Book value per share|Book value per share]] is greater than zero. What
+can Myers conclude about Rocky’s [[Present value (PV)|present value (PV)]] of future expected residual
+income (RI) and Rocky’s justified price-to-book ratio?
+
+5. Krackel, Inc., has a [[Book value per share|book value per share]] as of FYE 2023 of $4.50. The required
+return on equity is 10%. [[Earnings per share|Earnings per share]] in 2024 are forecast to be $0.45.
+Assume Krackel can be valued using a single-stage residual income model. The
+justified price-to-book ratio and the present value of expected residual income are
+closest to:
+
+
+## Module 21.4: Continuing Residual Income
+
+
+> **LOS 21.h:** Explain [[Continuing residual income|continuing residual income]] and justify
+an estimate of [[Continuing residual income|continuing residual income]] at the forecast
+horizon, given company and industry prospects.
+Previously, we mentioned the problem of forecasting residual income
+indefinitely into the future, which makes it difficult to calculate the present
+value of residual income and implement the residual income model.
+However, we can simplify the model by using the same multistage approach
+we used for DDM and free cash flow models. We’ll forecast residual
+income over a short-term horizon (e.g., five years) and then make some
+simplifying assumptions about the pattern of residual income growth over
+the long term after five years. [[Continuing residual income|Continuing residual income]] is the residual
+income that is expected over the long term.
+Residual income will continue beyond a specified earnings horizon
+depending on the fortunes of the industry, as well as on the sustainability of
+a specific firm’s competitive prospects over the longer term. The projected
+rate at which residual income is expected to fade over the life cycle of the
+firm is captured by a persistence factor, ω, which is between zero and one.
+To simplify the model, we typically make one of the following assumptions
+about continuing residual income at the end of the short-term period:
+Residual income is expected to persist at its current level forever.
+Residual income is expected to drop immediately to zero.
+Residual income is expected to decline over time as ROE falls to the cost
+of equity (in which case residual income is eventually zero).
+Residual income is expected to decline to a long-run average level
+[[Consistent|consistent]] with a mature industry.
+An analysis of the firm’s position in its industry and the structure of the
+industry will be necessary to justify one of these assumptions. The third
+scenario is the most realistic if we assume that over time, industry
+
+competition reduces economic profits to the point at which firms begin to
+leave the industry and ROE stabilizes at a long-run normal level. The
+strength of the persistence factor will depend partly on the sustainability of
+the firm’s competitive advantage and the structure of the industry. The more
+sustainable the competitive advantage and the better the industry prospects,
+the higher the persistence factor.
+Higher persistence factors will be associated with the following:
+Low dividend payouts.
+Historically high residual income persistence in the industry.
+Lower persistence factors will be associated with the following:
+High return on equity.
+Significant levels of nonrecurring items.
+High accounting accruals.
+Think of the continuing residual income model as a multistage model
+similar to the multistage DDM and FCF models from earlier in the Equity
+materials. In the residual income model, intrinsic value is the sum of three
+components:
+Step 1: Calculate the current book value per share.
+Step 2: Calculate residual income in each year 1 to T − 1 during the interim
+high-growth period and discount them back to today at the required return
+on equity.
+Step 3: Calculate continuing residual income that begins at the end of the
+high-growth period starting in year T, and then calculate the present value
+of continuing residual income as of the end of year T − 1 using the
+following formula:
+
+Assumption #1: Residual Income Persists at the Current Level Forever
+
+If ω = 1, residual income is expected to persist at the current level forever
+after year T − 1, so residual income in every year after T equals residual
+income in year T. The present value of continuing residual income at the
+end of year T − 1 is the present value of a perpetuity:
+
+Assumption #2: Residual Income Drops Immediately to Zero
+If ω = 0, residual income is expected to drop immediately to zero beginning
+in year T + 1, and the present value of continuing residual income in year T
+− 1 is:
+
+Assumption #3: Residual Income Declines Over Time to Zero
+If residual income is expected to decline over time after year T as ROE falls
+to the cost of equity capital, then the persistence factor, ω, is between zero
+and one, and the present value of continuing residual income in year T − 1
+is equal to:
+
+Assumption #4: Residual Income Declines to Long-Run Level in
+Mature Industry
+There is another, simpler approach to calculating the PV of continuing
+residual income that does not rely on the formula or ω, the persistence
+factor, if residual income is expected to decline to a normal long-run level
+[[Consistent|consistent]] with a mature industry after year T.
+First, recall from the single-stage residual income model that market value
+equals book value plus the present value of residual income. Therefore, at
+any point in time (T), the present value of future residual income is the
+difference between market value (PT) and book value (BT):
+How do we estimate PT?
+
+Given a forecasted price-to-book ratio and book value at the end of the year
+T, the value of the stock is:
+To make this approach consistent with the first three that use the persistence
+factor equation, we can also calculate the present value of continuing
+residual income at time T − 1:
+
+
+### Example: Calculating value with a multistage residual income model
+
+
+(part 1)
+Java Metals is expecting an ROE of 15% over each of the next five years.
+Its current book value is $5.00 per share, it pays no dividends, and all
+earnings are reinvested. The required return on equity is 10%. Forecasted
+earnings in Years 1 through 5 are equal to ROE times beginning book
+value. Calculate the intrinsic value of the company using a residual
+income model, assuming that after five years, continuing residual income
+falls to zero.
+Answer:
+The following table provides an estimate of the present value of residual
+income.
+Java Metals Residual Income Forecast
+
+Under the assumption that residual income after five years is zero (i.e., ω
+= 0), intrinsic value today is:
+
+Remember, you can also use your calculator to solve for the answer: CF0
+= 5, C01 = 0.25, C02 = 0.29, C03 = 0.33, C04 = 0.38, C05 = 0.44, I = 10,
+CPT → NPV = $6.25.
+
+### Example: Calculating value with a multistage residual income model
+
+
+(part 2)
+Suppose we change our assumption regarding Java’s residual income
+after five years to assume instead that it remains constant at $0.44
+forever. Calculate the new intrinsic value of Java.
+Answer:
+The intrinsic value of Java is higher than the first case because we
+assume the residual income persists at the same level forever, so RI5 =
+RI6 = … = $0.44, and ω = 1. The $0.44 perpetuity beginning in Year 5 is
+worth $4.40 ($0.44/0.10) in Year 4. The intrinsic value is:
+
+
+### Example: Calculating value with a multistage residual income model
+
+
+(part 3)
+Now let’s make the more realistic assumption that after Year 5, Java’s
+residual income will decay over time to zero with a persistence factor of
+0.4. Calculate the new intrinsic value of Java.
+Answer:
+Residual income begins to decline after Year 5, so the terminal value in
+Year 4 includes the present value of Year 5 residual income.
+
+The intrinsic value today is book value plus the present value of Years 1
+through 4 residual income plus the present value of the terminal value in
+Year 4.
+
+Notice that the more conservative assumption of a lower persistence
+factor reduces the intrinsic value of the stock because the firm’s
+competitive advantage and economic profits eventually disappear.
+
+### Example: Calculating value with a multistage residual income model
+
+
+(part 4)
+Suppose instead that at the end of Year 5 we assume that Java’s ROE falls
+to a long-run average level and the price-to-book ratio falls to 1.2.
+Calculate Java’s intrinsic value.
+Answer:
+The book value per share at the end of Year 5 is $10.05, which means the
+market price is expected to be $10.05 × 1.2 = $12.06. The present value
+of continuing residual income is:
+PV of continuing residual income in Year 4
+
+Then intrinsic value is:
+
+
+> [!pnote] Professor's Note
+> ***If a stock is trading at a price (market price) higher than the price***
+> ***implied by the residual income model (model price), the stock is***
+> ***considered to be overvalued. Similarly, if the market price is***
+> ***lower than the model price, the stock is considered to be***
+> ***undervalued, and if the model price is equal to the market price,***
+> ***the stock is considered to be fairly valued.***
+
+### Module Quiz 21.4
+
+
+1. Meyer Henderson, CFA, estimates the value of Trammel Medical Supplies to be
+$68 per share using a residual income model. In his estimate of continuing
+residual income, he assumes that, after Year 6, residual income will persist at the
+same level forever. How many of the following assumptions concerning residual
+income would most likely cause his value estimate to fall below $68?
+
+A. One.
+B. Two.
+C. Three.
+Use the following information to answer Questions 2 and 3.
+Josef Robien, CFA, is valuing the common stock of British Cornucopia Bank (BCB)
+as of December 31, 2023, when the book value per share is £10.62. In this effort,
+Robien has made the following assumptions:
+
+[[Earnings per share|Earnings per share]] (EPS) will be 20% of the beginning book
+value per share for each of the next three years.
+BCB will pay cash dividends equal to 40% of EPS.
+At the end of three years, BCB’s common stock will trade at
+four times its book value.
+Beta for BCB is 0.7, the risk-free rate is 4.5%, and the equity
+[[Risk premium]] is 5.0%.
+2. The residual income per share in 2026 and the present value of continuing
+residual income as of the end of 2025 are closest to:
+
+3. The value per share of BCB stock using the residual income model is closest to:
+
+### A. £39.17.
+
+
+### B. £49.80.
+
+
+### C. £53.20.
+
+Use the following information to answer Questions 4 through 6.
+Aaron Mechanic, CFA, is responsible for valuing the shares of Duotronics Research
+Laboratories (DRL). The stock is currently trading at €8.75, and Mechanic gathers
+the following financial information about the company:
+
+Expected return on equity (ROE) = 16% annually for each of
+the next four years.
+Current book value (BV) of equity = €435,000,000.
+Shares outstanding: 60 million.
+Required rate of return on equity = 12%.
+No dividends paid.
+All earnings are reinvested.
+Continuing residual income = 0 after four years.
+4. Based on the residual income model, the intrinsic value and the most likely
+recommendation Mechanic would issue for the stock of DRL are:
+
+5. Mechanic is considering revising his expectation of the continuing residual
+income after the 4-year horizon period and believes that it will remain constant at
+the Year 4 forecast level of residual income for the foreseeable future. Based on
+the residual income model, the intrinsic value and the most likely
+recommendation Mechanic would issue for the stock of DRL are:
+
+6. George Karanopoulos, CFA, is Mechanic’s immediate supervisor. He believes
+that Mechanic’s assumption of constant residual income after the initial forecast
+period is unrealistic. He has suggested that Mechanic re-estimate the value of
+DRL based on a persistence factor of ω = 0.3 after Year 4. Based on the residual
+income model, the intrinsic value and the most likely recommendation Mechanic
+would issue for the stock of DRL are:
+
+
+## Module 21.5: 
+
+
+### Strengths/Weaknesses
+
+
+> **LOS 21.i:** Compare residual income models to dividend
+discount and free cash flow models.
+DDM and FCFE models measure value by discounting a stream of expected
+cash flows. The residual income model starts with a book value and adds to
+this the present value of the expected stream of residual income.
+Theoretically, the intrinsic value derived using expected dividends,
+expected free cash flow to equity, or book value plus expected residual
+income should be identical if the underlying assumptions used to make the
+necessary forecasts are the same. In reality, however, it is rarely possible to
+forecast all of the common inputs with the same degree of accuracy, and the
+different models yield different results. It may be helpful though, to use a
+residual income model alongside a DDM or FCFE model to assess the
+consistency of results. If the different models provide dramatically different
+estimates, the inconsistencies may result from the models’ underlying
+assumptions.
+
+> **LOS 21.j:** Explain strengths and weaknesses of residual income models
+and justify the selection of a residual income model to value a
+company’s common stock.
+Strengths of residual income models include the following:
+Terminal value does not dominate the intrinsic value estimate, as is the
+case with dividend discount and free cash flow valuation models.
+Residual income models use accounting data, which is usually easy to
+find.
+The models are applicable to firms that do not pay dividends or that do
+not have positive expected free cash flows in the short run.
+The models are applicable even when cash flows are volatile.
+The models focus on economic profitability rather than just on accounting
+profitability.
+Weaknesses of residual income models include the following:
+The models rely on accounting data that can be manipulated by
+management.
+Reliance on accounting data requires numerous and significant
+adjustments.
+
+The models assume that the [[Clean surplus relation|clean surplus relation]] holds or that its failure
+to hold has been properly taken into account.
+
+> [!pnote] Professor's Note
+> ***The [[Clean surplus relation|clean surplus relation]] can be expressed as Bt = Bt−1 + Et Dt,***
+> ***which means that ending [[Book value of equity|book value of equity]] equals the***
+> ***beginning book value plus earnings less dividends, excluding***
+> ***ownership transactions. This is the relationship that we used in the***
+> ***preceding examples to forecast end-of-period book value. Any***
+> ***accounting charges that are taken directly to the equity accounts***
+> ***(such as currency translation gains and losses) will cause the***
+> ***[[Clean surplus relation|clean surplus relation]] not to hold.***
+> ***Residual income models are appropriate under the following***
+> ***circumstances:***
+> ***A firm does not pay dividends, or the stream of payments is too volatile to***
+> ***be sufficiently predictable.***
+> ***Expected free cash flows are negative for the foreseeable future.***
+> ***The terminal value forecast is highly uncertain, which makes dividend***
+> ***discount or free cash flow models less useful.***
+> ***Residual income models are not appropriate under the following***
+> ***circumstances:***
+> ***The [[Clean surplus accounting|clean surplus accounting]] relation is violated significantly.***
+> ***There is significant uncertainty concerning the estimates of book value***
+> ***and return on equity.***
+>
+> ***> **LOS 21.k:** Describe accounting issues in applying residual income***
+> ***models.***
+
+> [!pnote] Professor's Note
+> ***This section is really just a brief summary of all the financial***
+> ***statement analysis material in the Financial Statement Analysis***
+> ***topic area. As an analyst, your job is to take financial statements***
+> ***prepared according to GAAP, convert them to something that***
+>
+> ***better reflects economic reality, and use these updated statements***
+> ***to estimate value. Here we discuss the typical adjustments***
+> ***necessary to implement residual income models, but most of these***
+> ***adjustments were also addressed in more detail in the financial***
+> ***statement analysis material.***
+> ***Conceptually, the residual income model is very straightforward; we just***
+> ***forecast residual income using some easily available accounting numbers***
+> ***and estimate the value of the equity. Unfortunately, in practice it’s not quite***
+> ***so simple because we have to make a lot of adjustments to reported net***
+> ***income to arrive at a true measure of [[Comprehensive income|comprehensive income]], which is an***
+> ***income measure that includes all the firm’s valuation changes. Following is***
+> ***a discussion of some common accounting issues that come up when we try***
+> ***to apply residual income models.***
+>
+> ***Clean Surplus Violations***
+> ***The clean surplus relationship (i.e., ending book value = beginning book***
+> ***value + net income dividends) may not hold when items are charged***
+> ***directly to [[Shareholders’ equity|shareholders’ equity]] and do not go through the income***
+> ***statement. Therefore, we have to adjust net income to account for these***
+> ***items if they are not expected to reverse in the future. Items that can bypass***
+> ***the income statement include:***
+> ***[[Foreign currency|Foreign currency]] translation gains and losses that flow directly to retained***
+> ***earnings under the [[Current rate method]].***
+> ***Certain pension adjustments.***
+> ***Gains/losses on certain hedging instruments.***
+> ***Changes in revaluation surplus ([[IFRS]] only) for [[Long-lived assets|long-lived assets]].***
+> ***Changes in the value of certain liabilities due to changes in the liability’s***
+> ***[[Credit risk]] (IFRS only).***
+> ***Changes in the market value of debt and equity securities classified as***
+> ***[[Available-for-sale|available-for-sale]].***
+> ***The effect of violations of the clean surplus relationship is that net income***
+> ***is not correct, but book value is still correct. The risk in applying the***
+> ***residual income model when the [[Clean surplus relation|clean surplus relation]] doesn’t hold is that***
+>
+> ***the ROE forecast will not be accurate if the clean surplus violations are not***
+> ***expected to offset in future years. For example, suppose the analyst***
+> ***determines that the clean surplus relation is violated because of the***
+> ***cumulative translation adjustment (CTA) resulting from the application of***
+> ***the [[Current rate method|current rate method]] of currency translation. (See the reading on***
+> ***Multinational Operations if the [[Current rate method|current rate method]] doesn’t sound familiar!)***
+> ***If the CTA tends to reverse over time and is not consistently positive or***
+> ***negative, the ROE can be forecasted without taking into account the CTA.***
+>
+> ***Variations from [[Fair value|Fair Value]]***
+> ***The accrual method of accounting causes many balance sheet items to be***
+> ***reported at book values that are significantly different than their market***
+> ***values. Common adjustments to the balance sheet necessary to reflect fair***
+> ***value include the following:***
+> ***Operating leases should be capitalized by increasing assets and liabilities***
+> ***by the present value of the expected future [[Operating lease|operating lease]] payments.***
+> ***Interest expense in the income statement should be close to the true cost***
+> ***of debt.***
+> ***Special purpose entities (SPEs) whose assets and liabilities are not***
+> ***reflected in the financial statements of the parent company should be***
+> ***consolidated.***
+> ***Reserves and allowances should be adjusted. For example, the allowance***
+> ***for bad debts, which is an offset to [[Accounts receivable|accounts receivable]], should reflect the***
+> ***[[Expected Loss|expected loss]] experience.***
+> ***[[Inventory|Inventory]] for companies that use LIFO (last in, first out) should be***
+> ***adjusted to FIFO (first in, first out) by adding the [[LIFO reserve|LIFO reserve]] to***
+> ***[[Inventory|inventory]] and equity, assuming no deferred tax impact.***
+> ***The pension asset or liability should be adjusted to reflect the funded***
+> ***status of the plan, which is equal to the difference between the [[Fair value|fair value]]***
+> ***of the plan assets and the [[Projected benefit obligation (PBO)|projected benefit obligation (PBO)]].***
+> ***[[Deferred tax liabilities|Deferred tax liabilities]] should be eliminated and reported as equity if the***
+> ***liability is not expected to reverse (e.g., if the deferred tax liability results***
+> ***from different depreciation methods for tax and financial statement***
+> ***reporting purposes, and if the company is growing).***
+>
+> ***Intangible Asset Effects on Book Value***
+> ***Two [[Intangible assets|intangible assets]] require special attention: (1) intangibles recognized at***
+> ***acquisition and (2) R&D expenditures.***
+> ***Recognition of an identifiable intangible asset (such as a license) in the***
+> ***group accounts that was not previously recorded in the investee company***
+> ***balance sheet creates a distortion in valuation under a residual income***
+> ***model. The amortization of such [[Intangible assets|intangible assets]] reduces the combined***
+> ***ROE, and hence results in lower valuation of the combined entity compared***
+> ***to the sum of the values of individual entities prior to acquisition. To***
+> ***remove this distortion, the amortization of intangibles capitalized during***
+> ***acquisition should be removed prior to computing the ROE used for***
+> ***residual income valuation.***
+> ***The suggested analytical treatment of R&D expenditures is less definitive,***
+> ***but we can make the general statement that the ROE estimate for a mature***
+> ***company should reflect the long-term [[Productivity|productivity]] of the company’s R&D***
+> ***expenditures: Productive R&D expenditures increase ROE and residual***
+> ***income, and unproductive expenditures reduce ROE and residual income.***
+>
+> ***Nonrecurring Items and Other Aggressive***
+> ***Accounting Practices***
+> ***Nonrecurring items should not be included in residual income forecasts***
+> ***because they represent items that are not expected to continue in the future.***
+> ***Items that may need adjustment in measuring recurring earnings include***
+> ***discontinued operations, accounting changes, unusual items, extraordinary***
+> ***items, and restructuring charges.***
+> ***Firms may adopt other types of aggressive accounting practices that***
+> ***overstate the book value of assets and earnings by, for example,***
+> ***accelerating revenues to the current period or deferring expenses to a later***
+> ***period.***
+>
+> ***International Accounting Differences***
+> ***Residual income models, which are based on [[Accrual accounting|accrual accounting]]***
+> ***information, may not be as useful in valuing foreign firms because of***
+>
+> ***differences in national accounting standards. Some things to consider in***
+> ***applying residual income models in global valuation settings include the***
+> ***following:***
+> ***How reliable are earnings forecasts?***
+> ***Are there systematic violations of the clean surplus relation?***
+> ***Do poor quality accounting rules result in financial statements that bear no***
+> ***resemblance to the economic reality of the business?***
+
+### Module Quiz 21.5
+
+1. Karuba Manufacturing has a book value of $15 per share and is expected to earn
+$3.00 per share indefinitely. The company does not reinvest any of its earnings.
+Karuba’s beta is 0.75, the risk-free rate is 4%, and the expected [[Market risk|market risk]]
+premium is 8%. The value of Karuba stock according to the dividend discount
+model and the residual income model are closest to:
+
+2. Kim Dae-Eun, CFA, values Olympic Productions at $78 per share with a residual
+income model using historical data to estimate return on equity and book value
+as reported on the balance sheet. Subsequently, he determines that Olympic has,
+for the past five years, been improperly capitalizing and amortizing expenditures
+that it should have expensed as they were incurred. What will be the effect on his
+forecasts of return on equity (ROE), book value, and intrinsic value if he revises
+his valuation estimate to take these “financial shenanigans” into account?
+
+3. Kim Dae-Eun, CFA, values Zues Printing Company at $46 per share with a
+residual income model using historical data to estimate return on equity and book
+value as reported on the balance sheet. Subsequently, he determines that Zues
+uses the [[Current rate method|current rate method]] of [[Foreign currency|foreign currency]] translation and has, for the past
+ten years, consistently reported [[Foreign currency|foreign currency]] translation gains as part of
+[[Comprehensive income|comprehensive income]]. He expects these [[Foreign currency|foreign currency]] gains will continue in
+the future. What will be the effect on his forecasts of return on equity (ROE), book
+value, and intrinsic value if he revises his valuation estimate to take this new
+information into account?
+
+
+> [!abstract] Key Concepts
+> LOS 21.a
+
+Residual income is net income less a charge for common stockholders’
+[[Opportunity cost|opportunity cost]] of capital.
+EVA and MVA are alternatives to residual income as measures of economic
+profit. These models are typically used in the measurement of managerial
+effectiveness and executive compensation. However, they are gaining
+acceptance as appropriate models for equity valuation.
+
+LOS 21.b
+
+Residual income and related models are used for equity valuation, tests for
+goodwill [[Impairment|impairment]], measurement of managerial effectiveness, and
+calculation of executive compensation.
+LOS 21.c
+
+Residual income is calculated from accounting data as:
+
+The residual income model breaks the intrinsic value of a stock into two
+elements:
+(1) current [[Book value of equity|book value of equity]] and (2) present value of expected future
+residual income:
+
+Valuation with residual income models is relatively less sensitive to
+terminal value estimates than dividend discount and free cash flow models.
+This is because intrinsic values estimated with residual income models
+include the firm’s current book value, which usually represents a substantial
+percentage of the estimated intrinsic value.
+
+LOS 21.d
+
+The fundamental drivers of residual income are ROE in excess of the cost
+of equity and the earnings growth rate.
+LOS 21.e
+
+If ROE is equal to the required return on equity, the justified market value
+of a share of stock is equal to its book value. When ROE is higher than the
+required return on equity, the firm will have positive residual income and
+will be valued at more than book value. In that case, the P/B ratio will be
+greater than one.
+LOS 21.f
+
+The single-stage residual income model is:
+
+LOS 21.g
+
+The growth rate implied by the market price in a single-stage residual
+income model is:
+
+LOS 21.h
+
+For multistage residual income models, first forecast residual income over a
+short-term horizon, and then make some simplifying assumptions about the
+pattern of residual income growth over the long term. Continuing residual
+income is the residual income that is expected over the long term. The
+present value of continuing residual income in year T 1 is equal to:
+If residual income is expected to persist at the current level forever, ω = 1.
+If residual income is expected to drop immediately to zero, ω = 0.
+If residual income is expected to decline over time after year T as ROE
+falls to the cost of equity capital, then the persistence factor, ω, is between
+zero and one.
+
+Another way to estimate continuing residual income without using the
+persistence factor is to assume residual income is expected to decline to a
+normal long-run level consistent with a mature industry. Then the premium
+over book value (PT BT) is equal to the present value of continuing residual
+income in year T, and the present value of continuing residual income in
+year T 1 is:
+
+In the residual income model, intrinsic value is the sum of three
+components:
+
+LOS 21.i
+
+DDM and FCFE models estimate value as the discounted present value of
+expected future cash flows. The residual income model estimates value as
+book value plus the present value of the expected stream of annual residual
+income.
+Residual income models may be used to assess the consistency of other
+valuation models.
+LOS 21.j
+
+The following are strengths of residual income models:
+Terminal value does not dominate the intrinsic estimate.
+Residual income models use accounting data, which is usually easy to
+find.
+The models are applicable to firms that do not pay dividends or that do
+not have positive expected free cash flows in the short run.
+The models are applicable even when cash flows are volatile.
+The models focus on economic rather than just on accounting profitability.
+The following are weaknesses of the residual income models:
+The models rely on accounting data that can be manipulated by
+management.
+
+Reliance on accounting data requires numerous and significant
+adjustments.
+The models assume that the clean surplus relation holds or that its failure
+to hold has been properly taken into account.
+Residual income models are appropriate under the following circumstances:
+A firm does not pay dividends, or the stream of payments is too volatile to
+be sufficiently predictable.
+Expected free cash flows are negative for the foreseeable future.
+The terminal value forecast is highly uncertain, which makes dividend
+discount or free cash flow models less useful.
+Residual income models are not appropriate under the following
+circumstances:
+The [[Clean surplus accounting|clean surplus accounting]] relation is violated significantly.
+There is significant uncertainty concerning the forecast of book value and
+return on equity.
+LOS 21.k
+
+In applying the residual income valuation approach, analysts often must
+take into account the following:
+Violations of the clean surplus relationship.
+Balance sheet adjustments for [[Fair value|fair value]].
+Intangible assets.
+Nonrecurring items.
+Other aggressive accounting practices.
+International accounting differences.
+
+
+### Answer Key For Module Quizzes
+
+Module Quiz 21.1, 21.2
+1. C The stock’s terminal value as of Year 5 is:
+
+The present value of this Year 5 terminal value is:
+
+Thus, the justified value of SS is currently C$75.00 + C$69.85 =
+C$144.85. (Module 21.2, LOS 21.c)
+Module Quiz 21.3
+1. C Stock P has model price higher than the market price and hence is
+undervalued. Stock Q has model price lower than the market price and
+hence is overvalued. Stock R has model price equal to the market price
+and hence is fairly valued. (LOS 21.f)
+2. C We know that:
+
+. Since the shares are fairly priced,
+
+V0 = P = $25.00. It follows that:
+
+Dividing both sides by $5.00 and rearranging, we get:
+
+(LOS 21.f)
+3. C Use the single-stage residual income model to solve for the justified
+P/B multiple, then solve for ROE given the other variables:
+
+(LOS 21.f)
+4. A The single-stage residual income model is:
+
+The second term in the equation is the present value of future
+expected residual income. Rocky’s ROE is greater than its cost of
+equity capital, so that second term is positive. That means intrinsic
+value is greater than book value, and the justified price-to-book ratio
+is greater than one. (LOS 21.f)
+5. A ROE is equal to forecasted earnings per share divided by current book
+value per share:
+
+The single-stage residual income model is:
+
+The second term in the equation is the present value of future
+expected residual income. The ROE is equal to the cost of equity
+capital (both are 10%), so the second term is zero. That means
+intrinsic value is equal to book value and the justified price-to-book
+ratio is equal to one. (LOS 21.f)
+Module Quiz 21.4
+1. C All three alternative assumptions will reduce continuing residual
+income below the level implied by the assumption that it remains
+constant forever. A falling ROE will reduce residual income over time
+
+because residual income decreases as the spread between ROE and the
+cost of equity decreases. Therefore, the value estimate will drop below
+$68 in all three cases. (LOS 21.h)
+2. B BCB’s required rate of return, r, can be computed using the capital
+asset pricing model (CAPM) as follows:
+The calculation of RI = Earningst r × Bookt−1 for the next three years
+is shown in the following table.
+Expected RI Computations
+
+The present value in 2023 of 2024 and 2025 residual income is:
+
+As indicated in the preceding table, the book value at the beginning
+of 2027 (end of 2026) is £14.91. The market price in 2026 for BCB
+is assumed to be four times B2026, so:
+The present value of continuing residual income as of the end of
+2025 is:
+
+(LOS 21.h)
+
+3. B The present value of residual income in 2023 is:
+
+(LOS 21.h)
+4. C
+
+In this case, ω = 0. The present value of continuing residual income
+in Year 3 =
+
+Since the shares are valued at €8.34 each and the current market
+price per share is €8.75, the shares are overpriced, and the analyst
+should consider issuing a sell recommendation. (LOS 21.c)
+5. B We now modify the information in the last problem and assume that
+residual income remains constant at €0.45 after the initial forecast
+period, so ω = 1. Continuing residual income in Year 3 is
+
+In this case, the value of the shares exceeds the current price of €8.75
+and the analyst should consider issuing a buy recommendation. (LOS
+21.c)
+
+6. C Residual income begins to decline after Year 4, (ω = 0.3) so the
+present value of continuing residual income in Year 3 is:
+
+The intrinsic value today is book value plus the present value of
+Years 1 through 3 residual income plus the present value of
+continuing residual income:
+
+Since the shares are valued at €8.45 and the current market price is
+€8.75, the shares are overpriced and the analyst should consider
+issuing a sell recommendation. (LOS 21.c)
+Module Quiz 21.5
+1. C Dividend discount model:
+
+Residual income model:
+
+(LOS 21.i)
+2. C Improperly capitalizing expenditures that should have been expensed
+will cause return on equity and book value forecasts to be overstated.
+Correcting the valuation to reflect the overstatement of both of these
+forecasts would cause the ROE estimate to decrease, the book value
+per share to decrease, and the intrinsic value from the residual income
+model to decrease. (LOS 21.k)
+3. B The foreign currency translation gains were recorded directly to equity
+as part of [[Comprehensive income|comprehensive income]] and were not reflected in income, so
+his ROE forecast was understated. If he expects these gains to
+
+continue, he should revise his forecast upward of ROE. Book value
+was not affected, however, because the gains were recorded to equity.
+Correcting the valuation to reflect these changes would cause his ROE
+estimate to increase, the book value per share to stay the same, and the
+intrinsic value from the residual income model to increase. (LOS 21.k)
+
+
+---
+
+# Reading 22 — Private Company Valuation
+
+
+> [!tip] Exam Focus
+> For the exam, be familiar with differences between private and public
+> companies and know the different definitions and approaches for value
+> [[Estimation|estimation]]. Be prepared to normalize earnings, determine an appropriate
+> discount rate, and calculate private firm value. Know when and how
+> discounts for control and marketability are applied.
+
+
+## Module 22.1: Private Company Basics
+
+
+> **LOS 22.a:** Contrast important public and private
+company features for valuation purposes.
+Private firms encompass sole proprietorships, privately held corporations,
+and previously public companies that have been taken private. The
+characteristics that distinguish private and public companies can be
+delineated into company-specific and stock-specific factors.
+
+Company-Specific Factors
+Company-specific factors include the following:
+Stage of life cycle. Private companies are typically less mature than public
+firms. Sometimes, however, private firms are mature firms or bankrupt
+firms near liquidation. The valuation analysis will vary with the life cycle
+stage of the firm.
+
+Size. Private firms typically have less capital, fewer assets, and fewer
+employees than public firms—as such, they can be riskier. Accordingly,
+private firms are often valued using greater risk premiums and greater
+required returns compared to public firms. A lack of access to public
+equity markets can constrain a private firm’s growth. However, the
+[[Regulatory burden|regulatory burden]] associated with issuing public equity may outweigh the
+benefits of greater access to funds.
+Quality and depth of management. Smaller private firms may not be able
+to attract as many qualified applicants as public firms. This may reduce
+the depth of management, slow growth, and increase risk at private firms.
+Management/shareholder overlap. In most private firms, management has
+a substantial ownership position, reducing [[Principal|principal]]-agent conflict. This
+gives external shareholders little influence, and it helps the firm to take a
+longer-term perspective.
+Short-term investors. Although manager compensation in public firms
+often includes incentive compensation such as stock options, shareholders
+often focus on short-term measures of performance, such as the level and
+consistency of quarterly earnings. In such cases, management may take a
+shorter-term view compared to private firms where managers are longterm holders of significant equity interests.
+Quality of financial and other information. Public firms are required to
+make timely, in-depth financial disclosures. A potential creditor or equity
+investor in a private firm will have less information than is available for a
+public firm. This leads to greater uncertainty, higher risk, and it reduces
+private firm valuations. Note that in the case of fairness opinions for
+private firm valuations, the analyst typically has complete access to the
+firm’s financial statements and business records.
+Taxes. Private firms may be more concerned with taxes than public firms
+due to the impact of taxes on [[Private equity]] owners/managers.
+
+Stock-Specific Factors
+The stock-specific differences between private and public firms often
+include the following:
+
+[[Liquidity|Liquidity]]. Private company equity typically has fewer potential owners
+and is less liquid than publicly traded equity. Thus, a [[Liquidity|liquidity]] discount is
+often applied in valuing privately held shares.
+Restrictions on marketability. Private companies often have agreements
+that prevent shareholders from selling, reducing the marketability of
+shares.
+Concentration of control. The control of private firms is usually
+concentrated in the hands of a few shareholders, which may lead to
+greater perks and other benefits to owners/managers at the expense of
+[[Minority shareholders|minority shareholders]].
+Overall, company-specific factors can have positive or negative effects on
+private company valuations, whereas stock-specific factors are usually a
+negative. Compared to public companies, private companies have greater
+heterogeneity, so that the appropriate discount rates and methods for
+valuing them vary widely as well.
+
+> **LOS 22.b:** Describe uses of private business valuation and explain key
+areas of focus for financial analysts.
+There are three reasons for valuing the total capital and/or equity capital of
+private companies: transactions, compliance, and litigation.
+
+Transaction-Related Valuations
+Transaction-related valuations are necessary when selling or financing a
+firm:
+[[Venture capital|Venture capital]] financing. Firms in the development stage often need
+external financing for capital investment and receive private financing
+from [[Venture capital investors|venture capital investors]]. To reduce risk to the [[Venture capital|venture capital]]
+investor, the capital is often provided in rounds after the achievement of
+specific benchmarks known as milestones. Valuations are usually subject
+to negotiation and are somewhat informal due to the uncertainty of future
+cash flows.
+
+[[Initial public offering|Initial public offering]]ng|public offering]] (IPO). A public sale of the firm’s equity increases
+its [[Liquidity|liquidity]]. [[Investment banks|Investment banks]] often perform IPO valuations using the
+values of similar public firms as a [[Benchmark|benchmark]].
+Sale in an acquisition. Development-stage or mature private firms are
+often sold to generate [[Liquidity|liquidity]] for the owners. Valuations are usually
+performed by both the firm and the buyer and are subject to negotiation.
+[[Bankruptcy|Bankruptcy]] proceedings. For firms in [[Bankruptcy|bankruptcy]], accurate valuation can
+help determine whether the firm should be liquidated or reorganized. If it
+is determined that the firm can continue as a going concern, accurate
+valuation is important in its restructuring.
+Performance-based managerial compensation. If a firm compensates
+employees with stock options, grants of restricted stock, or employee
+stock ownership plans, accurate valuation is necessary for both accounting
+and tax purposes.
+Debt financing. Lenders may be interested in valuation as part of their
+underwriting process.
+
+Compliance-Related Valuations
+Compliance-related valuations are performed for legal or regulatory
+reasons. They primarily focus on financial reporting and tax issues:
+Financial reporting. Valuations in this area are often related to goodwill
+[[Impairment|impairment]] tests in which units of a public firm are valued using private
+company valuation methods. The reporting of stock-based compensation
+also requires accurate valuation.
+Tax purposes. At the firm level, transfer pricing, property taxes, and
+[[Corporate Restructuring|corporate restructuring]] may necessitate valuations. For individual equity
+owners, estate and gift tax issues may necessitate valuations.
+
+Litigation-Related Valuations
+Litigation-related valuations may be required for shareholder suits, damage
+claims, lost profits insurance claims, or divorce settlements.
+Because the valuation methods for transactions, compliance, and litigation
+are often quite different, most appraisers specialize in a single area.
+
+Transaction-related valuations are usually performed by investment
+bankers, compliance-related valuations by those with accounting or tax
+knowledge, and litigation-related valuations by those comfortable with a
+legal setting and specific jurisdictions.
+
+> **LOS 22.c:** Explain cash flow [[Estimation|estimation]] issues related to private
+companies and adjustments required to estimate [[Normalized earnings|normalized earnings]].
+In valuing a firm, the appropriate earnings definition is normalized
+earnings: “firm earnings if the firm were acquired.” The adjustments
+required to arrive at [[Normalized earnings|normalized earnings]] are discussed as follows.
+
+> [!pnote] Professor's Note
+> ***In a previous topic review, we calculated [[Normalized earnings|normalized earnings]] as***
+> ***the average earnings over the [[Business cycle|business cycle]]. Here, the calculation***
+> ***of [[Normalized earnings|normalized earnings]] requires adjustment for firm-specific***
+> ***characteristics. Normalized earnings, in this case, is similar to the***
+> ***concept of [[Underlying earnings|underlying earnings]] discussed previously—but with***
+> ***adjustments unique to private companies.***
+>
+> ***Estimating Normalized Earnings***
+> ***Normalized earnings should exclude nonrecurring and unusual items. In the***
+> ***case of private firms with a concentrated control, there may be discretionary***
+> ***or tax-motivated expenses that need to be adjusted when calculating***
+> ***normalized earnings. These adjustments can be quite significant when the***
+> ***firm is small.***
+> ***When a closely controlled firm does business with its owners or other***
+> ***businesses controlled by its owners, firm expenses may be inflated—and***
+> ***reported earnings, therefore, may be artificially low. Artificially low***
+> ***earnings may also be the result of excessively high owner compensation, or***
+> ***of personal expenses charged to the firm. These expenses will also affect***
+> ***the firm’s [[Tax expense|tax expense]]. The adjustments are potentially larger when the***
+> ***owners’ family members have connections to the firm. Use of companyowned assets (e.g., aircraft, personal residences, company-provided life***
+>
+> ***insurance, loans for managers/owners) potentially require an adjustment to***
+> ***earnings.***
+> ***On the other hand, if a firm is performing poorly, the owners may be***
+> ***receiving compensation below market levels. In this case, reported earnings***
+> ***would overstate normalized earnings.***
+> ***Any [[Real estate]] owned by the firm may merit treatment separate from that of***
+> ***firm operations. For example, [[Real estate|real estate]] is likely to have different risk***
+> ***characteristics than the firm’s operations. Further, the properties’***
+> ***depreciation expense is based on [[Historical cost|historical cost]] and does not reflect the***
+> ***current rental cost. Some analysts will remove any income and expenses***
+> ***from [[Real estate|real estate]] on the income statement. If it is used in the firm’s business,***
+> ***a market-estimated rental expense is used in calculating or estimating***
+> ***earnings. The value of [[Real estate|real estate]] is, therefore, separated from its operations***
+> ***and treated as a nonoperating asset. If the [[Real estate|real estate]] is leased from a related***
+> ***party, the lease rate should be adjusted to a market rate.***
+> ***Other adjustments are common to both private and public companies (e.g.,***
+> ***adjustments for differences in depreciation and [[Inventory|inventory]] methods).***
+> ***Additionally, some private firm financial statements are reviewed rather***
+> ***than audited; some may be only compiled (i.e., no auditor opinion is***
+> ***provided). In any case, the analyst should be prepared to make further***
+> ***adjustments.***
+
+### Example: Normalized earnings
+
+
+Tim Groh is the [[Principal|principal]] shareholder, CEO, and founder of Arbutus
+Generators (Arbutus). Arbutus reports the three following annual figures:
+a. Groh’s compensation of $2.5 million is included in the firm’s selling,
+general, and administrative (SG&A) expenses.
+b. Arbutus leases a warehouse for $100,000 a year from one of its largest
+suppliers.
+c. Arbutus owns a vacant office building with reported SG&A expenses
+of $150,000 and $25,000 of depreciation expense.
+An analyst determines that a market-based compensation for Groh’s
+position is $1 million annually and that the office building is not needed
+
+for core operations. The market lease rate of the warehouse is $130,000
+per year.
+Based on the three annual figures just listed, what adjustments should the
+analyst make to Arbutus’s reported income to estimate normalized
+earnings (earnings), assuming the firm will be acquired?
+Answer:
+a. Because the market rate is $1.5 million less than Groh’s actual
+compensation, SG&A expenses should be reduced by $1.5 million to
+reflect a normalized compensation expense.
+b. Because the market lease rate is $30,000 higher than the reported lease
+expense, SG&A expenses should be increased by $30,000 to reflect a
+normalized lease rate.
+c. Because the office building is noncore, SG&A expenses should be
+reduced by $150,000, and the depreciation expense should be reduced
+by $25,000.
+
+Estimating Cash Flow
+Calculating free cash flow to the firm (FCFF) or to equity holders for
+private firms can be particularly challenging, given uncertain future cash
+flows and figures that are often generated using the current owners’ input.
+As noted previously, the valuation of equity depends on the definition of
+value used. Also, controlling and noncontrolling equity interests will have
+quite different values. These differences should be accounted for in cash
+flow estimates and assumptions.
+When there is significant uncertainty about a private company’s future
+operations, the analyst should examine several scenarios when estimating
+future cash flows. For development-stage firms, scenarios could include a
+sale of the firm, an IPO, [[Bankruptcy|bankruptcy]], or continued private operation. For a
+mature firm, scenarios might include different ranges of cash flows based
+on different assumed growth rates.
+For each scenario, the analyst must assign a discount rate and [[Probability|probability]]
+based on the scenario’s risk and [[Probability|probability]] of occurring. A firm value for
+
+each scenario is estimated, and a weighted average of these values is used
+to estimate firm value. Alternatively, a weighted average scenario cash flow
+may be discounted using a single discount rate to arrive at an estimate of
+firm value.
+Cash flow estimates often are based on current management estimates or
+result from analyst consultation with management. The analyst should be
+aware of the potential bias in management estimates. For example,
+management may overstate the value of goodwill or understate future
+capital needs.
+Although analysts use FCFF or free cash flow to equity (FCFE) depending
+on the purposes of the valuation, FCFF is usually more appropriate when
+the significant changes in the firm’s [[Capital structure|capital structure]] are anticipated. The
+reasoning is that the discount rate used for FCFF valuation, the weighted
+average cost of capital (WACC), is less sensitive to leverage changes than
+the cost of equity, the discount rate used for FCFE valuation. Thus, the
+FCFF valuation is less sensitive to the [[Degree of financial leverage|degree of financial leverage]]ge|financial leverage]] assumed
+in the analysis than the FCFE valuation.
+
+> [!pnote] Professor's Note
+> ***The calculations and adjustments here are similar to those in our***
+> ***previous coverage of the estimation of FCFF in that they start at***
+> ***operating income before interest expense. Noncash charges***
+> ***(NCC) are stated as depreciation and amortization here, and fixed***
+> ***capital investment is stated as capital expenditures.***
+
+### Example: Estimation of FCFF
+
+
+An analyst has normalized the earnings and expenses for a private firm
+under consideration as an acquisition. Because the capital structure is
+nonoptimal, the analyst assumes that the capital structure will be changed
+if the firm is acquired and will use the FCFF approach to value the firm.
+The following assumptions are used to create a pro forma income
+statement and to estimate FCFF.
+
+Additionally, capital expenditures will cover depreciation plus 6% of the
+firm’s incremental revenues.
+Create a pro forma income statement and estimate FCFF.
+Answer:
+
+The following provides an explanation for the previous calculations.
+
+
+### Module Quiz 22.1
+
+1. Compared to public firms, private firms are most likely to have:
+A. fewer tax concerns.
+B. a longer-term focus.
+C. less managerial ownership.
+2. Which of the following most accurately describes the process of valuation in
+[[Venture capital|venture capital]] financing?
+A. Valuations are usually based on negotiation.
+B. Discounted cash flow and [[Price multiple|price multiple]] analysis are typically used.
+C. The appraiser estimates value using [[Comparable company|comparable company]] values and the
+prices of recent IPOs.
+3. Suppose that we are provided the following figures for a private firm that is an
+acquisition target:
+
+Normalized EBITDA is closest to:
+
+### A. $6,800,000.
+
+
+### B. $6,900,000.
+
+
+### C. $7,000,000.
+
+4. Suppose that we are provided the following figures for a medical diagnostic and
+consumer health care [[Technology|technology]]. (Assume that the earnings and expenses are
+normalized, and that capital expenditures will equal depreciation plus 4% of the
+firm’s incremental revenues.)
+
+Based on a pro forma income statement, forecasted FCFF for the next year is
+closest to:
+
+### A. $157,000.
+
+
+### B. $277,000.
+
+
+### C. $407,000.
+
+
+## Module 22.2: Discount Rate Video Covering
+
+
+> **LOS 22.d:** Explain factors that require adjustment when
+estimating the discount rate for private companies.
+Estimating the discount rate in a private firm valuation can be quite
+challenging for the following reasons:
+Size premiums. Size premiums are often added to the discount rates used
+for small private companies. Estimates of this premium based on small
+public firm data may be biased upward if some of the small firms in the
+sample were formerly larger companies that are now experiencing
+[[Financial distress|financial distress]].
+
+Availability and [[Cost of debt|cost of debt]]. A private firm may have less access to debt
+financing than would a public firm. Because equity capital is usually more
+expensive than debt, and because the higher [[Operating risk|operating risk]] of smaller
+private companies also results in a higher cost of debt, WACC will
+typically be higher for private firms.
+Acquirer versus target. When acquiring a private firm, some acquirers will
+incorrectly use their own (lower) cost of capital, rather than the higher rate
+appropriate for the target. Thus, they will arrive at a value for the target
+company that is too high. The target should be valued using its own cost
+of capital to reflect risk differences between the target and the acquirer.
+Projection risk. The lower availability of information about private firms
+may make it appropriate for an analyst to apply a higher discount rate.
+Additionally, the private firm’s management may be inexperienced at
+forecasting, making the upward or downward adjustment of earnings
+forecasts appropriate. (However, such adjustments are highly subjective.)
+Life cycle stage. It is particularly difficult to estimate the discount rate for
+a firm in an early stage of development. If such firms have unusually high
+levels of unsystematic risk, the use of the [[Capital asset pricing model|capital asset pricing model]]
+(CAPM) may be inappropriate. Although ranges of discount rates can be
+specified for the various life cycle stages, it may be difficult to accurately
+classify the stage a firm is in.
+
+> **LOS 22.e:** Compare models used to estimate the required rate of return
+to private company equity (for example, the CAPM, the expanded
+CAPM, and the [[Build-up approach|build-up approach]]).
+Using the CAPM, the [[Expanded CAPM|expanded CAPM]], and build-up methods to estimate
+discount rates for private firms may not be as straightforward as it is for
+public firms.
+With CAPM, beta is traditionally estimated from public firm data. However,
+such a beta estimate may not be appropriate for private firms that have little
+chance of going public or being acquired by a public firm. Due to the
+differences between large public firms and small private firms, some U.S.
+tax courts have rejected the use of the CAPM for private firms.
+
+While using comparable beta as a proxy for the subject company, an
+adjustment should be made for leverage differences.
+First, we unlever the comparable public company beta using its tax rate and
+debt-to-equity ratio:
+
+Then, to arrive at the estimate of private company beta, we adjust this
+unlevered beta using the subject private company’s tax rate (t*) and
+leverage (D/E)*:
+Beta is a measure of [[Systematic risk]], which makes it appropriate in a welldiversified portfolio context. However, investments in private companies
+may be large, unique, and undiversified. Thus, additional risk premiums
+may be applicable.
+The [[Expanded CAPM|expanded CAPM]] version includes additional premiums for size and
+firm-specific (unsystematic) risk.
+The build-up method can be used when it is not possible to find comparable
+public firms for beta estimation. Beginning with the expected return on the
+market (i.e., beta is implicitly assumed to be one), premiums are added for
+small size, industry factors, and company-specific factors.
+
+### Example: Private company required rate of return
+
+
+An analyst is examining a private firm being considered for acquisition
+and determines the following:
+The current capital structure is nonoptimal because the owner avoids
+using debt.
+A small stock premium and [[Company-specific risk|company-specific risk]]sk premium|risk premium]] are
+appropriate because the private firm is much smaller and much less
+diversified than the public firms that beta is estimated from.
+An industry [[Risk premium|risk premium]] is needed to account for the additional risk in
+this industry compared to the broad market.
+
+The relevant figures are as follows.
+
+Questions:
+a. Calculate the required return on equity using the CAPM, the expanded
+CAPM, and the build-up method.
+b. Calculate the WACC using the current capital structure and the optimal
+capital structure, assuming a cost of equity of 16%.
+c. Comment on the appropriate capital structure weights.
+Answer:
+a. The required return on equity using the CAPM is as follows: required
+return = Rf + (β × ERP) = 3.6% + 1.3(6%) = 11.4%.
+Using the [[Expanded CAPM|expanded CAPM]], a small stock premium and companyspecific [[Risk premium|risk premium]] are added: 11.4% + 3% + 2% = 16.4%.
+Using the build-up method, beta is omitted (but an industry risk
+premium is added): 3.6% + 6% + 1% + 3% + 2% = 15.6%.
+b. The WACC, using current capital structure, is as follows:
+
+The WACC, using the [[Optimal capital structure|optimal capital structure]], is as follows:
+
+c. The current capital structure reflects the current owner’s conservative
+use of debt. The [[Optimal capital structure|optimal capital structure]] can be determined through
+discussions with financiers. The [[Optimal capital structure|optimal capital structure]] should be used
+to calculate the (lower) WACC for the acquisition, reflecting the higher
+level of debt the firm can support. The capital structure for public firms
+in the same industry should not be used because public firms are likely
+to have better access to debt financing. A public firm could likely take
+on more (less expensive compared to equity) debt than a private
+company. For this reason, a private firm will likely have a greater
+WACC than a public firm in the same industry.
+
+> **LOS 22.f:** Explain and evaluate the effects on private company
+valuations of discounts and premiums based on control and
+marketability.
+
+Strategic and Nonstrategic Buyers
+A transaction may be either strategic or financial. In a [[Strategic transaction|strategic transaction]],
+valuation of the firm is based in part on the perceived synergies with the
+acquirer’s other assets. Conversely, a [[Financial transaction|financial transaction]] assumes no
+synergies, such as when one firm buys another in a dissimilar industry.
+When estimating normalized earnings for a [[Strategic transaction|strategic transaction]], the analyst
+should incorporate synergies as an increase in revenues, or as a reduction in
+costs.
+
+### Example: Incorporating synergies
+
+
+An analyst is valuing a firm with two different potential buyers. Buyer A
+is a firm in the same industry as the target firm, which expects to reduce
+costs at the target firm by eliminating redundancies. Buyer B is a firm in
+an unrelated industry.
+Calculate the normalized EBITDA for each buyer given the following
+information.
+
+Answer:
+Both the strategic (Buyer A) and nonstrategic (Buyer B) buyers will
+attempt to reduce executive compensation to market levels. So, the
+adjustment for both buyers to generate normalized EBITDA is
+$4,800,000 + ($900,000 − $600,000) = $5,100,000.
+Only Buyer A will be able to realize synergistic savings of ($8,000,000 −
+$7,600,000) = $400,000. So, normalized EBITDA for Buyer A is
+$5,500,000; for Buyer B, it is $5,100,000.
+In general, adjustments are required when the marketability or level of
+control of a potential acquisition differs from that of the comparable
+companies. For example, if the comparable firm values are for the purchase
+of an entire public company but we wish to value a minority stake in a
+private firm, we would need to apply discounts for both a lack of control
+and a lack of marketability.
+
+[[Discount for lack of control|Discount for Lack of Control]]
+Regarding a [[Discount for lack of control|discount for lack of control]] (DLOC), [[Minority shareholders|minority shareholders]] are
+at a disadvantage because they have less power to select the directors and
+management than do the [[Controlling shareholders|controlling shareholders]]. Without a voice, minority
+shareholders cannot determine the investment policies and payout policies
+that affect the value of the firm and the distribution of earnings.
+[[Controlling shareholders|Controlling shareholders]] may enjoy excessive compensation and other
+perks to the detriment of minority shareholders. However, firms that will
+experience an IPO or sale are less likely to pursue actions that damage
+minority shareholders.
+Because estimates of lack of control discount are not easily available, we
+back this information out of control premiums observed in public company
+takeover transactions:
+
+For example, if the [[Control premium|control premium]] is 25%:
+Valuations based on discounted cash flow methods such as free cash flow
+(FCF) and the [[Capitalized cash flow method|capitalized cash flow method]] (CCM) could also require
+adjustments, depending on whether the estimated and subject cash flows
+were on a controlling or [[Noncontrolling Interest]] basis.
+
+[[Discount for lack of marketability|Discount for Lack of Marketability]]
+If an interest in a firm cannot be easily sold, a discount for lack of
+marketability ([[Discount for lack of marketability|DLOM]]) should be applied. (A DLOM is sometimes also
+called a discount for lack of liquidity.) It is often the case that if a DLOC is
+applied, a DLOM will also be appropriate. For example, if a controlling
+shareholder believes that a private firm should not be sold, minority
+shareholders lack both the control and the ability to sell their position.
+The DLOM may be impacted by numerous factors:
+An impending IPO or firm sale will decrease the DLOM.
+Contractual restrictions on selling stock will increase the DLOM.
+A larger pool of buyers will decrease the DLOM.
+Greater ownership concentration will increase the DLOM.
+To estimate the DLOM, an analyst can use one of three methods:
+1. In the first method, the price of the restricted shares is compared to the
+price of the publicly traded shares. (SEC Rule 144, for example, may
+restrict the sale of shares acquired in a firm before its IPO.)
+2. In the second method, the price of pre-IPO shares is compared to that of
+post-IPO shares. However, one complicating factor is that post-IPO firms
+are generally thought to have more certain cash flows and lower risk, so
+the estimated DLOM may not purely reflect changes in marketability.
+3. A third method estimates the DLOM as the value of an [[At-the-money|at-the-money]] put
+option of a comparable public company, divided by its stock price. The
+time to maturity of the option should correspond to the time to the IPO,
+
+and the [[Volatility|volatility]] is based on the historical [[Volatility|volatility]] of publicly traded
+stock, or the [[Implied volatility|implied volatility]] of publicly traded options. An advantage
+of this option valuation approach over the other two DLOM estimation
+methods is that the estimated risk of the private company can be factored
+into the option price. The drawback of this approach is that a [[Put option]]
+indicates a certain selling price—not actual liquidity.
+Although these methods provide a basis for calculating the DLOM, it can
+be challenging to implement them. The data may be limited, and the
+interpretation of the data will vary; thus, the magnitude of the DLOM
+applied to a company will vary by analyst.
+Because they are applied sequentially, the DLOC and DLOM are
+multiplicative, not additive. So, if the DLOC is 20%, and the DLOM is
+13%, the total discount is NOT calculated as 20% + 13% = 33%, but as
+follows:
+
+
+### Example: Calculating the value of a minority interest
+
+
+A minority shareholder holds 15% of a private firm’s equity, and the
+CEO holds the other 85%. Suppose that there are two possible scenarios.
+In Scenario 1, the CEO is likely to sell the firm soon. In this case, the
+valuation discounts will be small. A DLOM of 5% will be applied. A
+DLOC will not be applied, under the assumption that all selling
+shareholders will receive the same price. The value of the firm’s equity is
+estimated at $10 million.
+In Scenario 2, the CEO has no plans to sell the firm, and the minority
+shareholder cannot sell their interest easily. A DLOM of 20% will be
+applied. A DLOC will be estimated by using reported earnings instead of
+normalized earnings to provide an estimated firm equity value of $9
+million. The $9 million value assumes that certain firm inefficiencies
+(e.g., above-market compensation for the owner) cannot be corrected
+without a sale of the firm.
+
+Given these figures, calculate the value of the minority shareholder’s
+equity interest under both scenarios.
+Answer:
+The following provides the calculations under each scenario.
+
+The smaller value of the [[Minority Interest|minority interest]] in Scenario 2 is due to the
+higher DLOM and the DLOC (as reflected in the lower firm equity value
+of $9 million).
+In addition to discounts for lack of control and marketability, other
+discounts—such as key person discount, portfolio concentration discount,
+and lack of voting rights discount—may also apply for a specific valuation.
+
+### Module Quiz 22.2
+
+1. The most appropriate WACC to apply to a private company being acquired is:
+A. the target’s WACC.
+B. the acquirer’s WACC.
+C. a weighted average of the target’s and acquirer’s WACC that factors in
+financing arrangements.
+2. Which of the following models is most appropriate for estimating the discount rate
+for a private company when there are no comparable public equity firms?
+
+A. The CAPM.
+B. The build-up method.
+C. The [[Expanded CAPM|expanded CAPM]].
+
+Use the following information to answer Questions 3 and
+4.
+
+3. The appropriate cost of equity for a mature private firm of similar size and firmspecific risk as its public comparable is closest to:
+
+### A. 13.1%.
+
+
+### B. 15.1%.
+
+
+### C. 19.4%.
+
+4. Suppose that we are considering the acquisition of a small private firm with a high
+degree of firm-specific risk, where the firm is dissimilar to public firms. The
+appropriate WACC to use is closest to:
+
+### A. 12.1%.
+
+
+### B. 14.5%.
+
+
+### C. 16.8%.
+
+5. All else equal, a larger DLOM is most likely to be associated with:
+A. an imminent IPO.
+B. lower asset risk.
+C. a smaller pool of buyers.
+6. An analyst has been tasked with valuing a [[Minority Interest|minority interest]] in a private company.
+Upon examining numerous comparable firms that have been acquired, she
+determines that a [[Control premium|control premium]] of 18% is present in the acquisition prices.
+Further, the analyst determines that a [[Discount for lack of marketability|discount for lack of marketability]] (DLOM) of
+22% is appropriate for the private company interest. The total adjustment the
+analyst should make to the value of the [[Comparables|comparables]] when valuing the private
+company interest is closest to:
+
+### A. 33.9%.
+
+
+### B. 36.0%.
+
+
+### C. 40.6%.
+
+
+## Module 22.3: Valuation
+
+
+> **LOS 22.g:** Explain the income, market, and asset-based
+approaches to private company valuation and factors
+relevant to the selection of each approach.
+The three major approaches to private company valuation are the income
+approach, the [[Market approach|market approach]], and the [[Asset-based approach|asset-based approach]]:
+1. Income approach. This values a firm as the present value of its expected
+future income. Such valuation may be based on various different
+assumptions and variations.
+2. [[Market approach|Market approach]]. This values a firm using multiples from recent sales
+of comparable assets.
+3. [[Asset-based approach|Asset-based approach]]. This values a firm as the value of its assets minus
+its liabilities.
+
+> [!pnote] Professor's Note
+> ***These methods are similar to those used to value public***
+> ***companies, but they have different names. In the public equity***
+> ***world, the income approach is known as discounted cash flow or***
+> ***present value analysis.***
+> ***The income approach and the [[Asset-based approach|asset-based approach]] are termed absolute***
+> ***valuation models. By contrast, with the [[Market approach|market approach]], value is***
+> ***determined relative to recent valuations of other assets.***
+> ***In selecting an appropriate valuation approach, an analyst should consider***
+> ***the firm’s life cycle stage. Early in its life, a firm’s future cash flows may be***
+> ***subject to so much uncertainty that an [[Asset-based approach|asset-based approach]] would be most***
+> ***appropriate. As the firm moves to a high growth phase, it might be most***
+> ***appropriately valued using an income approach—in particular, a form of the***
+> ***income approach known as a free cash flow (FCF) valuation model. A***
+> ***mature firm might be most appropriately valued using the [[Market approach|market approach]].***
+>
+> ***Firm size is also a consideration in choosing a valuation methodology. Price***
+> ***multiples from large public firms should not be used to value a small***
+> ***private firm without some assurance that the risk and the growth prospects***
+> ***of the firms are similar.***
+> ***A firm’s assets typically consist of both operating and nonoperating assets.***
+> ***Nonoperating assets—those not crucial to the firm’s primary operations and***
+> ***focus—are typified by excess cash and investment accounts. A valuation***
+> ***based on income or earnings multiples would not attach a value to these***
+> ***nonoperating assets. If these assets represent a significant portion of firm***
+> ***value, they should be separately added when valuing a firm.***
+>
+> ***Income Approaches***
+>
+> ***> **LOS 22.h:** Calculate the value of a private company using incomebased methods.***
+> ***The income approach refers to valuation methods based on the idea that the***
+> ***value of an asset is the present value of its future income. Three methods***
+> ***consistent with the income approach are (1) the FCF method (a.k.a. the***
+> ***[[Discounted cash flow method|discounted cash flow method]]), (2) the [[Capitalized cash flow method|capitalized cash flow method]], and (3)***
+> ***the residual income (or excess earnings) method.***
+>
+> ***The [[Free cash flow method|Free Cash Flow Method]]***
+> ***Under this method of private company valuation, a series of discrete cash***
+> ***flows are forecast, plus a terminal value that reflects the value of the***
+> ***business as a going concern at some future date. The terminal year***
+> ***represents the point of time in the future at which growth is expected to***
+> ***level off and remain constant. In practice, most analysts estimate the***
+> ***terminal value five years out. Once free cash flows have been estimated,***
+> ***they are discounted at a rate appropriate to their risk.***
+> ***The terminal value can be calculated using a constant growth model (e.g.,***
+> ***the dividend discount model). Some analysts use a [[Price multiple|price multiple]] approach***
+> ***to estimate a firm’s terminal value. Note, however, that if the [[Price multiple|price multiple]]***
+> ***is for a firm in a high growth industry, the [[Price multiple|price multiple]] applied will often***
+> ***reflect both high growth and normal growth. In this case, the high growth is***
+>
+> ***double counted—once in the price multiple and once in the periodic cash***
+> ***flow forecasts.***
+> ***Terminal value can also be calculated using the capitalized cash flow***
+> ***method (discussed next).***
+
+> [!pnote] Professor's Note
+> ***The FCF method here is a two-stage model. The capitalized cash***
+> ***flow method described next is a single-stage model.***
+>
+> ***The [[Capitalized cash flow method|Capitalized Cash Flow Method]]***
+> ***This method is also known as the [[Capitalized income method|capitalized income method]] and the***
+> ***[[Capitalization of earnings method|capitalization of earnings method]]. Under this method, a single measure of***
+> ***economic benefit is divided by a [[Capitalization rate]]—equal to the required***
+> ***rate of return minus a growth rate—to arrive at firm value. This is a***
+> ***growing perpetuity model that assumes stable growth and is, in effect, a***
+> ***single-stage FCF model. The [[Capitalized cash flow method|capitalized cash flow method]] is most often***
+> ***used for small private companies. It may be suitable when no [[Comparables|comparables]]***
+> ***are available, projections are uncertain, and stable growth is a reasonable***
+> ***assumption. If growth is nonconstant, the FCF method should be used***
+> ***instead.***
+> ***Valuing the firm as a whole using the CCM is as follows:***
+>
+> ***This CCM formula could also be used in reverse, to back out the discount***
+> ***rate or growth rate implicit in market data.***
+> ***After-tax EBIT adjusted for reinvestment in fixed and working capital is***
+> ***often used as a proxy for FCFF.***
+> ***The reinvestment rate (or retention rate) can be calculated as follows:***
+>
+> ***$$***
+> ***b = g / WACC***
+> ***$$***
+>
+>
+> ***And then we can calculate firm value:***
+>
+> ***To estimate the value of the equity, the market value of the firm’s debt is***
+> ***subtracted from firm value. Alternatively, the value of firm equity can be***
+> ***estimated using the following growing perpetuity formula:***
+> ***The denominator in the FCFE equation is the [[Capitalization rate|capitalization rate]] of the***
+> ***CCM.***
+
+### Example: Calculating firm value using the capitalized cash flow
+
+
+method
+Given the following figures, calculate the value of the firm and of the
+firm’s equity using the CCM.
+
+Answer:
+Step 1: Calculate the value of the firm.
+Using the FCFF formula:
+value of firm = FCFF1 / (r − g) = ($12,100,000) / (0.15 − 0.04) =
+$110,000,000
+Step 2: Calculate the value of the equity.
+Subtract the debt value from firm value:
+value of equity = firm value − debt value = $110,000,000 − $4,000,000
+= $106,000,000
+Note that the [[Capitalization rate|capitalization rate]] in this example is 15% − 4% = 11%. The
+WACC will be greater when more (relatively expensive) equity and less
+
+(cheap) debt are used, resulting in lower estimates of firm and equity
+values.
+
+The [[Excess earnings method|Excess Earnings Method]]
+Under the [[Excess earnings method|excess earnings method]], the analyst starts with the earnings that
+should be generated by working capital and fixed assets, based on an
+estimate of the required return. Excess earnings are firm earnings minus the
+earnings required to provide the required rate of return on working capital
+and fixed assets. The value of intangible assets can be estimated as the
+present value of the (growing) stream of excess earnings (using the excess
+earnings and the growing perpetuity formula from the CCM). This value for
+the intangible assets is added to the values of working capital and fixed
+assets to arrive at firm value.
+The [[Excess earnings method|excess earnings method]] (EEM) is employed only infrequently, but it
+can be useful for small firms when their intangible assets are significant.
+However, the required return for working capital and fixed assets is subject
+to estimation error.
+
+### Example: Calculating firm value using the EEM
+
+
+Given the following figures, calculate the value of the firm using the
+EEM.
+
+Answer:
+Step 1: Calculate the required return for working capital and fixed assets.
+Based on the required rates of return for working capital and
+fixed assets, these are required earnings:
+required return on working capital: $300,000 × 6% = $18,000
+
+required return fixed assets: $1,000,000 × 10% = $100,000
+Step 2: Calculate the excess earnings.
+excess earnings = $130,000 − $18,000 − $100,000 = $12,000
+Step 3: Value the intangible assets.
+Using the formula for a growing perpetuity, the discount rate for
+intangible assets, and the growth rate for excess earnings, this is
+the value:
+value of intangible assets = ($12,000 × 1.05) / (0.14 − 0.05) =
+$140,000
+Step 4: Sum the asset values to arrive at the total firm value.
+firm value = working capital + fixed assets + intangible assets
+= $300,000 + $1,000,000 + $140,000 = $1,440,000
+
+> [!pnote] Professor's Note
+> ***In the EEM, the FCFF may be given in place of the normalized***
+> ***earnings. The growth rate in FCF may be given in place of the***
+> ***growth rate of residual income. After these substitutions, the***
+> ***calculations are identical to those listed previously.***
+>
+> ***Market Approaches***
+>
+> ***> **LOS 22.i:** Calculate the value of a private company using market-based***
+> ***methods and describe the advantages and disadvantages of each***
+> ***method.***
+> ***Market approaches to valuing private firms use price multiples and data***
+> ***from previous public and private transactions. The three methods discussed***
+> ***here are the [[Guideline public company method|guideline public company method]], the guideline transactions***
+> ***method, and the [[Prior transaction method|prior transaction method]].***
+> ***Many practitioners prefer market approaches to valuation over income and***
+> ***asset approaches because actual sales data is used. Although U.S. tax courts***
+>
+> ***accept both market and income approaches, they usually prefer market***
+> ***approaches.***
+> ***As discussed previously, private firms may have risks not common to***
+> ***public firms, such as greater company risk and illiquidity. Therefore, it is***
+> ***important that the public [[Comparables|comparables]] be chosen carefully. Further, price***
+> ***multiples reflect both risk and growth. Each of these should be extracted***
+> ***from the price multiple and compared to the subject private firm separately***
+> ***to determine which adjustments might be appropriate. When choosing the***
+> ***[[Comparables|comparables]], commonalities in industry, operations, size, and life cycle are***
+> ***desirable.***
+> ***Although public firms are often valued on the basis of price-earnings ratios,***
+> ***large private firm valuation is usually based on [[Enterprise value]] multiples***
+> ***such as EV/sales or [[EV/EBITDA]].***
+> ***In the following discussion, we will see that an advantage of these methods***
+> ***is that the comparable data are usually available. The disadvantage,***
+> ***however, is that the comparable transactions may not be similar to the***
+> ***subject transaction. Issues of comparability are discussed for each of these***
+> ***methods in the following sections.***
+>
+> ***[[Guideline public company method|Guideline Public Company Method]]***
+> ***The [[Guideline public company method|guideline public company method]] (GPCM) uses [[Enterprise value|enterprise value]]***
+> ***multiples for public companies, with adjustments to the multiples to***
+> ***account for differences in size, leverage, and life cycle stage between the***
+> ***subject firm and the comparables. Although there are usually numerous***
+> ***public company transactions available, the data should be scrutinized to***
+> ***ensure that the transactions are comparable.***
+> ***When evaluating a controlling equity interest in a private firm, the control***
+> ***premium (i.e., the value of control) should be estimated. The control***
+> ***premium equals the difference between the pro rata value of a controlling***
+> ***interest and the pro rata value of a noncontrolling interest. Most public***
+> ***share trades are for small, noncontrolling interests; therefore, the price***
+> ***multiple does not reflect a [[Control premium|control premium]].***
+>
+> ***To estimate a [[Control premium|control premium]], a public transaction should be used where a***
+> ***firm was acquired, and the following issues should be considered:***
+> ***Transaction type. Recall that a transaction may be either strategic or***
+> ***financial. A strategic buyer is one who will have synergies with the target,***
+> ***while a financial buyer is one who is buying the firm for its stand-alone***
+> ***value. A [[Financial transaction|financial transaction]] typically has a smaller price premium.***
+> ***Industry conditions. Periodically, there is a flurry of industry acquisition***
+> ***activity, driving up acquisition prices. In such markets, share prices of***
+> ***public companies may already reflect some premium for control, so***
+> ***adding a standard [[Control premium|control premium]] to such share prices may overstate the***
+> ***appropriate premium for control.***
+> ***Type of consideration. Some historical acquisitions will have used the***
+> ***acquirer’s stock rather than cash. Estimates of the control premium will be***
+> ***overstated when acquisitions are made with shares trading at inflated***
+> ***(“bubble”) values.***
+> ***Reasonableness. The use of control premiums and price multiples can***
+> ***sometimes compound into significant deviations from historical pricing.***
+> ***For example, suppose a 20% historical control premium is estimated on***
+> ***top of a 6x price multiple for public comparables (i.e., a multiple of 6 ×***
+> ***1.2 = 7.2). Later on, if the price multiple from public comparables at the***
+> ***valuation date is 10, a price multiple of 10 × 1.2 = 12 would then be***
+> ***applied to the private firm. The price multiple of 12 is substantially***
+> ***different from the 7.2 estimated earlier; thus, the 12 multiple should be***
+> ***investigated for reasonableness.***
+> ***Multiple industries. When using a comparables-based approach, a private***
+> ***company operating in multiple industries should be assigned a weighted***
+> ***average multiple based on the proportion of revenues generated in each***
+> ***industry:***
+>
+> ***Other factors. Additional considerations include differences in size,***
+> ***country, tax status, and leverage.***
+
+### Example: Valuation using the guideline public company method
+
+
+An analyst, Natalie Hoskins, is valuing a private firm, Rensselaer
+Components (Rensselaer), using the GPCM and EV to EBITDA
+multiples. Hoskins has gathered data for comparable public firms
+indicating an average multiple of 1.18. Rensselaer operates primarily in
+the computer component manufacturing industry (70% of revenues), but
+it derives 20% and 10% of its revenues from the defense and telecom
+industries, respectively. The average EV/EBITDA multiple for defense
+and telecom industries is 1.02 and 2.45, respectively.
+Rensselaer’s normalized EBITDA is $12.80 million.
+a. Determine an appropriate [[Enterprise value|enterprise value]] to EBITDA multiple to be
+used to value Rensselaer.
+b. Estimate the [[Enterprise value|enterprise value]] for Rensselaer using EV/EBITDA.
+Answer:
+a. EV/EBITDA multiple = (0.70 × 1.18) + (0.20 × 1.02) + (0.10 × 2.45) =
+1.28.
+b. Rensselaer’s estimated [[Enterprise value|enterprise value]] = EBITDA × EV/EBITDA =
+12.80 × 1.28 = $16.38 million.
+
+[[Guideline transactions method|Guideline Transactions Method]]
+When using the [[Guideline transactions method|guideline transactions method]] (GTM), prior acquisition
+values for entire companies are used. These acquisition values already
+reflect any control premiums, so no additional adjustment for a controlling
+interest is necessary (as would be the case with GPCM).
+Although data about the sale of public companies is readily available,
+availability of information about the sale of private firms is more limited
+(and not always accurate). When using multiples from historical
+transactions, several issues should be considered:
+Transaction type. As mentioned previously for the GPCM, a prior
+transaction may be a [[Strategic transaction|strategic transaction]] where firm value was based, in
+
+part, on perceived synergies. If the subject transaction is nonstrategic, the
+analyst may need to adjust the historical multiple.
+[[Contingent consideration|Contingent consideration]]. [[Contingent consideration|Contingent consideration]] refers to that part of
+the acquisition price that is contingent on the achievement of specific
+company performance targets, such as receiving FDA approval for a drug.
+As [[Contingent consideration|contingent consideration]] increases the risk to the seller, transactions
+with [[Contingent consideration|contingent consideration]] should be scrutinized before they are
+compared to transactions without such contingencies.
+Type of consideration. As noted previously, some acquisitions are made
+with stock rather than cash. Comparing transactions of different
+consideration types may not be relevant.
+
+### Example: Valuation with the guideline transactions method
+
+
+Natalie Hoskins is valuing a private firm, Lafayette Furniture (Lafayette),
+for acquisition using GTM and [[Enterprise value|enterprise value]] to EBITDA multiples.
+Hoskins deflates the average public company multiple by 30% to account
+for the higher risk of Lafayette.
+Other data are as follows:
+
+Calculate the enterprise value of Lafayette using the GTM.
+Answer:
+The adjustment to the EV/EBITDA multiple for the higher risk of
+Lafayette is as follows:
+7.2 × (1 − 0.30) = 5.0
+This adjusted multiple is applied against the normalized EBITDA to
+estimate the value of the firm:
+5.0 × $18,200,000 = $91,000,000
+
+### Module Quiz 22.3
+
+1. Suppose that the following financial figures relate to a small private company:
+
+The value of the firm’s equity using the capitalized cash flow method (CCM) is
+closest to:
+
+### A. $15,900,000.
+
+
+### B. $18,300,000.
+
+
+### C. $19,400,000.
+
+2. Suppose that the following financial figures relate to a small firms with significant
+intangible assets:
+
+The value of the firm using the [[Excess earnings method|excess earnings method]] (EEM) is closest to:
+
+### A. $1,823,800.
+
+
+### B. $2,223,000.
+
+
+### C. $2,223,800.
+
+3. An analyst has been tasked with valuing a private firm. She uses the following
+figures, but deflates the average public company multiple by 30% to account for
+the higher risk of the private firm:
+
+Based on the [[Guideline public company method|guideline public company method]] (GPCM), the enterprise value of
+the private firm is closest to:
+
+### A. $170,730,000.
+
+
+### B. $214,090,000.
+
+
+### C. $243,900,000.
+
+4. An analyst is valuing the equity of a firm that has been experiencing financial
+distress for several months. The most appropriate valuation approach that the
+analyst might use is the:
+A. market approach.
+B. income approach.
+C. asset-based approach.
+
+
+> [!abstract] Key Concepts
+> LOS 22.a
+
+Both company-specific and stock-specific factors distinguish private and
+public companies.
+Company-specific factors for private firms may include the degree to which
+they do the following:
+Are less mature
+Have less capital
+Have fewer assets
+Have fewer employees with less depth of management
+Are riskier
+Have higher managerial ownership
+Have a longer-term focus
+Provide less disclosure of information about the firm
+Have greater tax concerns
+Stock-specific factors for private firms may include the degree to which
+they do the following:
+Have less liquidity in the equity interests
+Often have restrictions on liquidity
+Have concentration of control to the possible detriment of noncontrolling
+shareholders
+Company-specific factors can have positive or negative effects on private
+company valuations, while stock-specific factors are usually negative.
+There is more heterogeneity in private firm risk, discount rates, and
+valuation methods.
+LOS 22.b
+
+Private company valuations are used for transactions, compliance, and
+litigation. Transaction-related valuations are performed when there is
+[[Venture capital|venture capital]] financing, an IPO, a sale of the firm, [[Bankruptcy|bankruptcy]], or
+
+performance-based managerial compensation. Compliance-related
+valuations are performed for financial reporting and tax purposes.
+Litigation-related valuations may be required for shareholder suits, damage
+claims, lost profits, or divorces.
+LOS 22.c
+
+Normalized earnings are calculated by adjusting for the following:
+Nonrecurring and unusual items
+Discretionary expenses
+Nonmarket levels of compensation
+Personal expenses charged to the firm
+Real estate expenses based on [[Historical cost|historical cost]]
+Nonmarket lease rates
+The normalized earnings for a strategic buyer incorporate acquisition
+synergies, whereas a [[Financial transaction|financial transaction]] does not.
+When estimating FCF to value the firm or equity, the following issues
+should be considered:
+Estimates may vary for controlling and noncontrolling equity interests.
+Several scenarios of future cash flows should be examined.
+The scenarios should consider the life cycle stage of the firm.
+Management biases should be anticipated.
+FCFF should be used when there will be capital structure changes.
+LOS 22.d
+
+An estimate of the discount rate in a private firm valuation should factor in
+the following elements:
+Size premiums. If an appraiser makes use of data from small-cap public
+firms, these may include a distress premium not applicable to the private
+firm being valued.
+Availability and cost of debt. Compared to a public firm, a private firm
+may not be able to obtain as much debt financing, or at as low a cost.
+
+Acquirer vs. target. The WACC used should be that of the target, not the
+acquirer.
+Projection risk. Projecting cash flows for private firms is riskier due to the
+lower availability of information, and because of reliance on management
+for projections.
+Life cycle stage. It can be difficult to estimate an appropriate discount rate
+for early-stage firms.
+LOS 22.e
+
+Models for calculating appropriate discount rates for private firms include
+the following:
+CAPM. This may be inappropriate for private firms because beta is
+usually estimated from public firm returns.
+Expanded CAPM. This adds premiums for size and firm-specific risk.
+Build-up method. This begins with the market rate of return (beta = 1) and
+adds industry risk and other risk premiums. This is used when betas for
+comparable public firms are not available.
+LOS 22.f
+
+Discounts and premiums to [[Comparable company|comparable company]] values should be applied
+when there are differences between the characteristics of the [[Benchmark|benchmark]]
+company and those of the [[Target company|target company]] to be valued.
+A [[Discount for lack of control|discount for lack of control]] (DLOC) is applied when the comparable
+values are for the sale of an entire company, but the valuation is for a
+[[Minority Interest|minority interest]] in the [[Target company|target company]]. A control premium is added when
+the [[Comparable company|comparable company]] values are for public shares or other minority
+interests, but the [[Target company|target company]] valuation is for a controlling interest.
+A DLOC can be estimated using valuations based on reported earnings
+rather than normalized earnings, or as follows:
+Discounts for lack of marketability (DLOM) are applied when the
+comparables are based on highly marketable securities, such as public
+shares, and the interest in the [[Target company|target company]] is less marketable, as in the
+
+case of a [[Minority Interest|minority interest]] in a private firm. The DLOM can be estimated
+using restricted share versus publicly traded share prices, using pre-IPO
+versus post-IPO prices, and using put prices. It can be challenging to
+implement these methods.
+The DLOC and DLOM are applied multiplicatively using the following:
+
+LOS 22.g
+
+The three major approaches to private company valuation are the income
+approach, the market approach, and the asset-based approach. The valuation
+should consider the firm’s operations, life cycle stage, size, risk, and
+growth.
+LOS 22.h
+
+The three methods of valuation using the income approach are as follows:
+[[Free cash flow method|Free cash flow method]]. This discounts a series of discrete cash flows plus
+a terminal value. It is a two-stage model.
+Capitalized cash flow method. This discounts a single cash flow by the
+[[Capitalization rate|capitalization rate]]. It is a single-stage model.
+Excess earnings method. This values tangible and intangible assets
+separately. It is useful for small firms and when there are intangible assets
+to value.
+LOS 22.i
+
+The three market approach methods are as follows:
+1. The guideline public company method (GPCM) uses price multiples from
+traded public companies with adjustments for risk differences. The
+advantage is that there are usually numerous public company transactions
+available, but the public firms may not be comparable. When estimating a
+control premium for a controlling interest, the transaction type, industry
+conditions, type of consideration, and reasonableness should be
+considered.
+2. The [[Guideline transactions method|guideline transactions method]] (GTM) uses price multiples from the
+sale of whole public and private companies with adjustments for risk
+
+differences. The following issues regarding the comparable data should
+be considered: transaction type, contingent consideration, type of
+consideration, availability of data, and date of data.
+3. The [[Prior transaction method|prior transaction method]] (PTM) uses historical stock sales of the
+subject company and is best when using recent, arm’s-length data of the
+same motivation.
+
+
+### Answer Key For Module Quizzes
+
+Module Quiz 22.1
+1. B Private firms can take a longer-term view because their
+managers/owners do not have to focus on the short-term desires of
+external shareholders. Private firms are more concerned with taxes
+because of the impact of firm policies on the taxation of the firm’s
+owners. In most private firms, management has substantial ownership.
+(LOS 22.a)
+2. A In venture capital financing, the private company valuations are
+usually subject to negotiation and are informal due to the uncertainty
+of future cash flows. (LOS 22.b)
+3. A The buyer’s analyst should reduce executive compensation by
+$800,000 – $650,000 = $150,000 to match market levels. Also, the
+lease rate should be adjusted higher by ($250,000 – $200,000) =
+$50,000. After the adjustments, normalized EBITDA is $6,700,000 +
+$150,000 – $50,000 = $6,800,000. (LOS 22.c)
+4. A The answer is calculated as follows.
+
+The following provides a line-by-line explanation for the previous
+calculations.
+
+(LOS 22.c)
+Module Quiz 22.2
+1. A The private target’s WACC should be used. This may be much
+different than the acquirer’s WACC, given that acquirers are usually
+larger and more mature than targets. (LOS 22.d)
+2. B If there are no comparable public firms with which to estimate beta by,
+then the build-up method can be used, whereby various risk premiums
+are added to the risk-free rate. (The build-up model implicitly assumes
+a beta of one.) The CAPM and expanded CAPM methods require us to
+
+identify comparable public companies to determine a market-based
+beta estimate. (LOS 22.e)
+3. A The CAPM is the most appropriate model in this instance because the
+private firm is mature and of similar size and firm-specific risk as the
+public comparable.
+The CAPM calculation uses the risk-free rate, the beta, and the
+[[Equity risk premium|equity risk premium]]: 4.8% + 1.50(5.5%) = 13.1%.
+The appropriate risk-free rate proxy is the Treasury yield—not the
+returns for bonds in general.
+Using the expanded CAPM is not necessary here because premiums
+for size and firm-specific risk are not needed. The build-up method is
+not the best choice when the private firm has a public comparable.
+(LOS 22.e)
+4. C The build-up method is appropriate when there are no comparable
+public firms with which to estimate beta. Because the firm is small
+with a high degree of firm-specific risk, risk premiums will be used for
+these. An industry [[Risk premium|risk premium]] is used in the build-up method, but
+not beta.
+Because the firm is being acquired, we assume the new owners will
+use an [[Optimal capital structure|optimal capital structure]] and weights in the WACC
+calculation. The capital structure for public firms should not be used
+because public firms typically have better access to debt financing.
+The resulting calculations are as follows.
+Using the build-up method, the risk-free rate, the equity risk
+premium, the small stock premium, a [[Company-specific risk|company-specific risk]]
+premium, and an industry risk premium are added together:
+The WACC using the optimal capital structure factors in the debt to
+total cap, the cost of debt, the tax rate, and the given cost of equity:
+
+(LOS 22.e)
+5. C An IPO will increase liquidity and, thus, decrease the DLOM. Lower
+asset risk should result in less value uncertainty and a lower DLOM. A
+smaller pool of buyers would result in reduced liquidity and a higher
+DLOM. (LOS 22.f)
+6. A The [[Discount for lack of control|discount for lack of control]] (DLOC) can be backed out of the
+control premium:
+
+(LOS 22.f)
+Module Quiz 22.3
+1. C We can estimate the value of the equity by capitalizing the free cash
+flows to equity using the required return on equity (r) and the FCFE
+growth rate (g):
+
+Note that we grow the FCFE by g because the current year (not
+coming year) FCFE is provided. We use normalized earnings, not
+reported earnings, because normalized earnings are more relevant to
+the acquirers of the firm. The relevant required return for FCFE is
+the equity discount rate, not the WACC.
+An alternative approach to calculate the value of the equity would be
+to subtract the market value of the firm’s debt from total firm value.
+However, the FCFF are not provided, so a total firm value cannot be
+calculated. (LOS 22.h)
+2. C The value of the firm can be calculated using the following steps:
+
+Step 1: Calculate the required return for working capital and fixed
+assets.
+Given the required returns as a percentage, the monetary returns are
+as follows:
+working capital = $400,000 × 4% = $16,000
+fixed assets = $1,800,000 × 12% = $216,000
+Step 2: Calculate the residual income.
+After the monetary returns to assets are calculated, the residual
+income is that which is left over in the normalized earnings:
+residual income = $235,000 − $16,000 − $216,000 = $3,000
+Step 3: Value the intangible assets.
+Using the formula for a growing perpetuity, the discount rate for
+intangible assets, and the growth rate for residual income, this is the
+value:
+value of intangible assets = ($3,000 × 1.03) / (0.16 − 0.03) = $23,769
+Step 4: Sum the asset values to arrive at the total firm value.
+The firm value = $400,000 + $1,800,000 + $23,769 = $2,223,769.
+(LOS 22.h)
+3. A The adjustment to the EV/EBITDA multiple for the higher risk of the
+private firm is as follows:
+adjusted EV/EBITDA = 9.0 × (1 − 0.30) = 6.3
+
+(LOS 22.i)
+4. C The analyst is most likely to use the asset-based approach, which
+values a firm as its assets minus liabilities. The firm’s future cash
+flows are uncertain, and it may have to be liquidated, given its distress.
+Therefore, the income approach should not be used, and the firm
+
+should not be compared to other firms that are going concerns, as in
+the market approach. The amount that equity holders could reasonably
+expect is their claim after liabilities have been satisfied. (LOS 22.g)
+
+Topic Quiz: Equity Valuation
+You have now finished the Equity Valuation topic section. Please log into
+your Schweser online dashboard and take the Topic Quiz on this section.
+The Topic Quiz provides immediate feedback on how effective your study
+has been for this material. Questions are more exam-like than typical
+Module Quiz or QBank questions; a score of less than 70% indicates that
+your study likely needs improvement. These tests are best taken timed; allow
+three minutes per question.
+
+
+### Formulas
+
+Equity Valuation
+
+
+### Index
+
+A
+absolute valuation models, 6
+adjusted CFO, 125
+[[Adjusted present value|adjusted present value]] (APV), 60
+aggressive accounting practices, 169
+alternative price multiples, 105
+[[Arithmetic mean|arithmetic mean]], 129
+asset-based approach to valuation, 195
+
+B
+balance sheet adjustments, 168
+bargaining power, 4
+[[Breakup value|breakup value]], 6
+build-up method, 189
+
+C
+[[Capital asset pricing model|capital asset pricing model]] (CAPM), 188
+[[Capitalization rate|capitalization rate]], 197
+capitalized cash flow method of valuation, 196
+cash flow from operations (CFO), 67
+clean surplus relationship, 167
+company-specific factors, 179
+compliance-related valuations, 181
+conglomerate discount, 6
+
+continuing residual income, 159
+cost leadership, 4
+cumulative translation adjustment (CTA), 168
+currency translation gains and losses, 167
+
+D
+discounted cash flow (DCF) model, 124
+discount for lack of control (DLOC), 191
+[[Discount for lack of marketability|discount for lack of marketability]] (DLOM), 191
+discount rate, 187
+dividend discount model (DDM), 13, 154, 166
+multi-period DDM, 17
+one-period DDM, 16
+three-stage DDM, 28, 34
+two-period DDM, 16
+two-stage DDM, 27
+[[Dividend yield|dividend yield]] (D/P), 111
+[[DuPont analysis|DuPont analysis]], 39
+
+E
+earnings before interest, taxes, depreciation, and amortization (EBITDA),
+125
+earnings-plus-noncash-charges, 125
+earnings retention ratio, 38
+[[Earnings surprise|earnings surprise]], 128
+[[Earnings yield|earnings yield]] (E/P), 114
+
+### Ebit, 66
+
+
+### Ebitda, 67, 76
+
+[[Economic profit|economic profit]], 149
+[[Economic value added|economic value added]] (EVA), 151
+
+elements of industry structure, 4
+enterprise value (EV), 126
+
+### Ev/Ebitda, 127
+
+excess earnings method of valuation, 198
+expanded CAPM, 188
+expected return, 37
+
+F
+fairly valued, 41
+[[Fair market value|fair market value]], 2
+fairness opinions, 3
+[[Fed model|Fed model]], 122
+five competitive forces, 4
+fixed capital investment, 63
+forecasting free cash flow, 74
+free cash flow, 15, 196
+free cash flow to equity (FCFE), 58, 67, 68, 74, 111, 125, 154
+forecasting, 74
+from CFO, 68
+from FCFF, 67
+from net income, 67
+models, 77, 166
+free cash flow to the firm (FCFF), 57, 62, 66, 67, 74, 80
+forecasting, 74
+from CFO, 67
+from EBIT, 66
+from EBITDA, 67
+from net income, 62
+models, 80
+fundamentals, 23
+
+G
+going concern assumption, 2
+Gordon growth model, 19, 21
+growth phase of a business, 25
+guideline public company method (GPCM), 200
+[[Guideline transactions method|guideline transactions method]] (GTM), 201
+
+H
+[[Harmonic mean|harmonic mean]], 129
+H-model, 28, 33
+
+I
+implied rate of return, 37
+income approach to valuation, 195
+[[Inflation|inflation]] [[Pass-through rate|pass-through rate]], 115
+international, 128, 169
+accounting differences, 128, 169
+cultures, 128
+growth opportunities, 128
+risk, 128
+intrinsic value, 1
+investment value, 2
+
+J
+justified, 115, 118
+[[Dividend yield|dividend yield]], 118
+EV/EBITDA multiple, 118
+
+P/E multiple, 115
+[[Price to cash flow|price to cash flow]], 118
+justified P/E, 23
+justified price-to-book (P/B) ratio, 116, 117, 156
+
+L
+[[Law of one price|Law of One Price]], 104
+leading P/E, 23, 106
+leverage, 75
+liquidation value, 2
+litigation-related valuations, 182
+[[Look-ahead bias|look-ahead bias]], 122
+
+M
+market approach to valuation, 195
+market value added (MVA), 151
+[[Market value of invested capital|market value of invested capital]], 128
+maturity phase of a business, 26
+method of average return on equity, 113
+[[Method of comparables|method of comparables]], 104, 119
+method of forecasted fundamentals, 104
+method of historical average EPS, 113
+[[Molodovsky effect|Molodovsky effect]], 113
+[[Momentum indicators|momentum indicators]], 128
+[[CFA_Glossary/Multicollinearity]], 119
+
+N
+net borrowing, 59
+
+net income, 62, 75
+new entrants, 4
+nonrecurring items, 169
+
+### Nopat, 151
+
+normalized earnings, 113, 182
+
+O
+off-balance-sheet issues, 5
+[[Orderly liquidation value|orderly liquidation value]], 2
+overvalued, 41
+ownership perspective, 61
+
+P
+P/B ratio, 107
+P/CF ratio, 110
+
+### P/E, 23, 105, 106, 118, 120
+
+benchmarks, 120
+justified, 23
+leading, 23
+predicted, 118
+ratio, 105
+trailing, 23, 106
+perpetual preferred stock, 20
+persistence factor, 159
+P/E-to-growth (PEG) ratio, 123
+PRAT model, 39
+premiums for control and marketability, 191
+[[Present value of growth opportunities|present value of growth opportunities]] (PVGO), 22
+price-to-book (P/B) ratio, 107, 108, 157
+price-to-cash flow (P/CF) ratio, 110
+
+price-to-earnings (P/E) ratio, 105
+price-to-sales (P/S) ratio, 109
+private company valuation, 179
+[[Private market value|private market value]], 6
+P/S ratio, 109
+
+Q
+quality of financial statement information, 4
+
+R
+R&D expenditures, 169
+reinvestment rate, 197
+relative valuation models, 6
+required rate of return, 36, 188
+reserves and allowances, 168
+residual income, 15, 149, 152
+residual income model weaknesses, 166
+return on equity (ROE), 38, 39
+rivalry, 4
+
+S
+[[Screening|screening]], 122
+sensitivity analysis, 76
+share issues, 75
+single-stage FCFE model, 78
+special purpose entities (SPEs), 168
+spreadsheet modeling, 29, 36
+stock-specific factors, 180
+
+strategic and nonstrategic buyers, 190
+substitutes, 4
+sum-of-the-parts value, 6
+[[Sustainable growth rate|sustainable growth rate]] (SGR), 38
+
+T
+target debt-to-asset ratio, 74
+terminal value, 30, 87
+terminal value estimation, 124
+three-stage FCFF and FCFE models, 77
+[[Tobin’s q|Tobin’s Q]], 155
+traditional accounting income, 149
+trailing P/E, 23
+transaction-related valuations, 181
+transitional phase of a business, 26
+two-stage FCFF and FCFE models, 79
+two-stage fixed growth rate model, 31
+
+U
+[[Underlying earnings|underlying earnings]], 112
+undervalued, 41
+[[Unexpected earnings|unexpected earnings]], 128
+
+W
+warning signs of poor [[Earnings quality|earnings quality]], 5
+[[Weighted Average Cost of Capital (WACC)|weighted average cost of capital (WACC)]], 59, 151
+[[Weighted harmonic mean|weighted harmonic mean]], 129
+working capital investment, 64
+
+Y
+[[Yardeni model|Yardeni model]], 123
+
+
+---
+

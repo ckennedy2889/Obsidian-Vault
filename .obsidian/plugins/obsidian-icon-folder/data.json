@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiAmbulance",
+      "LiAtom",
+      "LiActivity",
+      "LiAlignVerticalDistributeCenter",
+      "LiAlbum"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Level 2/07 - Fixed Income": "LiTimer",
+  "Level 2/06 - Equity Investments": "LiBadgeCheck",
+  "Level 2/02 - Quantitative Methods": "LiAreaChart",
+  "Level 2/03 - Economics": "LiBadgeEuro",
+  "Level 2/04 - Financial Statement Analysis": "LiBackpack",
+  "Level 2/05 - Corporate Issuers": "LiAlbum",
+  "Level 2/08 - Derivatives": "LiAlignVerticalDistributeCenter",
+  "Level 2/09 - Alternative Investments": "LiActivity",
+  "Level 2/10 - Portfolio Management": "LiAtom",
+  "Level 2/01 - Ethical and Professional Standards": "LiAmbulance"
+}

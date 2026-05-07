@@ -1,0 +1,10 @@
+# Capitalized cash flow model
+
+**Program:** CFA® Program
+**Level:** Level II
+
+## Definition
+
+In the context of private company valuation, valuation model based on an assumption of a constant growth rate of free cash flow to the firm or a constant growth rate of free cash flow to equity. Also called capitalized cash flow method.
+
+**Tags:** #CFA #glossary

@@ -1,0 +1,12 @@
+{
+  "accentColor": "#2e54ea",
+  "cssTheme": "Obsidian Nord",
+  "theme": "obsidian",
+  "translucency": true,
+  "baseFontSize": 22,
+  "interfaceFontFamily": "Apple SD Gothic Neo",
+  "textFontFamily": "Helvetica",
+  "enabledCssSnippets": [
+    "kaplan-notes"
+  ]
+}
