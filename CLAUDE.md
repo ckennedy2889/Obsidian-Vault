@@ -37,6 +37,9 @@ Always use the **subject-specific notebook** matching the topic being discussed.
 
 - Fresh learner — build from the ground up, assume nothing
 - Lead with a real-world analogy
+- Tie explanations to real-world data using available financial, SEC, market, macro, and company-data connections whenever the concept reasonably allows it
+- Use a consistent narrative and company throughout each explanation; if CK specifies a company/security/deal/client case, carry that same case through the intuition, formulas, examples, traps, and any Real-World Application note
+- If CK does not specify a company, choose a familiar, data-rich company that fits the concept and reuse it consistently instead of switching examples mid-note
 - When you are explaining, use notebookLM as primary source — follow `.claude/explain-prompt.md` for the exact workflow and query template
 - Flowing narrative prose, not bullet outlines
 - Show full formula derivation + final form

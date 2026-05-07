@@ -69,6 +69,14 @@ Default behavior:
 - When CK asks a follow-up, build from the relevant note instead of restating earlier chat context.
 - If CK asks several concepts at once, create or update separate notes and provide a short index of file links.
 
+## Real-World Data Narrative
+
+Tie explanations to real-world data whenever the concept reasonably allows it. Use the available financial, SEC, market, macro, and company-data connections to bring in current or historical facts instead of relying only on invented numbers. For temporally unstable facts, verify the data before writing and state any assumptions clearly in the note.
+
+Use a consistent narrative and company throughout an explanation. If CK specifies a company, security, client, deal, or market event, keep that same case running through the intuition, formulas, worked examples, exam traps, and any supplementary Real-World Application note. If CK does not specify one, choose a familiar, data-rich company that fits the subject and concept, then reuse it consistently instead of switching examples mid-note.
+
+Keep the CFA concept as the center of the note: real-world data should make the mechanics concrete, not turn the concept note into an equity research report. Save deeper practitioner analysis in the `Real-World Applications/` subfolder when useful.
+
 Useful default prompt pattern:
 
 ```text
