@@ -100,6 +100,38 @@ Do not produce thin summaries unless the user explicitly asks for a quick answer
 
 For practice questions, classify the subject, save any screenshot to the correct `attachments/` folder when possible, transcribe the question, solve it from scratch, identify the tempting wrong answer, and add a short memory hook.
 
+## Real-World Applications Workflow
+
+After producing a concept note, ground the LOS in a practitioner artifact by running a matching skill or agent on a real company, security, client case, market event, or deal when feasible. Save the output to a `Real-World Applications/` subfolder inside the same module folder.
+
+Save path:
+
+```text
+Level 2/<subject>/Generated Notes/<NN Module Name>/Real-World Applications/<Ticker or Deal> - <Artifact>.md
+```
+
+At the top of the file, add a `> [!note] Connection to LOS` callout that names the LOS verbs the artifact reinforces, such as describe, calculate, interpret, compare, evaluate, or recommend, and wikilinks back to the concept note or notes.
+
+Subject mapping:
+
+| Subject | Skill / Agent |
+|---|---|
+| Financial Statement Analysis | `financial-analysis:3-statement-model`, `financial-analysis:comps`, `financial-analysis:debug-model`, `agents:gl-reconciler` |
+| Equity Investments | `equity-research:initiate`, `equity-research:thesis`, `equity-research:earnings`, `equity-research:model-update`, `financial-analysis:dcf` |
+| Corporate Issuers | `investment-banking:merger-model`, `investment-banking:cim`, `investment-banking:one-pager`, `financial-analysis:lbo` |
+| Portfolio Management | `wealth-management:rebalance`, `wealth-management:tlh`, `wealth-management:client-review`, `wealth-management:financial-plan`, `wealth-management:proposal`, `agents:valuation-reviewer`, `agents:statement-auditor` |
+| Alternative Investments | `private-equity:returns`, `private-equity:unit-economics`, `private-equity:ic-memo`, `private-equity:dd-checklist` |
+| Fixed Income / Derivatives | `agents:model-builder` |
+| Economics | `agents:market-researcher`, `equity-research:sector` |
+| Ethics | `agents:kyc-screener` |
+
+Rules:
+
+- The Real-World Application note is supplementary; keep concept notes pure and do not dump practitioner/model output into the concept note.
+- Apply the same note conventions: frontmatter, wikilinks, tables, formulas where useful, and no provenance/process section unless CK asks.
+- One strong artifact per concept is enough; do not run every matching skill.
+- If the artifact requires a ticker, deal, company, security, client scenario, or market event and CK has not specified one, ask before running it.
+
 ## Quality Bar
 
 Before finishing, verify folder placement, YAML, formulas, embeds, wikilinks, arithmetic, and whether the explanation answers "why" deeply enough for exam readiness.
